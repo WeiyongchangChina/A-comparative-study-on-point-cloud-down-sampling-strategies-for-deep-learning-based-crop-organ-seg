@@ -35,14 +35,13 @@ def farthest_point_sample(xyz, npoint, z):
 
 def main():
     #Your files path
-    DATA_FILES = get_filelist(path=r'...')
-    path_str = r'...'  # 注意，此处路径不要有中文
+    DATA_FILES = get_filelist(path=r'D:\cpp_project\PCL1\downsampling_ex\3DEPS\data_edge&core\合并')
+    path_str = r'D:\cpp_project\PCL1\downsampling_ex\3DEPS\data_edge&core\合并'  # 注意，此处路径不要有中文
 
     # Your files' name path
-    FILES = get_files(path=r'...')
+    FILES = get_files(path=r'D:\cpp_project\PCL1\downsampling_ex\3DEPS\data_edge&core\合并')
 
     i = 0
-    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" + str(z) + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     for txt in DATA_FILES:
         # 去除pcd文件头
         with open(os.path.join(path_str, txt), 'r') as f:
@@ -61,7 +60,7 @@ def main():
         for z in range(0, 9):
             sampled_points_index = farthest_point_sample(b, sample_count, z)
             # save path
-            np.savetxt(r'...' + str(FILES[i]) + str(z) + ".txt", ply_array[sampled_points_index], fmt="%f %f %f %d %d")
+            np.savetxt(r'D:\cpp_project\PCL1\temp\data\end\\' + str(FILES[i]) + str(z) + ".txt", ply_array[sampled_points_index], fmt="%f %f %f %d %d")
         i = i + 1
 
 if __name__ == '__main__':
