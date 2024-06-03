@@ -1,0 +1,1 @@
+/media/dawei-server/DATA - SSD1TB/wyc/服务器训练/data_sgl/dgcnn/part_seg/Epoch99/test_results/out_pred.txt

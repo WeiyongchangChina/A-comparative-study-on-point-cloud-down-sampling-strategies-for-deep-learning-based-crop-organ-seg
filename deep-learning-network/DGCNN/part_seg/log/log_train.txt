@@ -1,0 +1,4703 @@
+Namespace(batch_size=10, decay_rate=0.7, decay_step=30000, gpu=3, input_list_test='/media/dawei-server/DATA - SSD1TB/wyc/服务器训练/data_sgl/dgcnn/data/test_file_list.txt', input_list_train='/media/dawei-server/DATA - SSD1TB/wyc/服务器训练/data_sgl/dgcnn/data/train_file_list.txt', learning_rate=0.002, log_dir='log', max_epoch=200, model='pointnet2_part_seg', momentum=0.9, num_point=4096, optimizer='adam', restore_model='log/')
+Fail to load modelfile: log/
+**** EPOCH 000 ****
+----
+ -- 100 / 364 --
+mean loss: 0.752100
+accuracy: 0.734962
+ -- 200 / 364 --
+mean loss: 0.414796
+accuracy: 0.848756
+ -- 300 / 364 --
+mean loss: 0.291617
+accuracy: 0.887168
+train time: 86.727488
+----
+2022-12-21 13:07:29.911398
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.423257
+eval accuracy: 0.924700
+eval avg class acc: 0.786184
+eval mIoU of plant1:	 0.660956
+eval mIoU of plant2:	 0.841875
+eval mIoU of plant3:	 0.660661
+eval mean mIoU: 0.721164
+eval mean mIoU (all shapes): 0.764269
+Model saved in file: log/epoch_0.ckpt
+**** EPOCH 001 ****
+----
+ -- 100 / 364 --
+mean loss: 0.274266
+accuracy: 0.896826
+ -- 200 / 364 --
+mean loss: 0.274293
+accuracy: 0.898623
+ -- 300 / 364 --
+mean loss: 0.214903
+accuracy: 0.920000
+train time: 171.131065
+----
+2022-12-21 13:10:15.388021
+---- EPOCH 001 EVALUATION ----
+eval mean loss: 0.413507
+eval accuracy: 0.930098
+eval avg class acc: 0.846937
+eval mIoU of plant1:	 0.722845
+eval mIoU of plant2:	 0.844121
+eval mIoU of plant3:	 0.715022
+eval mean mIoU: 0.760663
+eval mean mIoU (all shapes): 0.790297
+**** EPOCH 002 ****
+----
+ -- 100 / 364 --
+mean loss: 0.217763
+accuracy: 0.920102
+ -- 200 / 364 --
+mean loss: 0.178141
+accuracy: 0.927508
+ -- 300 / 364 --
+mean loss: 0.187510
+accuracy: 0.927361
+train time: 255.422529
+----
+2022-12-21 13:13:00.577212
+---- EPOCH 002 EVALUATION ----
+eval mean loss: 0.315631
+eval accuracy: 0.928095
+eval avg class acc: 0.880205
+eval mIoU of plant1:	 0.742010
+eval mIoU of plant2:	 0.846883
+eval mIoU of plant3:	 0.729766
+eval mean mIoU: 0.772886
+eval mean mIoU (all shapes): 0.799045
+Model saved in file: log/epoch_2.ckpt
+**** EPOCH 003 ****
+----
+ -- 100 / 364 --
+mean loss: 0.186443
+accuracy: 0.929444
+ -- 200 / 364 --
+mean loss: 0.139979
+accuracy: 0.943924
+ -- 300 / 364 --
+mean loss: 0.175912
+accuracy: 0.935044
+train time: 339.984160
+----
+2022-12-21 13:15:45.905144
+---- EPOCH 003 EVALUATION ----
+eval mean loss: 0.249578
+eval accuracy: 0.942047
+eval avg class acc: 0.848687
+eval mIoU of plant1:	 0.791031
+eval mIoU of plant2:	 0.867225
+eval mIoU of plant3:	 0.689069
+eval mean mIoU: 0.782442
+eval mean mIoU (all shapes): 0.810480
+**** EPOCH 004 ****
+----
+ -- 100 / 364 --
+mean loss: 0.163760
+accuracy: 0.937594
+ -- 200 / 364 --
+mean loss: 0.165969
+accuracy: 0.936374
+ -- 300 / 364 --
+mean loss: 0.198871
+accuracy: 0.927001
+train time: 424.181579
+----
+2022-12-21 13:18:31.079926
+---- EPOCH 004 EVALUATION ----
+eval mean loss: 0.223814
+eval accuracy: 0.942239
+eval avg class acc: 0.874493
+eval mIoU of plant1:	 0.789041
+eval mIoU of plant2:	 0.878351
+eval mIoU of plant3:	 0.718262
+eval mean mIoU: 0.795218
+eval mean mIoU (all shapes): 0.823353
+Model saved in file: log/epoch_4.ckpt
+**** EPOCH 005 ****
+----
+ -- 100 / 364 --
+mean loss: 0.147902
+accuracy: 0.943368
+ -- 200 / 364 --
+mean loss: 0.145972
+accuracy: 0.945962
+ -- 300 / 364 --
+mean loss: 0.113310
+accuracy: 0.954658
+train time: 508.630998
+----
+2022-12-21 13:21:16.405841
+---- EPOCH 005 EVALUATION ----
+eval mean loss: 0.255616
+eval accuracy: 0.941482
+eval avg class acc: 0.865085
+eval mIoU of plant1:	 0.802455
+eval mIoU of plant2:	 0.866050
+eval mIoU of plant3:	 0.711417
+eval mean mIoU: 0.793307
+eval mean mIoU (all shapes): 0.817286
+**** EPOCH 006 ****
+----
+ -- 100 / 364 --
+mean loss: 0.135263
+accuracy: 0.947029
+ -- 200 / 364 --
+mean loss: 0.136023
+accuracy: 0.950253
+ -- 300 / 364 --
+mean loss: 0.142372
+accuracy: 0.944608
+train time: 592.923344
+----
+2022-12-21 13:24:01.611978
+---- EPOCH 006 EVALUATION ----
+eval mean loss: 0.266021
+eval accuracy: 0.948669
+eval avg class acc: 0.877328
+eval mIoU of plant1:	 0.804987
+eval mIoU of plant2:	 0.889433
+eval mIoU of plant3:	 0.723852
+eval mean mIoU: 0.806091
+eval mean mIoU (all shapes): 0.834073
+Model saved in file: log/epoch_6.ckpt
+**** EPOCH 007 ****
+----
+ -- 100 / 364 --
+mean loss: 0.130244
+accuracy: 0.949417
+ -- 200 / 364 --
+mean loss: 0.141953
+accuracy: 0.949020
+ -- 300 / 364 --
+mean loss: 0.146694
+accuracy: 0.943564
+train time: 677.725800
+----
+2022-12-21 13:26:46.906006
+---- EPOCH 007 EVALUATION ----
+eval mean loss: 0.237270
+eval accuracy: 0.939097
+eval avg class acc: 0.902966
+eval mIoU of plant1:	 0.812295
+eval mIoU of plant2:	 0.877324
+eval mIoU of plant3:	 0.725531
+eval mean mIoU: 0.805050
+eval mean mIoU (all shapes): 0.828955
+**** EPOCH 008 ****
+----
+ -- 100 / 364 --
+mean loss: 0.129668
+accuracy: 0.949567
+ -- 200 / 364 --
+mean loss: 0.096207
+accuracy: 0.961489
+ -- 300 / 364 --
+mean loss: 0.091239
+accuracy: 0.963444
+train time: 761.997760
+----
+2022-12-21 13:29:32.112971
+---- EPOCH 008 EVALUATION ----
+eval mean loss: 0.252713
+eval accuracy: 0.949236
+eval avg class acc: 0.897251
+eval mIoU of plant1:	 0.816090
+eval mIoU of plant2:	 0.894455
+eval mIoU of plant3:	 0.745549
+eval mean mIoU: 0.818698
+eval mean mIoU (all shapes): 0.844204
+Model saved in file: log/epoch_8.ckpt
+**** EPOCH 009 ****
+----
+ -- 100 / 364 --
+mean loss: 0.108044
+accuracy: 0.957789
+ -- 200 / 364 --
+mean loss: 0.086586
+accuracy: 0.965521
+ -- 300 / 364 --
+mean loss: 0.084397
+accuracy: 0.965605
+train time: 846.247416
+----
+2022-12-21 13:32:17.418088
+---- EPOCH 009 EVALUATION ----
+eval mean loss: 0.174873
+eval accuracy: 0.949810
+eval avg class acc: 0.867824
+eval mIoU of plant1:	 0.780364
+eval mIoU of plant2:	 0.885257
+eval mIoU of plant3:	 0.750233
+eval mean mIoU: 0.805285
+eval mean mIoU (all shapes): 0.833184
+**** EPOCH 010 ****
+----
+ -- 100 / 364 --
+mean loss: 0.079083
+accuracy: 0.967696
+ -- 200 / 364 --
+mean loss: 0.078639
+accuracy: 0.967693
+ -- 300 / 364 --
+mean loss: 0.079942
+accuracy: 0.966836
+train time: 930.525807
+----
+2022-12-21 13:35:02.627995
+---- EPOCH 010 EVALUATION ----
+eval mean loss: 0.157756
+eval accuracy: 0.953710
+eval avg class acc: 0.891796
+eval mIoU of plant1:	 0.830306
+eval mIoU of plant2:	 0.904177
+eval mIoU of plant3:	 0.743942
+eval mean mIoU: 0.826142
+eval mean mIoU (all shapes): 0.852113
+Model saved in file: log/epoch_10.ckpt
+**** EPOCH 011 ****
+----
+ -- 100 / 364 --
+mean loss: 0.075510
+accuracy: 0.968978
+ -- 200 / 364 --
+mean loss: 0.074991
+accuracy: 0.968748
+ -- 300 / 364 --
+mean loss: 0.073541
+accuracy: 0.969707
+train time: 1014.783213
+----
+2022-12-21 13:37:47.964460
+---- EPOCH 011 EVALUATION ----
+eval mean loss: 0.244739
+eval accuracy: 0.948374
+eval avg class acc: 0.875993
+eval mIoU of plant1:	 0.808547
+eval mIoU of plant2:	 0.880554
+eval mIoU of plant3:	 0.748858
+eval mean mIoU: 0.812653
+eval mean mIoU (all shapes): 0.835591
+**** EPOCH 012 ****
+----
+ -- 100 / 364 --
+mean loss: 0.117471
+accuracy: 0.954345
+ -- 200 / 364 --
+mean loss: 0.078138
+accuracy: 0.968274
+ -- 300 / 364 --
+mean loss: 0.096290
+accuracy: 0.961411
+train time: 1099.040153
+----
+2022-12-21 13:40:33.154546
+---- EPOCH 012 EVALUATION ----
+eval mean loss: 0.226513
+eval accuracy: 0.950622
+eval avg class acc: 0.903279
+eval mIoU of plant1:	 0.819742
+eval mIoU of plant2:	 0.901142
+eval mIoU of plant3:	 0.755158
+eval mean mIoU: 0.825347
+eval mean mIoU (all shapes): 0.850997
+Model saved in file: log/epoch_12.ckpt
+**** EPOCH 013 ****
+----
+ -- 100 / 364 --
+mean loss: 0.132374
+accuracy: 0.950669
+ -- 200 / 364 --
+mean loss: 0.137633
+accuracy: 0.948868
+ -- 300 / 364 --
+mean loss: 0.084494
+accuracy: 0.966089
+train time: 1183.306358
+----
+2022-12-21 13:43:18.412032
+---- EPOCH 013 EVALUATION ----
+eval mean loss: 0.141389
+eval accuracy: 0.953940
+eval avg class acc: 0.910857
+eval mIoU of plant1:	 0.830562
+eval mIoU of plant2:	 0.907055
+eval mIoU of plant3:	 0.763243
+eval mean mIoU: 0.833620
+eval mean mIoU (all shapes): 0.858367
+**** EPOCH 014 ****
+----
+ -- 100 / 364 --
+mean loss: 0.077746
+accuracy: 0.968004
+ -- 200 / 364 --
+mean loss: 0.073543
+accuracy: 0.969840
+ -- 300 / 364 --
+mean loss: 0.072313
+accuracy: 0.970073
+train time: 1267.541546
+----
+2022-12-21 13:46:03.579339
+---- EPOCH 014 EVALUATION ----
+eval mean loss: 0.145996
+eval accuracy: 0.955303
+eval avg class acc: 0.886755
+eval mIoU of plant1:	 0.831768
+eval mIoU of plant2:	 0.894863
+eval mIoU of plant3:	 0.758486
+eval mean mIoU: 0.828373
+eval mean mIoU (all shapes): 0.850509
+Model saved in file: log/epoch_14.ckpt
+**** EPOCH 015 ****
+----
+ -- 100 / 364 --
+mean loss: 0.070385
+accuracy: 0.970778
+ -- 200 / 364 --
+mean loss: 0.073580
+accuracy: 0.969441
+ -- 300 / 364 --
+mean loss: 0.068633
+accuracy: 0.971465
+train time: 1351.737473
+----
+2022-12-21 13:48:48.828295
+---- EPOCH 015 EVALUATION ----
+eval mean loss: 0.127363
+eval accuracy: 0.957410
+eval avg class acc: 0.894419
+eval mIoU of plant1:	 0.827344
+eval mIoU of plant2:	 0.906291
+eval mIoU of plant3:	 0.767186
+eval mean mIoU: 0.833607
+eval mean mIoU (all shapes): 0.858244
+**** EPOCH 016 ****
+----
+ -- 100 / 364 --
+mean loss: 0.068799
+accuracy: 0.971358
+ -- 200 / 364 --
+mean loss: 0.082629
+accuracy: 0.965915
+ -- 300 / 364 --
+mean loss: 0.090496
+accuracy: 0.965091
+train time: 1436.013796
+----
+2022-12-21 13:51:33.975834
+---- EPOCH 016 EVALUATION ----
+eval mean loss: 0.216956
+eval accuracy: 0.951490
+eval avg class acc: 0.904540
+eval mIoU of plant1:	 0.829108
+eval mIoU of plant2:	 0.904319
+eval mIoU of plant3:	 0.751929
+eval mean mIoU: 0.828452
+eval mean mIoU (all shapes): 0.853851
+Model saved in file: log/epoch_16.ckpt
+**** EPOCH 017 ****
+----
+ -- 100 / 364 --
+mean loss: 0.073623
+accuracy: 0.969681
+ -- 200 / 364 --
+mean loss: 0.074432
+accuracy: 0.968949
+ -- 300 / 364 --
+mean loss: 0.067453
+accuracy: 0.971959
+train time: 1520.276897
+----
+2022-12-21 13:54:19.266509
+---- EPOCH 017 EVALUATION ----
+eval mean loss: 0.163171
+eval accuracy: 0.955685
+eval avg class acc: 0.890249
+eval mIoU of plant1:	 0.824170
+eval mIoU of plant2:	 0.907576
+eval mIoU of plant3:	 0.757262
+eval mean mIoU: 0.829669
+eval mean mIoU (all shapes): 0.856023
+**** EPOCH 018 ****
+----
+ -- 100 / 364 --
+mean loss: 0.068291
+accuracy: 0.971426
+ -- 200 / 364 --
+mean loss: 0.066583
+accuracy: 0.972137
+ -- 300 / 364 --
+mean loss: 0.066616
+accuracy: 0.972137
+train time: 1604.691486
+----
+2022-12-21 13:57:04.465953
+---- EPOCH 018 EVALUATION ----
+eval mean loss: 0.142877
+eval accuracy: 0.957530
+eval avg class acc: 0.899009
+eval mIoU of plant1:	 0.838151
+eval mIoU of plant2:	 0.908744
+eval mIoU of plant3:	 0.761033
+eval mean mIoU: 0.835976
+eval mean mIoU (all shapes): 0.860270
+Model saved in file: log/epoch_18.ckpt
+**** EPOCH 019 ****
+----
+ -- 100 / 364 --
+mean loss: 0.066857
+accuracy: 0.971914
+ -- 200 / 364 --
+mean loss: 0.068568
+accuracy: 0.971662
+ -- 300 / 364 --
+mean loss: 0.066250
+accuracy: 0.972818
+train time: 1688.974949
+----
+2022-12-21 13:59:49.776124
+---- EPOCH 019 EVALUATION ----
+eval mean loss: 0.148615
+eval accuracy: 0.948998
+eval avg class acc: 0.910056
+eval mIoU of plant1:	 0.830266
+eval mIoU of plant2:	 0.891501
+eval mIoU of plant3:	 0.763061
+eval mean mIoU: 0.828276
+eval mean mIoU (all shapes): 0.849379
+**** EPOCH 020 ****
+----
+ -- 100 / 364 --
+mean loss: 0.064177
+accuracy: 0.973172
+ -- 200 / 364 --
+mean loss: 0.062486
+accuracy: 0.973611
+ -- 300 / 364 --
+mean loss: 0.060847
+accuracy: 0.974420
+train time: 1773.249577
+----
+2022-12-21 14:02:34.969843
+---- EPOCH 020 EVALUATION ----
+eval mean loss: 0.173442
+eval accuracy: 0.951985
+eval avg class acc: 0.891910
+eval mIoU of plant1:	 0.806132
+eval mIoU of plant2:	 0.901957
+eval mIoU of plant3:	 0.761511
+eval mean mIoU: 0.823200
+eval mean mIoU (all shapes): 0.850347
+Model saved in file: log/epoch_20.ckpt
+**** EPOCH 021 ****
+----
+ -- 100 / 364 --
+mean loss: 0.097650
+accuracy: 0.962396
+ -- 200 / 364 --
+mean loss: 0.087701
+accuracy: 0.964767
+ -- 300 / 364 --
+mean loss: 0.071367
+accuracy: 0.970639
+train time: 1857.378907
+----
+2022-12-21 14:05:20.266567
+---- EPOCH 021 EVALUATION ----
+eval mean loss: 0.131140
+eval accuracy: 0.957348
+eval avg class acc: 0.910997
+eval mIoU of plant1:	 0.841897
+eval mIoU of plant2:	 0.909190
+eval mIoU of plant3:	 0.772637
+eval mean mIoU: 0.841241
+eval mean mIoU (all shapes): 0.863986
+**** EPOCH 022 ****
+----
+ -- 100 / 364 --
+mean loss: 0.065651
+accuracy: 0.972519
+ -- 200 / 364 --
+mean loss: 0.066721
+accuracy: 0.972111
+ -- 300 / 364 --
+mean loss: 0.069613
+accuracy: 0.971036
+train time: 1941.743235
+----
+2022-12-21 14:08:05.436140
+---- EPOCH 022 EVALUATION ----
+eval mean loss: 0.126034
+eval accuracy: 0.957926
+eval avg class acc: 0.908031
+eval mIoU of plant1:	 0.842370
+eval mIoU of plant2:	 0.912746
+eval mIoU of plant3:	 0.765781
+eval mean mIoU: 0.840299
+eval mean mIoU (all shapes): 0.864489
+Model saved in file: log/epoch_22.ckpt
+**** EPOCH 023 ****
+----
+ -- 100 / 364 --
+mean loss: 0.066898
+accuracy: 0.971936
+ -- 200 / 364 --
+mean loss: 0.064687
+accuracy: 0.973219
+ -- 300 / 364 --
+mean loss: 0.081249
+accuracy: 0.968921
+train time: 2026.096792
+----
+2022-12-21 14:10:50.747044
+---- EPOCH 023 EVALUATION ----
+eval mean loss: 0.230705
+eval accuracy: 0.951370
+eval avg class acc: 0.883133
+eval mIoU of plant1:	 0.814282
+eval mIoU of plant2:	 0.906116
+eval mIoU of plant3:	 0.720091
+eval mean mIoU: 0.813496
+eval mean mIoU (all shapes): 0.844505
+**** EPOCH 024 ****
+----
+ -- 100 / 364 --
+mean loss: 0.071977
+accuracy: 0.970236
+ -- 200 / 364 --
+mean loss: 0.065372
+accuracy: 0.972686
+ -- 300 / 364 --
+mean loss: 0.070422
+accuracy: 0.971356
+train time: 2110.380344
+----
+2022-12-21 14:13:35.951575
+---- EPOCH 024 EVALUATION ----
+eval mean loss: 0.140775
+eval accuracy: 0.958622
+eval avg class acc: 0.907185
+eval mIoU of plant1:	 0.849014
+eval mIoU of plant2:	 0.912890
+eval mIoU of plant3:	 0.767175
+eval mean mIoU: 0.843026
+eval mean mIoU (all shapes): 0.866179
+Model saved in file: log/epoch_24.ckpt
+**** EPOCH 025 ****
+----
+ -- 100 / 364 --
+mean loss: 0.062141
+accuracy: 0.973963
+ -- 200 / 364 --
+mean loss: 0.066932
+accuracy: 0.972413
+ -- 300 / 364 --
+mean loss: 0.060851
+accuracy: 0.974453
+train time: 2194.571747
+----
+2022-12-21 14:16:21.244825
+---- EPOCH 025 EVALUATION ----
+eval mean loss: 0.459251
+eval accuracy: 0.959004
+eval avg class acc: 0.893759
+eval mIoU of plant1:	 0.842945
+eval mIoU of plant2:	 0.911910
+eval mIoU of plant3:	 0.760746
+eval mean mIoU: 0.838534
+eval mean mIoU (all shapes): 0.862933
+**** EPOCH 026 ****
+----
+ -- 100 / 364 --
+mean loss: 0.072896
+accuracy: 0.970831
+ -- 200 / 364 --
+mean loss: 0.069186
+accuracy: 0.971274
+ -- 300 / 364 --
+mean loss: 0.062945
+accuracy: 0.973561
+train time: 2278.766416
+----
+2022-12-21 14:19:06.433018
+---- EPOCH 026 EVALUATION ----
+eval mean loss: 0.134064
+eval accuracy: 0.957619
+eval avg class acc: 0.904240
+eval mIoU of plant1:	 0.844493
+eval mIoU of plant2:	 0.913289
+eval mIoU of plant3:	 0.756518
+eval mean mIoU: 0.838100
+eval mean mIoU (all shapes): 0.863020
+Model saved in file: log/epoch_26.ckpt
+**** EPOCH 027 ****
+----
+ -- 100 / 364 --
+mean loss: 0.059260
+accuracy: 0.975244
+ -- 200 / 364 --
+mean loss: 0.058664
+accuracy: 0.975109
+ -- 300 / 364 --
+mean loss: 0.059407
+accuracy: 0.974783
+train time: 2363.096958
+----
+2022-12-21 14:21:51.720099
+---- EPOCH 027 EVALUATION ----
+eval mean loss: 0.134866
+eval accuracy: 0.958866
+eval avg class acc: 0.916249
+eval mIoU of plant1:	 0.851887
+eval mIoU of plant2:	 0.916932
+eval mIoU of plant3:	 0.771261
+eval mean mIoU: 0.846693
+eval mean mIoU (all shapes): 0.870007
+**** EPOCH 028 ****
+----
+ -- 100 / 364 --
+mean loss: 0.056378
+accuracy: 0.976359
+ -- 200 / 364 --
+mean loss: 0.058478
+accuracy: 0.975122
+ -- 300 / 364 --
+mean loss: 0.056943
+accuracy: 0.975812
+train time: 2447.359138
+----
+2022-12-21 14:24:36.931681
+---- EPOCH 028 EVALUATION ----
+eval mean loss: 0.143798
+eval accuracy: 0.960262
+eval avg class acc: 0.902727
+eval mIoU of plant1:	 0.848112
+eval mIoU of plant2:	 0.916264
+eval mIoU of plant3:	 0.766811
+eval mean mIoU: 0.843729
+eval mean mIoU (all shapes): 0.867848
+Model saved in file: log/epoch_28.ckpt
+**** EPOCH 029 ****
+----
+ -- 100 / 364 --
+mean loss: 0.056986
+accuracy: 0.976009
+ -- 200 / 364 --
+mean loss: 0.089105
+accuracy: 0.968079
+ -- 300 / 364 --
+mean loss: 0.063978
+accuracy: 0.973406
+train time: 2531.597970
+----
+2022-12-21 14:27:22.212040
+---- EPOCH 029 EVALUATION ----
+eval mean loss: 0.149108
+eval accuracy: 0.958357
+eval avg class acc: 0.894972
+eval mIoU of plant1:	 0.847970
+eval mIoU of plant2:	 0.903156
+eval mIoU of plant3:	 0.760461
+eval mean mIoU: 0.837196
+eval mean mIoU (all shapes): 0.858830
+**** EPOCH 030 ****
+----
+ -- 100 / 364 --
+mean loss: 0.063882
+accuracy: 0.973978
+ -- 200 / 364 --
+mean loss: 0.066658
+accuracy: 0.972496
+ -- 300 / 364 --
+mean loss: 0.058265
+accuracy: 0.975605
+train time: 2615.932696
+----
+2022-12-21 14:30:07.394779
+---- EPOCH 030 EVALUATION ----
+eval mean loss: 0.137128
+eval accuracy: 0.960729
+eval avg class acc: 0.910227
+eval mIoU of plant1:	 0.852541
+eval mIoU of plant2:	 0.915942
+eval mIoU of plant3:	 0.777054
+eval mean mIoU: 0.848513
+eval mean mIoU (all shapes): 0.870935
+Model saved in file: log/epoch_30.ckpt
+**** EPOCH 031 ****
+----
+ -- 100 / 364 --
+mean loss: 0.056143
+accuracy: 0.976469
+ -- 200 / 364 --
+mean loss: 0.065508
+accuracy: 0.972897
+ -- 300 / 364 --
+mean loss: 0.069123
+accuracy: 0.972241
+train time: 2700.258393
+----
+2022-12-21 14:32:52.619401
+---- EPOCH 031 EVALUATION ----
+eval mean loss: 0.128616
+eval accuracy: 0.959705
+eval avg class acc: 0.900732
+eval mIoU of plant1:	 0.841862
+eval mIoU of plant2:	 0.915840
+eval mIoU of plant3:	 0.764337
+eval mean mIoU: 0.840680
+eval mean mIoU (all shapes): 0.865819
+**** EPOCH 032 ****
+----
+ -- 100 / 364 --
+mean loss: 0.057607
+accuracy: 0.975763
+ -- 200 / 364 --
+mean loss: 0.054902
+accuracy: 0.976888
+ -- 300 / 364 --
+mean loss: 0.056913
+accuracy: 0.975743
+train time: 2784.504571
+----
+2022-12-21 14:35:37.783102
+---- EPOCH 032 EVALUATION ----
+eval mean loss: 0.130814
+eval accuracy: 0.960772
+eval avg class acc: 0.910457
+eval mIoU of plant1:	 0.853782
+eval mIoU of plant2:	 0.921215
+eval mIoU of plant3:	 0.765477
+eval mean mIoU: 0.846824
+eval mean mIoU (all shapes): 0.871452
+Model saved in file: log/epoch_32.ckpt
+**** EPOCH 033 ****
+----
+ -- 100 / 364 --
+mean loss: 0.054109
+accuracy: 0.977190
+ -- 200 / 364 --
+mean loss: 0.056454
+accuracy: 0.976010
+ -- 300 / 364 --
+mean loss: 0.053741
+accuracy: 0.976853
+train time: 2868.772964
+----
+2022-12-21 14:38:23.034087
+---- EPOCH 033 EVALUATION ----
+eval mean loss: 0.140454
+eval accuracy: 0.961609
+eval avg class acc: 0.908517
+eval mIoU of plant1:	 0.854632
+eval mIoU of plant2:	 0.918808
+eval mIoU of plant3:	 0.774084
+eval mean mIoU: 0.849175
+eval mean mIoU (all shapes): 0.872273
+**** EPOCH 034 ****
+----
+ -- 100 / 364 --
+mean loss: 0.059185
+accuracy: 0.975132
+ -- 200 / 364 --
+mean loss: 0.053611
+accuracy: 0.977312
+ -- 300 / 364 --
+mean loss: 0.052200
+accuracy: 0.977696
+train time: 2953.029469
+----
+2022-12-21 14:41:08.217086
+---- EPOCH 034 EVALUATION ----
+eval mean loss: 0.139599
+eval accuracy: 0.958483
+eval avg class acc: 0.905724
+eval mIoU of plant1:	 0.845839
+eval mIoU of plant2:	 0.911579
+eval mIoU of plant3:	 0.767790
+eval mean mIoU: 0.841736
+eval mean mIoU (all shapes): 0.864965
+Model saved in file: log/epoch_34.ckpt
+**** EPOCH 035 ****
+----
+ -- 100 / 364 --
+mean loss: 0.055326
+accuracy: 0.976608
+ -- 200 / 364 --
+mean loss: 0.052079
+accuracy: 0.977969
+ -- 300 / 364 --
+mean loss: 0.053747
+accuracy: 0.977212
+train time: 3037.621706
+----
+2022-12-21 14:43:53.579015
+---- EPOCH 035 EVALUATION ----
+eval mean loss: 0.130677
+eval accuracy: 0.961084
+eval avg class acc: 0.914696
+eval mIoU of plant1:	 0.856765
+eval mIoU of plant2:	 0.916982
+eval mIoU of plant3:	 0.780704
+eval mean mIoU: 0.851484
+eval mean mIoU (all shapes): 0.873204
+**** EPOCH 036 ****
+----
+ -- 100 / 364 --
+mean loss: 0.052879
+accuracy: 0.977652
+ -- 200 / 364 --
+mean loss: 0.052405
+accuracy: 0.977880
+ -- 300 / 364 --
+mean loss: 0.051593
+accuracy: 0.978057
+train time: 3122.043745
+----
+2022-12-21 14:46:38.755487
+---- EPOCH 036 EVALUATION ----
+eval mean loss: 0.145057
+eval accuracy: 0.961493
+eval avg class acc: 0.913877
+eval mIoU of plant1:	 0.858192
+eval mIoU of plant2:	 0.919591
+eval mIoU of plant3:	 0.776483
+eval mean mIoU: 0.851422
+eval mean mIoU (all shapes): 0.873972
+Model saved in file: log/epoch_36.ckpt
+**** EPOCH 037 ****
+----
+ -- 100 / 364 --
+mean loss: 0.051497
+accuracy: 0.978285
+ -- 200 / 364 --
+mean loss: 0.050945
+accuracy: 0.978357
+ -- 300 / 364 --
+mean loss: 0.054299
+accuracy: 0.976932
+train time: 3206.251805
+----
+2022-12-21 14:49:24.052094
+---- EPOCH 037 EVALUATION ----
+eval mean loss: 0.152424
+eval accuracy: 0.961268
+eval avg class acc: 0.912445
+eval mIoU of plant1:	 0.859850
+eval mIoU of plant2:	 0.921012
+eval mIoU of plant3:	 0.769789
+eval mean mIoU: 0.850217
+eval mean mIoU (all shapes): 0.873521
+**** EPOCH 038 ****
+----
+ -- 100 / 364 --
+mean loss: 0.050758
+accuracy: 0.978582
+ -- 200 / 364 --
+mean loss: 0.050792
+accuracy: 0.978439
+ -- 300 / 364 --
+mean loss: 0.051507
+accuracy: 0.978200
+train time: 3290.551654
+----
+2022-12-21 14:52:09.253112
+---- EPOCH 038 EVALUATION ----
+eval mean loss: 0.159232
+eval accuracy: 0.962090
+eval avg class acc: 0.908645
+eval mIoU of plant1:	 0.856704
+eval mIoU of plant2:	 0.921623
+eval mIoU of plant3:	 0.771121
+eval mean mIoU: 0.849816
+eval mean mIoU (all shapes): 0.873580
+Model saved in file: log/epoch_38.ckpt
+**** EPOCH 039 ****
+----
+ -- 100 / 364 --
+mean loss: 0.049196
+accuracy: 0.978930
+ -- 200 / 364 --
+mean loss: 0.049556
+accuracy: 0.978957
+ -- 300 / 364 --
+mean loss: 0.049998
+accuracy: 0.978645
+train time: 3374.897965
+----
+2022-12-21 14:54:54.539864
+---- EPOCH 039 EVALUATION ----
+eval mean loss: 0.154727
+eval accuracy: 0.960538
+eval avg class acc: 0.913953
+eval mIoU of plant1:	 0.853404
+eval mIoU of plant2:	 0.919992
+eval mIoU of plant3:	 0.770335
+eval mean mIoU: 0.847910
+eval mean mIoU (all shapes): 0.871828
+**** EPOCH 040 ****
+----
+ -- 100 / 364 --
+mean loss: 0.049839
+accuracy: 0.978730
+ -- 200 / 364 --
+mean loss: 0.050307
+accuracy: 0.978651
+ -- 300 / 364 --
+mean loss: 0.049261
+accuracy: 0.979250
+train time: 3459.122034
+----
+2022-12-21 14:57:39.784529
+---- EPOCH 040 EVALUATION ----
+eval mean loss: 0.140215
+eval accuracy: 0.962587
+eval avg class acc: 0.913845
+eval mIoU of plant1:	 0.856725
+eval mIoU of plant2:	 0.924228
+eval mIoU of plant3:	 0.776459
+eval mean mIoU: 0.852471
+eval mean mIoU (all shapes): 0.876334
+Model saved in file: log/epoch_40.ckpt
+**** EPOCH 041 ****
+----
+ -- 100 / 364 --
+mean loss: 0.048073
+accuracy: 0.979579
+ -- 200 / 364 --
+mean loss: 0.049089
+accuracy: 0.978972
+ -- 300 / 364 --
+mean loss: 0.048503
+accuracy: 0.979330
+train time: 3543.400658
+----
+2022-12-21 15:00:25.087965
+---- EPOCH 041 EVALUATION ----
+eval mean loss: 0.142693
+eval accuracy: 0.962484
+eval avg class acc: 0.906826
+eval mIoU of plant1:	 0.858851
+eval mIoU of plant2:	 0.920606
+eval mIoU of plant3:	 0.771667
+eval mean mIoU: 0.850375
+eval mean mIoU (all shapes): 0.873541
+**** EPOCH 042 ****
+----
+ -- 100 / 364 --
+mean loss: 0.045508
+accuracy: 0.980615
+ -- 200 / 364 --
+mean loss: 0.047525
+accuracy: 0.979788
+ -- 300 / 364 --
+mean loss: 0.049316
+accuracy: 0.979120
+train time: 3627.707946
+----
+2022-12-21 15:03:10.266945
+---- EPOCH 042 EVALUATION ----
+eval mean loss: 0.136745
+eval accuracy: 0.962009
+eval avg class acc: 0.916103
+eval mIoU of plant1:	 0.856741
+eval mIoU of plant2:	 0.922877
+eval mIoU of plant3:	 0.776885
+eval mean mIoU: 0.852168
+eval mean mIoU (all shapes): 0.875666
+Model saved in file: log/epoch_42.ckpt
+**** EPOCH 043 ****
+----
+ -- 100 / 364 --
+mean loss: 0.047232
+accuracy: 0.980016
+ -- 200 / 364 --
+mean loss: 0.050624
+accuracy: 0.978522
+ -- 300 / 364 --
+mean loss: 0.048671
+accuracy: 0.979235
+train time: 3711.999007
+----
+2022-12-21 15:05:55.579616
+---- EPOCH 043 EVALUATION ----
+eval mean loss: 0.138720
+eval accuracy: 0.962739
+eval avg class acc: 0.906876
+eval mIoU of plant1:	 0.855867
+eval mIoU of plant2:	 0.922975
+eval mIoU of plant3:	 0.774018
+eval mean mIoU: 0.850953
+eval mean mIoU (all shapes): 0.874877
+**** EPOCH 044 ****
+----
+ -- 100 / 364 --
+mean loss: 0.045892
+accuracy: 0.980410
+ -- 200 / 364 --
+mean loss: 0.047270
+accuracy: 0.979888
+ -- 300 / 364 --
+mean loss: 0.047134
+accuracy: 0.980028
+train time: 3796.210336
+----
+2022-12-21 15:08:40.778389
+---- EPOCH 044 EVALUATION ----
+eval mean loss: 0.132291
+eval accuracy: 0.961188
+eval avg class acc: 0.918943
+eval mIoU of plant1:	 0.857507
+eval mIoU of plant2:	 0.922101
+eval mIoU of plant3:	 0.775305
+eval mean mIoU: 0.851638
+eval mean mIoU (all shapes): 0.874996
+Model saved in file: log/epoch_44.ckpt
+**** EPOCH 045 ****
+----
+ -- 100 / 364 --
+mean loss: 0.047578
+accuracy: 0.979818
+ -- 200 / 364 --
+mean loss: 0.044429
+accuracy: 0.981119
+ -- 300 / 364 --
+mean loss: 0.045909
+accuracy: 0.980481
+train time: 3880.483846
+----
+2022-12-21 15:11:26.104411
+---- EPOCH 045 EVALUATION ----
+eval mean loss: 0.214798
+eval accuracy: 0.961293
+eval avg class acc: 0.919664
+eval mIoU of plant1:	 0.858018
+eval mIoU of plant2:	 0.916190
+eval mIoU of plant3:	 0.795932
+eval mean mIoU: 0.856714
+eval mean mIoU (all shapes): 0.876591
+**** EPOCH 046 ****
+----
+ -- 100 / 364 --
+mean loss: 0.049936
+accuracy: 0.979064
+ -- 200 / 364 --
+mean loss: 0.046621
+accuracy: 0.980256
+ -- 300 / 364 --
+mean loss: 0.047288
+accuracy: 0.979783
+train time: 3964.768188
+----
+2022-12-21 15:14:11.264557
+---- EPOCH 046 EVALUATION ----
+eval mean loss: 0.167592
+eval accuracy: 0.960534
+eval avg class acc: 0.916551
+eval mIoU of plant1:	 0.856708
+eval mIoU of plant2:	 0.919890
+eval mIoU of plant3:	 0.771185
+eval mean mIoU: 0.849261
+eval mean mIoU (all shapes): 0.872606
+Model saved in file: log/epoch_46.ckpt
+**** EPOCH 047 ****
+----
+ -- 100 / 364 --
+mean loss: 0.046488
+accuracy: 0.980165
+ -- 200 / 364 --
+mean loss: 0.045636
+accuracy: 0.980604
+ -- 300 / 364 --
+mean loss: 0.047269
+accuracy: 0.980064
+train time: 4048.935143
+----
+2022-12-21 15:16:56.584812
+---- EPOCH 047 EVALUATION ----
+eval mean loss: 0.154970
+eval accuracy: 0.962660
+eval avg class acc: 0.916610
+eval mIoU of plant1:	 0.854878
+eval mIoU of plant2:	 0.925084
+eval mIoU of plant3:	 0.779749
+eval mean mIoU: 0.853237
+eval mean mIoU (all shapes): 0.877246
+**** EPOCH 048 ****
+----
+ -- 100 / 364 --
+mean loss: 0.045799
+accuracy: 0.980466
+ -- 200 / 364 --
+mean loss: 0.043912
+accuracy: 0.981296
+ -- 300 / 364 --
+mean loss: 0.045889
+accuracy: 0.980524
+train time: 4133.150489
+----
+2022-12-21 15:19:41.821611
+---- EPOCH 048 EVALUATION ----
+eval mean loss: 0.143698
+eval accuracy: 0.963378
+eval avg class acc: 0.908284
+eval mIoU of plant1:	 0.858985
+eval mIoU of plant2:	 0.923161
+eval mIoU of plant3:	 0.778713
+eval mean mIoU: 0.853619
+eval mean mIoU (all shapes): 0.876691
+Model saved in file: log/epoch_48.ckpt
+**** EPOCH 049 ****
+----
+ -- 100 / 364 --
+mean loss: 0.045170
+accuracy: 0.980909
+ -- 200 / 364 --
+mean loss: 0.044728
+accuracy: 0.980831
+ -- 300 / 364 --
+mean loss: 0.043127
+accuracy: 0.981684
+train time: 4217.437944
+----
+2022-12-21 15:22:27.127985
+---- EPOCH 049 EVALUATION ----
+eval mean loss: 0.144487
+eval accuracy: 0.963659
+eval avg class acc: 0.905224
+eval mIoU of plant1:	 0.856871
+eval mIoU of plant2:	 0.922141
+eval mIoU of plant3:	 0.780231
+eval mean mIoU: 0.853081
+eval mean mIoU (all shapes): 0.876061
+**** EPOCH 050 ****
+----
+ -- 100 / 364 --
+mean loss: 0.047882
+accuracy: 0.979639
+ -- 200 / 364 --
+mean loss: 0.044053
+accuracy: 0.981255
+ -- 300 / 364 --
+mean loss: 0.043493
+accuracy: 0.981564
+train time: 4301.637470
+----
+2022-12-21 15:25:12.318118
+---- EPOCH 050 EVALUATION ----
+eval mean loss: 0.168386
+eval accuracy: 0.962179
+eval avg class acc: 0.915881
+eval mIoU of plant1:	 0.857099
+eval mIoU of plant2:	 0.921980
+eval mIoU of plant3:	 0.783193
+eval mean mIoU: 0.854091
+eval mean mIoU (all shapes): 0.876713
+Model saved in file: log/epoch_50.ckpt
+**** EPOCH 051 ****
+----
+ -- 100 / 364 --
+mean loss: 0.043751
+accuracy: 0.981500
+ -- 200 / 364 --
+mean loss: 0.044695
+accuracy: 0.980952
+ -- 300 / 364 --
+mean loss: 0.042834
+accuracy: 0.981800
+train time: 4386.021499
+----
+2022-12-21 15:27:57.608906
+---- EPOCH 051 EVALUATION ----
+eval mean loss: 0.160209
+eval accuracy: 0.963185
+eval avg class acc: 0.916192
+eval mIoU of plant1:	 0.861880
+eval mIoU of plant2:	 0.922655
+eval mIoU of plant3:	 0.785179
+eval mean mIoU: 0.856571
+eval mean mIoU (all shapes): 0.878487
+**** EPOCH 052 ****
+----
+ -- 100 / 364 --
+mean loss: 0.042984
+accuracy: 0.981815
+ -- 200 / 364 --
+mean loss: 0.043256
+accuracy: 0.981612
+ -- 300 / 364 --
+mean loss: 0.044458
+accuracy: 0.981033
+train time: 4470.291611
+----
+2022-12-21 15:30:42.786697
+---- EPOCH 052 EVALUATION ----
+eval mean loss: 0.236967
+eval accuracy: 0.963017
+eval avg class acc: 0.906831
+eval mIoU of plant1:	 0.859948
+eval mIoU of plant2:	 0.923372
+eval mIoU of plant3:	 0.771868
+eval mean mIoU: 0.851729
+eval mean mIoU (all shapes): 0.875380
+Model saved in file: log/epoch_52.ckpt
+**** EPOCH 053 ****
+----
+ -- 100 / 364 --
+mean loss: 0.046982
+accuracy: 0.980159
+ -- 200 / 364 --
+mean loss: 0.043539
+accuracy: 0.981480
+ -- 300 / 364 --
+mean loss: 0.044323
+accuracy: 0.981195
+train time: 4554.602788
+----
+2022-12-21 15:33:28.136238
+---- EPOCH 053 EVALUATION ----
+eval mean loss: 0.163203
+eval accuracy: 0.962639
+eval avg class acc: 0.914410
+eval mIoU of plant1:	 0.858961
+eval mIoU of plant2:	 0.923450
+eval mIoU of plant3:	 0.776433
+eval mean mIoU: 0.852948
+eval mean mIoU (all shapes): 0.876313
+**** EPOCH 054 ****
+----
+ -- 100 / 364 --
+mean loss: 0.043620
+accuracy: 0.981529
+ -- 200 / 364 --
+mean loss: 0.041570
+accuracy: 0.982397
+ -- 300 / 364 --
+mean loss: 0.044284
+accuracy: 0.981132
+train time: 4638.985105
+----
+2022-12-21 15:36:13.332793
+---- EPOCH 054 EVALUATION ----
+eval mean loss: 0.148576
+eval accuracy: 0.963434
+eval avg class acc: 0.914961
+eval mIoU of plant1:	 0.859831
+eval mIoU of plant2:	 0.925140
+eval mIoU of plant3:	 0.781467
+eval mean mIoU: 0.855479
+eval mean mIoU (all shapes): 0.878636
+Model saved in file: log/epoch_54.ckpt
+**** EPOCH 055 ****
+----
+ -- 100 / 364 --
+mean loss: 0.042791
+accuracy: 0.981879
+ -- 200 / 364 --
+mean loss: 0.042252
+accuracy: 0.982106
+ -- 300 / 364 --
+mean loss: 0.044861
+accuracy: 0.981006
+train time: 4723.117608
+----
+2022-12-21 15:38:58.659369
+---- EPOCH 055 EVALUATION ----
+eval mean loss: 0.147891
+eval accuracy: 0.963779
+eval avg class acc: 0.910711
+eval mIoU of plant1:	 0.861210
+eval mIoU of plant2:	 0.926804
+eval mIoU of plant3:	 0.775982
+eval mean mIoU: 0.854665
+eval mean mIoU (all shapes): 0.878556
+**** EPOCH 056 ****
+----
+ -- 100 / 364 --
+mean loss: 0.042966
+accuracy: 0.981695
+ -- 200 / 364 --
+mean loss: 0.042991
+accuracy: 0.981789
+ -- 300 / 364 --
+mean loss: 0.042264
+accuracy: 0.982028
+train time: 4807.305828
+----
+2022-12-21 15:41:43.882401
+---- EPOCH 056 EVALUATION ----
+eval mean loss: 0.151822
+eval accuracy: 0.963082
+eval avg class acc: 0.914966
+eval mIoU of plant1:	 0.856822
+eval mIoU of plant2:	 0.925964
+eval mIoU of plant3:	 0.782340
+eval mean mIoU: 0.855042
+eval mean mIoU (all shapes): 0.878734
+Model saved in file: log/epoch_56.ckpt
+**** EPOCH 057 ****
+----
+ -- 100 / 364 --
+mean loss: 0.042004
+accuracy: 0.982132
+ -- 200 / 364 --
+mean loss: 0.041898
+accuracy: 0.982209
+ -- 300 / 364 --
+mean loss: 0.043975
+accuracy: 0.981322
+train time: 4891.650181
+----
+2022-12-21 15:44:29.216732
+---- EPOCH 057 EVALUATION ----
+eval mean loss: 0.175671
+eval accuracy: 0.962818
+eval avg class acc: 0.916065
+eval mIoU of plant1:	 0.860149
+eval mIoU of plant2:	 0.925281
+eval mIoU of plant3:	 0.776525
+eval mean mIoU: 0.853985
+eval mean mIoU (all shapes): 0.877610
+**** EPOCH 058 ****
+----
+ -- 100 / 364 --
+mean loss: 0.065818
+accuracy: 0.978015
+ -- 200 / 364 --
+mean loss: 0.043096
+accuracy: 0.981766
+ -- 300 / 364 --
+mean loss: 0.042448
+accuracy: 0.982029
+train time: 4975.992781
+----
+2022-12-21 15:47:14.442303
+---- EPOCH 058 EVALUATION ----
+eval mean loss: 0.154151
+eval accuracy: 0.964021
+eval avg class acc: 0.917114
+eval mIoU of plant1:	 0.862828
+eval mIoU of plant2:	 0.925879
+eval mIoU of plant3:	 0.784629
+eval mean mIoU: 0.857779
+eval mean mIoU (all shapes): 0.880382
+Model saved in file: log/epoch_58.ckpt
+**** EPOCH 059 ****
+----
+ -- 100 / 364 --
+mean loss: 0.042599
+accuracy: 0.981925
+ -- 200 / 364 --
+mean loss: 0.041639
+accuracy: 0.982411
+ -- 300 / 364 --
+mean loss: 0.041782
+accuracy: 0.982306
+train time: 5060.315122
+----
+2022-12-21 15:49:59.752000
+---- EPOCH 059 EVALUATION ----
+eval mean loss: 0.151993
+eval accuracy: 0.964127
+eval avg class acc: 0.913534
+eval mIoU of plant1:	 0.860977
+eval mIoU of plant2:	 0.925675
+eval mIoU of plant3:	 0.785396
+eval mean mIoU: 0.857350
+eval mean mIoU (all shapes): 0.880090
+**** EPOCH 060 ****
+----
+ -- 100 / 364 --
+mean loss: 0.041464
+accuracy: 0.982463
+ -- 200 / 364 --
+mean loss: 0.041101
+accuracy: 0.982610
+ -- 300 / 364 --
+mean loss: 0.041098
+accuracy: 0.982606
+train time: 5144.664062
+----
+2022-12-21 15:52:44.930605
+---- EPOCH 060 EVALUATION ----
+eval mean loss: 0.143971
+eval accuracy: 0.963957
+eval avg class acc: 0.911199
+eval mIoU of plant1:	 0.860243
+eval mIoU of plant2:	 0.924968
+eval mIoU of plant3:	 0.782823
+eval mean mIoU: 0.856011
+eval mean mIoU (all shapes): 0.878937
+Model saved in file: log/epoch_60.ckpt
+**** EPOCH 061 ****
+----
+ -- 100 / 364 --
+mean loss: 0.041617
+accuracy: 0.982365
+ -- 200 / 364 --
+mean loss: 0.041527
+accuracy: 0.982391
+ -- 300 / 364 --
+mean loss: 0.041016
+accuracy: 0.982555
+train time: 5228.966958
+----
+2022-12-21 15:55:30.232807
+---- EPOCH 061 EVALUATION ----
+eval mean loss: 0.143652
+eval accuracy: 0.963230
+eval avg class acc: 0.916779
+eval mIoU of plant1:	 0.859323
+eval mIoU of plant2:	 0.924907
+eval mIoU of plant3:	 0.784022
+eval mean mIoU: 0.856084
+eval mean mIoU (all shapes): 0.879008
+**** EPOCH 062 ****
+----
+ -- 100 / 364 --
+mean loss: 0.041018
+accuracy: 0.982658
+ -- 200 / 364 --
+mean loss: 0.041377
+accuracy: 0.982480
+ -- 300 / 364 --
+mean loss: 0.040631
+accuracy: 0.982776
+train time: 5313.233587
+----
+2022-12-21 15:58:15.452557
+---- EPOCH 062 EVALUATION ----
+eval mean loss: 0.160333
+eval accuracy: 0.964248
+eval avg class acc: 0.915247
+eval mIoU of plant1:	 0.860670
+eval mIoU of plant2:	 0.926805
+eval mIoU of plant3:	 0.785884
+eval mean mIoU: 0.857786
+eval mean mIoU (all shapes): 0.880792
+Model saved in file: log/epoch_62.ckpt
+**** EPOCH 063 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040795
+accuracy: 0.982881
+ -- 200 / 364 --
+mean loss: 0.040504
+accuracy: 0.982752
+ -- 300 / 364 --
+mean loss: 0.041037
+accuracy: 0.982460
+train time: 5397.483821
+----
+2022-12-21 16:01:00.788908
+---- EPOCH 063 EVALUATION ----
+eval mean loss: 0.159980
+eval accuracy: 0.963646
+eval avg class acc: 0.917171
+eval mIoU of plant1:	 0.859240
+eval mIoU of plant2:	 0.926018
+eval mIoU of plant3:	 0.785302
+eval mean mIoU: 0.856853
+eval mean mIoU (all shapes): 0.879930
+**** EPOCH 064 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039977
+accuracy: 0.983122
+ -- 200 / 364 --
+mean loss: 0.040702
+accuracy: 0.982779
+ -- 300 / 364 --
+mean loss: 0.041304
+accuracy: 0.982413
+train time: 5482.016874
+----
+2022-12-21 16:03:45.971836
+---- EPOCH 064 EVALUATION ----
+eval mean loss: 0.146589
+eval accuracy: 0.964525
+eval avg class acc: 0.913908
+eval mIoU of plant1:	 0.860745
+eval mIoU of plant2:	 0.926027
+eval mIoU of plant3:	 0.788125
+eval mean mIoU: 0.858299
+eval mean mIoU (all shapes): 0.880892
+Model saved in file: log/epoch_64.ckpt
+**** EPOCH 065 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040622
+accuracy: 0.982625
+ -- 200 / 364 --
+mean loss: 0.041078
+accuracy: 0.982677
+ -- 300 / 364 --
+mean loss: 0.041048
+accuracy: 0.982670
+train time: 5566.300779
+----
+2022-12-21 16:06:31.292746
+---- EPOCH 065 EVALUATION ----
+eval mean loss: 0.155181
+eval accuracy: 0.964145
+eval avg class acc: 0.915791
+eval mIoU of plant1:	 0.862066
+eval mIoU of plant2:	 0.926389
+eval mIoU of plant3:	 0.783636
+eval mean mIoU: 0.857364
+eval mean mIoU (all shapes): 0.880292
+**** EPOCH 066 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040332
+accuracy: 0.982926
+ -- 200 / 364 --
+mean loss: 0.039111
+accuracy: 0.983522
+ -- 300 / 364 --
+mean loss: 0.040816
+accuracy: 0.982555
+train time: 5650.588780
+----
+2022-12-21 16:09:16.505669
+---- EPOCH 066 EVALUATION ----
+eval mean loss: 0.164334
+eval accuracy: 0.963949
+eval avg class acc: 0.916252
+eval mIoU of plant1:	 0.859436
+eval mIoU of plant2:	 0.924507
+eval mIoU of plant3:	 0.789569
+eval mean mIoU: 0.857837
+eval mean mIoU (all shapes): 0.880112
+Model saved in file: log/epoch_66.ckpt
+**** EPOCH 067 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040629
+accuracy: 0.982802
+ -- 200 / 364 --
+mean loss: 0.039579
+accuracy: 0.983299
+ -- 300 / 364 --
+mean loss: 0.040409
+accuracy: 0.982753
+train time: 5734.819088
+----
+2022-12-21 16:12:01.805704
+---- EPOCH 067 EVALUATION ----
+eval mean loss: 0.149351
+eval accuracy: 0.963758
+eval avg class acc: 0.918565
+eval mIoU of plant1:	 0.860091
+eval mIoU of plant2:	 0.926536
+eval mIoU of plant3:	 0.787762
+eval mean mIoU: 0.858130
+eval mean mIoU (all shapes): 0.880971
+**** EPOCH 068 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039905
+accuracy: 0.983054
+ -- 200 / 364 --
+mean loss: 0.039859
+accuracy: 0.983135
+ -- 300 / 364 --
+mean loss: 0.040657
+accuracy: 0.982798
+train time: 5819.050926
+----
+2022-12-21 16:14:46.976872
+---- EPOCH 068 EVALUATION ----
+eval mean loss: 0.156331
+eval accuracy: 0.964046
+eval avg class acc: 0.914730
+eval mIoU of plant1:	 0.860660
+eval mIoU of plant2:	 0.925995
+eval mIoU of plant3:	 0.784214
+eval mean mIoU: 0.856956
+eval mean mIoU (all shapes): 0.879933
+Model saved in file: log/epoch_68.ckpt
+**** EPOCH 069 ****
+----
+ -- 100 / 364 --
+mean loss: 0.041053
+accuracy: 0.982546
+ -- 200 / 364 --
+mean loss: 0.039215
+accuracy: 0.983460
+ -- 300 / 364 --
+mean loss: 0.039604
+accuracy: 0.983252
+train time: 5903.572906
+----
+2022-12-21 16:17:32.249838
+---- EPOCH 069 EVALUATION ----
+eval mean loss: 0.151275
+eval accuracy: 0.964356
+eval avg class acc: 0.914646
+eval mIoU of plant1:	 0.861459
+eval mIoU of plant2:	 0.926431
+eval mIoU of plant3:	 0.785395
+eval mean mIoU: 0.857761
+eval mean mIoU (all shapes): 0.880614
+**** EPOCH 070 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040596
+accuracy: 0.982890
+ -- 200 / 364 --
+mean loss: 0.040848
+accuracy: 0.982640
+ -- 300 / 364 --
+mean loss: 0.042644
+accuracy: 0.981982
+train time: 5987.815296
+----
+2022-12-21 16:20:17.487401
+---- EPOCH 070 EVALUATION ----
+eval mean loss: 0.163809
+eval accuracy: 0.963444
+eval avg class acc: 0.918166
+eval mIoU of plant1:	 0.860238
+eval mIoU of plant2:	 0.925794
+eval mIoU of plant3:	 0.786247
+eval mean mIoU: 0.857426
+eval mean mIoU (all shapes): 0.880217
+Model saved in file: log/epoch_70.ckpt
+**** EPOCH 071 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040476
+accuracy: 0.982841
+ -- 200 / 364 --
+mean loss: 0.039471
+accuracy: 0.983358
+ -- 300 / 364 --
+mean loss: 0.039401
+accuracy: 0.983393
+train time: 6072.025663
+----
+2022-12-21 16:23:02.783117
+---- EPOCH 071 EVALUATION ----
+eval mean loss: 0.145165
+eval accuracy: 0.964157
+eval avg class acc: 0.919330
+eval mIoU of plant1:	 0.861699
+eval mIoU of plant2:	 0.926010
+eval mIoU of plant3:	 0.792656
+eval mean mIoU: 0.860122
+eval mean mIoU (all shapes): 0.882136
+**** EPOCH 072 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039386
+accuracy: 0.983381
+ -- 200 / 364 --
+mean loss: 0.039112
+accuracy: 0.983429
+ -- 300 / 364 --
+mean loss: 0.043632
+accuracy: 0.981557
+train time: 6156.355500
+----
+2022-12-21 16:25:47.988328
+---- EPOCH 072 EVALUATION ----
+eval mean loss: 0.145513
+eval accuracy: 0.964177
+eval avg class acc: 0.918736
+eval mIoU of plant1:	 0.861031
+eval mIoU of plant2:	 0.926401
+eval mIoU of plant3:	 0.790898
+eval mean mIoU: 0.859443
+eval mean mIoU (all shapes): 0.881815
+Model saved in file: log/epoch_72.ckpt
+**** EPOCH 073 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039727
+accuracy: 0.983198
+ -- 200 / 364 --
+mean loss: 0.040494
+accuracy: 0.982829
+ -- 300 / 364 --
+mean loss: 0.038977
+accuracy: 0.983486
+train time: 6240.635729
+----
+2022-12-21 16:28:33.305502
+---- EPOCH 073 EVALUATION ----
+eval mean loss: 0.147844
+eval accuracy: 0.964940
+eval avg class acc: 0.913994
+eval mIoU of plant1:	 0.860736
+eval mIoU of plant2:	 0.927127
+eval mIoU of plant3:	 0.792802
+eval mean mIoU: 0.860222
+eval mean mIoU (all shapes): 0.882623
+**** EPOCH 074 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038626
+accuracy: 0.983709
+ -- 200 / 364 --
+mean loss: 0.038611
+accuracy: 0.983807
+ -- 300 / 364 --
+mean loss: 0.041014
+accuracy: 0.982500
+train time: 6324.986842
+----
+2022-12-21 16:31:18.501861
+---- EPOCH 074 EVALUATION ----
+eval mean loss: 0.136475
+eval accuracy: 0.964806
+eval avg class acc: 0.914959
+eval mIoU of plant1:	 0.861303
+eval mIoU of plant2:	 0.926359
+eval mIoU of plant3:	 0.792638
+eval mean mIoU: 0.860100
+eval mean mIoU (all shapes): 0.882255
+Model saved in file: log/epoch_74.ckpt
+**** EPOCH 075 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039039
+accuracy: 0.983510
+ -- 200 / 364 --
+mean loss: 0.038171
+accuracy: 0.983865
+ -- 300 / 364 --
+mean loss: 0.039163
+accuracy: 0.983451
+train time: 6409.240010
+----
+2022-12-21 16:34:03.792763
+---- EPOCH 075 EVALUATION ----
+eval mean loss: 0.143894
+eval accuracy: 0.964296
+eval avg class acc: 0.916500
+eval mIoU of plant1:	 0.861683
+eval mIoU of plant2:	 0.926979
+eval mIoU of plant3:	 0.786589
+eval mean mIoU: 0.858417
+eval mean mIoU (all shapes): 0.881253
+**** EPOCH 076 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039143
+accuracy: 0.983294
+ -- 200 / 364 --
+mean loss: 0.038195
+accuracy: 0.983826
+ -- 300 / 364 --
+mean loss: 0.038624
+accuracy: 0.983691
+train time: 6493.463651
+----
+2022-12-21 16:36:48.992458
+---- EPOCH 076 EVALUATION ----
+eval mean loss: 0.141901
+eval accuracy: 0.964274
+eval avg class acc: 0.912928
+eval mIoU of plant1:	 0.861195
+eval mIoU of plant2:	 0.926579
+eval mIoU of plant3:	 0.784786
+eval mean mIoU: 0.857520
+eval mean mIoU (all shapes): 0.880505
+Model saved in file: log/epoch_76.ckpt
+**** EPOCH 077 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037882
+accuracy: 0.983931
+ -- 200 / 364 --
+mean loss: 0.039584
+accuracy: 0.983312
+ -- 300 / 364 --
+mean loss: 0.038449
+accuracy: 0.983730
+train time: 6577.887223
+----
+2022-12-21 16:39:34.303343
+---- EPOCH 077 EVALUATION ----
+eval mean loss: 0.145704
+eval accuracy: 0.963873
+eval avg class acc: 0.920267
+eval mIoU of plant1:	 0.858964
+eval mIoU of plant2:	 0.927434
+eval mIoU of plant3:	 0.788889
+eval mean mIoU: 0.858429
+eval mean mIoU (all shapes): 0.881534
+**** EPOCH 078 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038157
+accuracy: 0.983780
+ -- 200 / 364 --
+mean loss: 0.038606
+accuracy: 0.983645
+ -- 300 / 364 --
+mean loss: 0.039612
+accuracy: 0.983161
+train time: 6662.208047
+----
+2022-12-21 16:42:19.465511
+---- EPOCH 078 EVALUATION ----
+eval mean loss: 0.143273
+eval accuracy: 0.964728
+eval avg class acc: 0.915260
+eval mIoU of plant1:	 0.861872
+eval mIoU of plant2:	 0.926653
+eval mIoU of plant3:	 0.792516
+eval mean mIoU: 0.860347
+eval mean mIoU (all shapes): 0.882503
+Model saved in file: log/epoch_78.ckpt
+**** EPOCH 079 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039201
+accuracy: 0.983284
+ -- 200 / 364 --
+mean loss: 0.038395
+accuracy: 0.983836
+ -- 300 / 364 --
+mean loss: 0.038161
+accuracy: 0.983816
+train time: 6746.451361
+----
+2022-12-21 16:45:04.767823
+---- EPOCH 079 EVALUATION ----
+eval mean loss: 0.142219
+eval accuracy: 0.964327
+eval avg class acc: 0.917282
+eval mIoU of plant1:	 0.861186
+eval mIoU of plant2:	 0.927612
+eval mIoU of plant3:	 0.788024
+eval mean mIoU: 0.858941
+eval mean mIoU (all shapes): 0.881858
+**** EPOCH 080 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038064
+accuracy: 0.983888
+ -- 200 / 364 --
+mean loss: 0.038330
+accuracy: 0.983777
+ -- 300 / 364 --
+mean loss: 0.039383
+accuracy: 0.983236
+train time: 6830.748065
+----
+2022-12-21 16:47:49.986862
+---- EPOCH 080 EVALUATION ----
+eval mean loss: 0.160490
+eval accuracy: 0.964496
+eval avg class acc: 0.913398
+eval mIoU of plant1:	 0.861501
+eval mIoU of plant2:	 0.926099
+eval mIoU of plant3:	 0.787242
+eval mean mIoU: 0.858281
+eval mean mIoU (all shapes): 0.880870
+Model saved in file: log/epoch_80.ckpt
+**** EPOCH 081 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038112
+accuracy: 0.983799
+ -- 200 / 364 --
+mean loss: 0.038562
+accuracy: 0.983770
+ -- 300 / 364 --
+mean loss: 0.038036
+accuracy: 0.983850
+train time: 6915.090455
+----
+2022-12-21 16:50:35.322552
+---- EPOCH 081 EVALUATION ----
+eval mean loss: 0.145175
+eval accuracy: 0.964039
+eval avg class acc: 0.917936
+eval mIoU of plant1:	 0.861082
+eval mIoU of plant2:	 0.925719
+eval mIoU of plant3:	 0.789934
+eval mean mIoU: 0.858912
+eval mean mIoU (all shapes): 0.881208
+**** EPOCH 082 ****
+----
+ -- 100 / 364 --
+mean loss: 0.039205
+accuracy: 0.983367
+ -- 200 / 364 --
+mean loss: 0.038070
+accuracy: 0.983911
+ -- 300 / 364 --
+mean loss: 0.038681
+accuracy: 0.983641
+train time: 6999.249220
+----
+2022-12-21 16:53:20.510874
+---- EPOCH 082 EVALUATION ----
+eval mean loss: 0.154002
+eval accuracy: 0.963926
+eval avg class acc: 0.920938
+eval mIoU of plant1:	 0.860105
+eval mIoU of plant2:	 0.927895
+eval mIoU of plant3:	 0.788651
+eval mean mIoU: 0.858884
+eval mean mIoU (all shapes): 0.881960
+Model saved in file: log/epoch_82.ckpt
+**** EPOCH 083 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038542
+accuracy: 0.983656
+ -- 200 / 364 --
+mean loss: 0.038680
+accuracy: 0.983585
+ -- 300 / 364 --
+mean loss: 0.038496
+accuracy: 0.983767
+train time: 7083.459308
+----
+2022-12-21 16:56:05.815127
+---- EPOCH 083 EVALUATION ----
+eval mean loss: 0.155424
+eval accuracy: 0.964218
+eval avg class acc: 0.919143
+eval mIoU of plant1:	 0.859733
+eval mIoU of plant2:	 0.927784
+eval mIoU of plant3:	 0.789095
+eval mean mIoU: 0.858871
+eval mean mIoU (all shapes): 0.881930
+**** EPOCH 084 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038331
+accuracy: 0.983728
+ -- 200 / 364 --
+mean loss: 0.037902
+accuracy: 0.983960
+ -- 300 / 364 --
+mean loss: 0.037581
+accuracy: 0.984174
+train time: 7167.721064
+----
+2022-12-21 16:58:51.063219
+---- EPOCH 084 EVALUATION ----
+eval mean loss: 0.149871
+eval accuracy: 0.964575
+eval avg class acc: 0.913262
+eval mIoU of plant1:	 0.862643
+eval mIoU of plant2:	 0.927274
+eval mIoU of plant3:	 0.784995
+eval mean mIoU: 0.858304
+eval mean mIoU (all shapes): 0.881229
+Model saved in file: log/epoch_84.ckpt
+**** EPOCH 085 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037474
+accuracy: 0.984268
+ -- 200 / 364 --
+mean loss: 0.037576
+accuracy: 0.983986
+ -- 300 / 364 --
+mean loss: 0.037721
+accuracy: 0.984072
+train time: 7251.810748
+----
+2022-12-21 17:01:36.365233
+---- EPOCH 085 EVALUATION ----
+eval mean loss: 0.153754
+eval accuracy: 0.963973
+eval avg class acc: 0.918488
+eval mIoU of plant1:	 0.860168
+eval mIoU of plant2:	 0.926945
+eval mIoU of plant3:	 0.789068
+eval mean mIoU: 0.858727
+eval mean mIoU (all shapes): 0.881528
+**** EPOCH 086 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037814
+accuracy: 0.983960
+ -- 200 / 364 --
+mean loss: 0.039913
+accuracy: 0.983147
+ -- 300 / 364 --
+mean loss: 0.037070
+accuracy: 0.984297
+train time: 7336.149723
+----
+2022-12-21 17:04:21.621400
+---- EPOCH 086 EVALUATION ----
+eval mean loss: 0.151596
+eval accuracy: 0.964505
+eval avg class acc: 0.919102
+eval mIoU of plant1:	 0.861730
+eval mIoU of plant2:	 0.927433
+eval mIoU of plant3:	 0.791414
+eval mean mIoU: 0.860192
+eval mean mIoU (all shapes): 0.882662
+Model saved in file: log/epoch_86.ckpt
+**** EPOCH 087 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037238
+accuracy: 0.984382
+ -- 200 / 364 --
+mean loss: 0.038062
+accuracy: 0.983827
+ -- 300 / 364 --
+mean loss: 0.037583
+accuracy: 0.984029
+train time: 7420.482445
+----
+2022-12-21 17:07:06.922946
+---- EPOCH 087 EVALUATION ----
+eval mean loss: 0.150537
+eval accuracy: 0.964726
+eval avg class acc: 0.918321
+eval mIoU of plant1:	 0.861803
+eval mIoU of plant2:	 0.928158
+eval mIoU of plant3:	 0.791087
+eval mean mIoU: 0.860349
+eval mean mIoU (all shapes): 0.883012
+**** EPOCH 088 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038068
+accuracy: 0.983867
+ -- 200 / 364 --
+mean loss: 0.038355
+accuracy: 0.983756
+ -- 300 / 364 --
+mean loss: 0.037141
+accuracy: 0.984357
+train time: 7504.819832
+----
+2022-12-21 17:09:52.121264
+---- EPOCH 088 EVALUATION ----
+eval mean loss: 0.156252
+eval accuracy: 0.964828
+eval avg class acc: 0.915908
+eval mIoU of plant1:	 0.860027
+eval mIoU of plant2:	 0.927971
+eval mIoU of plant3:	 0.792440
+eval mean mIoU: 0.860146
+eval mean mIoU (all shapes): 0.882884
+Model saved in file: log/epoch_88.ckpt
+**** EPOCH 089 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038656
+accuracy: 0.983726
+ -- 200 / 364 --
+mean loss: 0.037929
+accuracy: 0.984032
+ -- 300 / 364 --
+mean loss: 0.038017
+accuracy: 0.983920
+train time: 7589.092775
+----
+2022-12-21 17:12:37.436184
+---- EPOCH 089 EVALUATION ----
+eval mean loss: 0.158895
+eval accuracy: 0.964236
+eval avg class acc: 0.918617
+eval mIoU of plant1:	 0.860616
+eval mIoU of plant2:	 0.926470
+eval mIoU of plant3:	 0.791683
+eval mean mIoU: 0.859590
+eval mean mIoU (all shapes): 0.881960
+**** EPOCH 090 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038230
+accuracy: 0.983835
+ -- 200 / 364 --
+mean loss: 0.037729
+accuracy: 0.984036
+ -- 300 / 364 --
+mean loss: 0.037035
+accuracy: 0.984458
+train time: 7673.377929
+----
+2022-12-21 17:15:22.631573
+---- EPOCH 090 EVALUATION ----
+eval mean loss: 0.159828
+eval accuracy: 0.964701
+eval avg class acc: 0.917680
+eval mIoU of plant1:	 0.861604
+eval mIoU of plant2:	 0.927747
+eval mIoU of plant3:	 0.791584
+eval mean mIoU: 0.860312
+eval mean mIoU (all shapes): 0.882857
+Model saved in file: log/epoch_90.ckpt
+**** EPOCH 091 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037520
+accuracy: 0.984084
+ -- 200 / 364 --
+mean loss: 0.037107
+accuracy: 0.984232
+ -- 300 / 364 --
+mean loss: 0.037417
+accuracy: 0.984087
+train time: 7757.637853
+----
+2022-12-21 17:18:07.917074
+---- EPOCH 091 EVALUATION ----
+eval mean loss: 0.154187
+eval accuracy: 0.964706
+eval avg class acc: 0.915278
+eval mIoU of plant1:	 0.860988
+eval mIoU of plant2:	 0.926793
+eval mIoU of plant3:	 0.790427
+eval mean mIoU: 0.859403
+eval mean mIoU (all shapes): 0.881920
+**** EPOCH 092 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037858
+accuracy: 0.984011
+ -- 200 / 364 --
+mean loss: 0.037859
+accuracy: 0.983989
+ -- 300 / 364 --
+mean loss: 0.036702
+accuracy: 0.984463
+train time: 7842.009396
+----
+2022-12-21 17:20:53.161017
+---- EPOCH 092 EVALUATION ----
+eval mean loss: 0.153421
+eval accuracy: 0.964850
+eval avg class acc: 0.915739
+eval mIoU of plant1:	 0.861692
+eval mIoU of plant2:	 0.927536
+eval mIoU of plant3:	 0.790446
+eval mean mIoU: 0.859891
+eval mean mIoU (all shapes): 0.882484
+Model saved in file: log/epoch_92.ckpt
+**** EPOCH 093 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037857
+accuracy: 0.984001
+ -- 200 / 364 --
+mean loss: 0.037332
+accuracy: 0.984229
+ -- 300 / 364 --
+mean loss: 0.036955
+accuracy: 0.984361
+train time: 7926.261826
+----
+2022-12-21 17:23:38.504962
+---- EPOCH 093 EVALUATION ----
+eval mean loss: 0.153527
+eval accuracy: 0.964311
+eval avg class acc: 0.918379
+eval mIoU of plant1:	 0.860941
+eval mIoU of plant2:	 0.927248
+eval mIoU of plant3:	 0.790599
+eval mean mIoU: 0.859596
+eval mean mIoU (all shapes): 0.882212
+**** EPOCH 094 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037989
+accuracy: 0.983934
+ -- 200 / 364 --
+mean loss: 0.037703
+accuracy: 0.984052
+ -- 300 / 364 --
+mean loss: 0.036573
+accuracy: 0.984527
+train time: 8010.505421
+----
+2022-12-21 17:26:23.748409
+---- EPOCH 094 EVALUATION ----
+eval mean loss: 0.155470
+eval accuracy: 0.964062
+eval avg class acc: 0.918189
+eval mIoU of plant1:	 0.861856
+eval mIoU of plant2:	 0.926248
+eval mIoU of plant3:	 0.788305
+eval mean mIoU: 0.858803
+eval mean mIoU (all shapes): 0.881274
+Model saved in file: log/epoch_94.ckpt
+**** EPOCH 095 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037519
+accuracy: 0.984201
+ -- 200 / 364 --
+mean loss: 0.036942
+accuracy: 0.984440
+ -- 300 / 364 --
+mean loss: 0.037532
+accuracy: 0.984085
+train time: 8094.866820
+----
+2022-12-21 17:29:09.113267
+---- EPOCH 095 EVALUATION ----
+eval mean loss: 0.153993
+eval accuracy: 0.964790
+eval avg class acc: 0.916637
+eval mIoU of plant1:	 0.862211
+eval mIoU of plant2:	 0.928244
+eval mIoU of plant3:	 0.788838
+eval mean mIoU: 0.859764
+eval mean mIoU (all shapes): 0.882609
+**** EPOCH 096 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038396
+accuracy: 0.983761
+ -- 200 / 364 --
+mean loss: 0.038059
+accuracy: 0.983863
+ -- 300 / 364 --
+mean loss: 0.035758
+accuracy: 0.984916
+train time: 8179.353816
+----
+2022-12-21 17:31:54.338743
+---- EPOCH 096 EVALUATION ----
+eval mean loss: 0.160802
+eval accuracy: 0.964722
+eval avg class acc: 0.918357
+eval mIoU of plant1:	 0.859977
+eval mIoU of plant2:	 0.928074
+eval mIoU of plant3:	 0.793151
+eval mean mIoU: 0.860401
+eval mean mIoU (all shapes): 0.883101
+Model saved in file: log/epoch_96.ckpt
+**** EPOCH 097 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037261
+accuracy: 0.984199
+ -- 200 / 364 --
+mean loss: 0.037408
+accuracy: 0.984271
+ -- 300 / 364 --
+mean loss: 0.036977
+accuracy: 0.984463
+train time: 8263.875757
+----
+2022-12-21 17:34:39.669589
+---- EPOCH 097 EVALUATION ----
+eval mean loss: 0.151886
+eval accuracy: 0.963949
+eval avg class acc: 0.919970
+eval mIoU of plant1:	 0.860461
+eval mIoU of plant2:	 0.926449
+eval mIoU of plant3:	 0.791686
+eval mean mIoU: 0.859532
+eval mean mIoU (all shapes): 0.881920
+**** EPOCH 098 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037374
+accuracy: 0.984193
+ -- 200 / 364 --
+mean loss: 0.037732
+accuracy: 0.983953
+ -- 300 / 364 --
+mean loss: 0.036042
+accuracy: 0.984868
+train time: 8348.138878
+----
+2022-12-21 17:37:24.849876
+---- EPOCH 098 EVALUATION ----
+eval mean loss: 0.158518
+eval accuracy: 0.964388
+eval avg class acc: 0.918832
+eval mIoU of plant1:	 0.861607
+eval mIoU of plant2:	 0.926989
+eval mIoU of plant3:	 0.790967
+eval mean mIoU: 0.859854
+eval mean mIoU (all shapes): 0.882278
+Model saved in file: log/epoch_98.ckpt
+**** EPOCH 099 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037859
+accuracy: 0.983970
+ -- 200 / 364 --
+mean loss: 0.036119
+accuracy: 0.984797
+ -- 300 / 364 --
+mean loss: 0.038713
+accuracy: 0.983679
+train time: 8432.538324
+----
+2022-12-21 17:40:10.117761
+---- EPOCH 099 EVALUATION ----
+eval mean loss: 0.162526
+eval accuracy: 0.964662
+eval avg class acc: 0.918328
+eval mIoU of plant1:	 0.861885
+eval mIoU of plant2:	 0.927298
+eval mIoU of plant3:	 0.792880
+eval mean mIoU: 0.860688
+eval mean mIoU (all shapes): 0.882961
+**** EPOCH 100 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036865
+accuracy: 0.984448
+ -- 200 / 364 --
+mean loss: 0.037208
+accuracy: 0.984167
+ -- 300 / 364 --
+mean loss: 0.037268
+accuracy: 0.984209
+train time: 8516.975233
+----
+2022-12-21 17:42:55.313948
+---- EPOCH 100 EVALUATION ----
+eval mean loss: 0.154504
+eval accuracy: 0.964834
+eval avg class acc: 0.918419
+eval mIoU of plant1:	 0.861989
+eval mIoU of plant2:	 0.927525
+eval mIoU of plant3:	 0.794219
+eval mean mIoU: 0.861244
+eval mean mIoU (all shapes): 0.883427
+Model saved in file: log/epoch_100.ckpt
+**** EPOCH 101 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037076
+accuracy: 0.984331
+ -- 200 / 364 --
+mean loss: 0.036995
+accuracy: 0.984373
+ -- 300 / 364 --
+mean loss: 0.037483
+accuracy: 0.984213
+train time: 8601.235948
+----
+2022-12-21 17:45:40.621265
+---- EPOCH 101 EVALUATION ----
+eval mean loss: 0.156350
+eval accuracy: 0.964326
+eval avg class acc: 0.919580
+eval mIoU of plant1:	 0.860133
+eval mIoU of plant2:	 0.927073
+eval mIoU of plant3:	 0.793385
+eval mean mIoU: 0.860197
+eval mean mIoU (all shapes): 0.882614
+**** EPOCH 102 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036843
+accuracy: 0.984406
+ -- 200 / 364 --
+mean loss: 0.036381
+accuracy: 0.984636
+ -- 300 / 364 --
+mean loss: 0.038343
+accuracy: 0.983733
+train time: 8685.545188
+----
+2022-12-21 17:48:25.825437
+---- EPOCH 102 EVALUATION ----
+eval mean loss: 0.155635
+eval accuracy: 0.965034
+eval avg class acc: 0.916156
+eval mIoU of plant1:	 0.862405
+eval mIoU of plant2:	 0.927755
+eval mIoU of plant3:	 0.791875
+eval mean mIoU: 0.860678
+eval mean mIoU (all shapes): 0.883084
+Model saved in file: log/epoch_102.ckpt
+**** EPOCH 103 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037080
+accuracy: 0.984331
+ -- 200 / 364 --
+mean loss: 0.037473
+accuracy: 0.984231
+ -- 300 / 364 --
+mean loss: 0.037139
+accuracy: 0.984260
+train time: 8769.871395
+----
+2022-12-21 17:51:11.127755
+---- EPOCH 103 EVALUATION ----
+eval mean loss: 0.154446
+eval accuracy: 0.964149
+eval avg class acc: 0.920052
+eval mIoU of plant1:	 0.860954
+eval mIoU of plant2:	 0.926652
+eval mIoU of plant3:	 0.794008
+eval mean mIoU: 0.860538
+eval mean mIoU (all shapes): 0.882679
+**** EPOCH 104 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036683
+accuracy: 0.984563
+ -- 200 / 364 --
+mean loss: 0.036622
+accuracy: 0.984581
+ -- 300 / 364 --
+mean loss: 0.038461
+accuracy: 0.983693
+train time: 8854.110734
+----
+2022-12-21 17:53:56.312065
+---- EPOCH 104 EVALUATION ----
+eval mean loss: 0.160837
+eval accuracy: 0.964509
+eval avg class acc: 0.918430
+eval mIoU of plant1:	 0.861977
+eval mIoU of plant2:	 0.927831
+eval mIoU of plant3:	 0.789993
+eval mean mIoU: 0.859934
+eval mean mIoU (all shapes): 0.882601
+Model saved in file: log/epoch_104.ckpt
+**** EPOCH 105 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037570
+accuracy: 0.984110
+ -- 200 / 364 --
+mean loss: 0.036134
+accuracy: 0.984797
+ -- 300 / 364 --
+mean loss: 0.036958
+accuracy: 0.984361
+train time: 8938.403053
+----
+2022-12-21 17:56:41.604327
+---- EPOCH 105 EVALUATION ----
+eval mean loss: 0.155052
+eval accuracy: 0.964567
+eval avg class acc: 0.917829
+eval mIoU of plant1:	 0.862678
+eval mIoU of plant2:	 0.927491
+eval mIoU of plant3:	 0.790730
+eval mean mIoU: 0.860300
+eval mean mIoU (all shapes): 0.882715
+**** EPOCH 106 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036537
+accuracy: 0.984500
+ -- 200 / 364 --
+mean loss: 0.036910
+accuracy: 0.984482
+ -- 300 / 364 --
+mean loss: 0.037877
+accuracy: 0.984119
+train time: 9022.628872
+----
+2022-12-21 17:59:26.827313
+---- EPOCH 106 EVALUATION ----
+eval mean loss: 0.155109
+eval accuracy: 0.964745
+eval avg class acc: 0.917018
+eval mIoU of plant1:	 0.861949
+eval mIoU of plant2:	 0.927434
+eval mIoU of plant3:	 0.792414
+eval mean mIoU: 0.860599
+eval mean mIoU (all shapes): 0.882941
+Model saved in file: log/epoch_106.ckpt
+**** EPOCH 107 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036295
+accuracy: 0.984773
+ -- 200 / 364 --
+mean loss: 0.037230
+accuracy: 0.984158
+ -- 300 / 364 --
+mean loss: 0.037464
+accuracy: 0.984231
+train time: 9106.848677
+----
+2022-12-21 18:02:12.117420
+---- EPOCH 107 EVALUATION ----
+eval mean loss: 0.152751
+eval accuracy: 0.964648
+eval avg class acc: 0.917367
+eval mIoU of plant1:	 0.862704
+eval mIoU of plant2:	 0.928273
+eval mIoU of plant3:	 0.787753
+eval mean mIoU: 0.859577
+eval mean mIoU (all shapes): 0.882464
+**** EPOCH 108 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036506
+accuracy: 0.984559
+ -- 200 / 364 --
+mean loss: 0.036388
+accuracy: 0.984558
+ -- 300 / 364 --
+mean loss: 0.036987
+accuracy: 0.984386
+train time: 9191.182912
+----
+2022-12-21 18:04:57.319457
+---- EPOCH 108 EVALUATION ----
+eval mean loss: 0.149390
+eval accuracy: 0.964732
+eval avg class acc: 0.918692
+eval mIoU of plant1:	 0.861889
+eval mIoU of plant2:	 0.927894
+eval mIoU of plant3:	 0.792005
+eval mean mIoU: 0.860596
+eval mean mIoU (all shapes): 0.883095
+Model saved in file: log/epoch_108.ckpt
+**** EPOCH 109 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037150
+accuracy: 0.984309
+ -- 200 / 364 --
+mean loss: 0.036898
+accuracy: 0.984338
+ -- 300 / 364 --
+mean loss: 0.035926
+accuracy: 0.984876
+train time: 9275.517435
+----
+2022-12-21 18:07:42.620811
+---- EPOCH 109 EVALUATION ----
+eval mean loss: 0.157371
+eval accuracy: 0.964895
+eval avg class acc: 0.919179
+eval mIoU of plant1:	 0.862824
+eval mIoU of plant2:	 0.928115
+eval mIoU of plant3:	 0.794110
+eval mean mIoU: 0.861683
+eval mean mIoU (all shapes): 0.883898
+**** EPOCH 110 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036392
+accuracy: 0.984514
+ -- 200 / 364 --
+mean loss: 0.035986
+accuracy: 0.984835
+ -- 300 / 364 --
+mean loss: 0.037444
+accuracy: 0.984221
+train time: 9359.642473
+----
+2022-12-21 18:10:27.789407
+---- EPOCH 110 EVALUATION ----
+eval mean loss: 0.165384
+eval accuracy: 0.964684
+eval avg class acc: 0.916898
+eval mIoU of plant1:	 0.861315
+eval mIoU of plant2:	 0.928090
+eval mIoU of plant3:	 0.790292
+eval mean mIoU: 0.859899
+eval mean mIoU (all shapes): 0.882692
+Model saved in file: log/epoch_110.ckpt
+**** EPOCH 111 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035689
+accuracy: 0.984998
+ -- 200 / 364 --
+mean loss: 0.036817
+accuracy: 0.984327
+ -- 300 / 364 --
+mean loss: 0.036628
+accuracy: 0.984450
+train time: 9443.763253
+----
+2022-12-21 18:13:13.082125
+---- EPOCH 111 EVALUATION ----
+eval mean loss: 0.154529
+eval accuracy: 0.965009
+eval avg class acc: 0.917692
+eval mIoU of plant1:	 0.862857
+eval mIoU of plant2:	 0.927539
+eval mIoU of plant3:	 0.792830
+eval mean mIoU: 0.861075
+eval mean mIoU (all shapes): 0.883273
+**** EPOCH 112 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036976
+accuracy: 0.984320
+ -- 200 / 364 --
+mean loss: 0.036385
+accuracy: 0.984689
+ -- 300 / 364 --
+mean loss: 0.039517
+accuracy: 0.983877
+train time: 9527.970675
+----
+2022-12-21 18:15:58.306071
+---- EPOCH 112 EVALUATION ----
+eval mean loss: 0.156048
+eval accuracy: 0.964467
+eval avg class acc: 0.917471
+eval mIoU of plant1:	 0.861883
+eval mIoU of plant2:	 0.927145
+eval mIoU of plant3:	 0.791993
+eval mean mIoU: 0.860340
+eval mean mIoU (all shapes): 0.882663
+Model saved in file: log/epoch_112.ckpt
+**** EPOCH 113 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036086
+accuracy: 0.984706
+ -- 200 / 364 --
+mean loss: 0.036354
+accuracy: 0.984686
+ -- 300 / 364 --
+mean loss: 0.037680
+accuracy: 0.984006
+train time: 9612.274361
+----
+2022-12-21 18:18:43.618030
+---- EPOCH 113 EVALUATION ----
+eval mean loss: 0.159916
+eval accuracy: 0.964732
+eval avg class acc: 0.915751
+eval mIoU of plant1:	 0.862780
+eval mIoU of plant2:	 0.927835
+eval mIoU of plant3:	 0.788363
+eval mean mIoU: 0.859659
+eval mean mIoU (all shapes): 0.882372
+**** EPOCH 114 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036320
+accuracy: 0.984658
+ -- 200 / 364 --
+mean loss: 0.037186
+accuracy: 0.984286
+ -- 300 / 364 --
+mean loss: 0.036832
+accuracy: 0.984457
+train time: 9696.924009
+----
+2022-12-21 18:21:28.820522
+---- EPOCH 114 EVALUATION ----
+eval mean loss: 0.156677
+eval accuracy: 0.965124
+eval avg class acc: 0.916616
+eval mIoU of plant1:	 0.862665
+eval mIoU of plant2:	 0.928220
+eval mIoU of plant3:	 0.792771
+eval mean mIoU: 0.861218
+eval mean mIoU (all shapes): 0.883611
+Model saved in file: log/epoch_114.ckpt
+**** EPOCH 115 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036370
+accuracy: 0.984662
+ -- 200 / 364 --
+mean loss: 0.037104
+accuracy: 0.984404
+ -- 300 / 364 --
+mean loss: 0.037434
+accuracy: 0.984082
+train time: 9781.042122
+----
+2022-12-21 18:24:14.141399
+---- EPOCH 115 EVALUATION ----
+eval mean loss: 0.149752
+eval accuracy: 0.964260
+eval avg class acc: 0.918954
+eval mIoU of plant1:	 0.861223
+eval mIoU of plant2:	 0.926833
+eval mIoU of plant3:	 0.792582
+eval mean mIoU: 0.860213
+eval mean mIoU (all shapes): 0.882497
+**** EPOCH 116 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036083
+accuracy: 0.984808
+ -- 200 / 364 --
+mean loss: 0.037218
+accuracy: 0.984167
+ -- 300 / 364 --
+mean loss: 0.036237
+accuracy: 0.984751
+train time: 9865.083537
+----
+2022-12-21 18:26:59.388671
+---- EPOCH 116 EVALUATION ----
+eval mean loss: 0.152771
+eval accuracy: 0.964816
+eval avg class acc: 0.917450
+eval mIoU of plant1:	 0.862481
+eval mIoU of plant2:	 0.928342
+eval mIoU of plant3:	 0.791687
+eval mean mIoU: 0.860837
+eval mean mIoU (all shapes): 0.883390
+Model saved in file: log/epoch_116.ckpt
+**** EPOCH 117 ****
+----
+ -- 100 / 364 --
+mean loss: 0.038560
+accuracy: 0.983789
+ -- 200 / 364 --
+mean loss: 0.036548
+accuracy: 0.984422
+ -- 300 / 364 --
+mean loss: 0.040707
+accuracy: 0.983179
+train time: 9949.224983
+----
+2022-12-21 18:29:44.708636
+---- EPOCH 117 EVALUATION ----
+eval mean loss: 0.152773
+eval accuracy: 0.964962
+eval avg class acc: 0.916693
+eval mIoU of plant1:	 0.861981
+eval mIoU of plant2:	 0.927890
+eval mIoU of plant3:	 0.792270
+eval mean mIoU: 0.860713
+eval mean mIoU (all shapes): 0.883173
+**** EPOCH 118 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036719
+accuracy: 0.984529
+ -- 200 / 364 --
+mean loss: 0.036990
+accuracy: 0.984387
+ -- 300 / 364 --
+mean loss: 0.035714
+accuracy: 0.985022
+train time: 10033.374682
+----
+2022-12-21 18:32:29.919374
+---- EPOCH 118 EVALUATION ----
+eval mean loss: 0.154504
+eval accuracy: 0.964878
+eval avg class acc: 0.917600
+eval mIoU of plant1:	 0.861721
+eval mIoU of plant2:	 0.927941
+eval mIoU of plant3:	 0.793516
+eval mean mIoU: 0.861059
+eval mean mIoU (all shapes): 0.883447
+Model saved in file: log/epoch_118.ckpt
+**** EPOCH 119 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037133
+accuracy: 0.984261
+ -- 200 / 364 --
+mean loss: 0.036339
+accuracy: 0.984636
+ -- 300 / 364 --
+mean loss: 0.036246
+accuracy: 0.984711
+train time: 10117.573303
+----
+2022-12-21 18:35:15.231370
+---- EPOCH 119 EVALUATION ----
+eval mean loss: 0.147297
+eval accuracy: 0.964947
+eval avg class acc: 0.918132
+eval mIoU of plant1:	 0.862059
+eval mIoU of plant2:	 0.928106
+eval mIoU of plant3:	 0.793397
+eval mean mIoU: 0.861187
+eval mean mIoU (all shapes): 0.883578
+**** EPOCH 120 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036736
+accuracy: 0.984497
+ -- 200 / 364 --
+mean loss: 0.036998
+accuracy: 0.984479
+ -- 300 / 364 --
+mean loss: 0.036847
+accuracy: 0.984358
+train time: 10201.615798
+----
+2022-12-21 18:38:00.374142
+---- EPOCH 120 EVALUATION ----
+eval mean loss: 0.160215
+eval accuracy: 0.964786
+eval avg class acc: 0.918786
+eval mIoU of plant1:	 0.862225
+eval mIoU of plant2:	 0.928002
+eval mIoU of plant3:	 0.793530
+eval mean mIoU: 0.861252
+eval mean mIoU (all shapes): 0.883582
+Model saved in file: log/epoch_120.ckpt
+**** EPOCH 121 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035876
+accuracy: 0.984830
+ -- 200 / 364 --
+mean loss: 0.036512
+accuracy: 0.984591
+ -- 300 / 364 --
+mean loss: 0.039096
+accuracy: 0.983860
+train time: 10286.142671
+----
+2022-12-21 18:40:45.768021
+---- EPOCH 121 EVALUATION ----
+eval mean loss: 0.157790
+eval accuracy: 0.964793
+eval avg class acc: 0.918816
+eval mIoU of plant1:	 0.862601
+eval mIoU of plant2:	 0.927862
+eval mIoU of plant3:	 0.792448
+eval mean mIoU: 0.860970
+eval mean mIoU (all shapes): 0.883318
+**** EPOCH 122 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036488
+accuracy: 0.984537
+ -- 200 / 364 --
+mean loss: 0.035941
+accuracy: 0.984745
+ -- 300 / 364 --
+mean loss: 0.037078
+accuracy: 0.984412
+train time: 10370.230491
+----
+2022-12-21 18:43:30.992431
+---- EPOCH 122 EVALUATION ----
+eval mean loss: 0.173264
+eval accuracy: 0.964690
+eval avg class acc: 0.918735
+eval mIoU of plant1:	 0.861942
+eval mIoU of plant2:	 0.927574
+eval mIoU of plant3:	 0.793694
+eval mean mIoU: 0.861070
+eval mean mIoU (all shapes): 0.883321
+Model saved in file: log/epoch_122.ckpt
+**** EPOCH 123 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036387
+accuracy: 0.984552
+ -- 200 / 364 --
+mean loss: 0.036979
+accuracy: 0.984394
+ -- 300 / 364 --
+mean loss: 0.036558
+accuracy: 0.984620
+train time: 10454.451286
+----
+2022-12-21 18:46:16.363537
+---- EPOCH 123 EVALUATION ----
+eval mean loss: 0.161329
+eval accuracy: 0.964882
+eval avg class acc: 0.918525
+eval mIoU of plant1:	 0.862096
+eval mIoU of plant2:	 0.927882
+eval mIoU of plant3:	 0.794568
+eval mean mIoU: 0.861515
+eval mean mIoU (all shapes): 0.883733
+**** EPOCH 124 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036139
+accuracy: 0.984793
+ -- 200 / 364 --
+mean loss: 0.037450
+accuracy: 0.984196
+ -- 300 / 364 --
+mean loss: 0.036346
+accuracy: 0.984668
+train time: 10538.464274
+----
+2022-12-21 18:49:01.559312
+---- EPOCH 124 EVALUATION ----
+eval mean loss: 0.169437
+eval accuracy: 0.964731
+eval avg class acc: 0.919863
+eval mIoU of plant1:	 0.862270
+eval mIoU of plant2:	 0.927475
+eval mIoU of plant3:	 0.794939
+eval mean mIoU: 0.861561
+eval mean mIoU (all shapes): 0.883622
+Model saved in file: log/epoch_124.ckpt
+**** EPOCH 125 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035821
+accuracy: 0.984882
+ -- 200 / 364 --
+mean loss: 0.036543
+accuracy: 0.984525
+ -- 300 / 364 --
+mean loss: 0.036757
+accuracy: 0.984467
+train time: 10622.722907
+----
+2022-12-21 18:51:46.880244
+---- EPOCH 125 EVALUATION ----
+eval mean loss: 0.158059
+eval accuracy: 0.964766
+eval avg class acc: 0.917525
+eval mIoU of plant1:	 0.862152
+eval mIoU of plant2:	 0.927636
+eval mIoU of plant3:	 0.792682
+eval mean mIoU: 0.860823
+eval mean mIoU (all shapes): 0.883158
+**** EPOCH 126 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036169
+accuracy: 0.984804
+ -- 200 / 364 --
+mean loss: 0.036823
+accuracy: 0.984391
+ -- 300 / 364 --
+mean loss: 0.036645
+accuracy: 0.984485
+train time: 10706.939247
+----
+2022-12-21 18:54:32.045860
+---- EPOCH 126 EVALUATION ----
+eval mean loss: 0.162932
+eval accuracy: 0.964411
+eval avg class acc: 0.920065
+eval mIoU of plant1:	 0.861026
+eval mIoU of plant2:	 0.927828
+eval mIoU of plant3:	 0.792998
+eval mean mIoU: 0.860617
+eval mean mIoU (all shapes): 0.883126
+Model saved in file: log/epoch_126.ckpt
+**** EPOCH 127 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035273
+accuracy: 0.985144
+ -- 200 / 364 --
+mean loss: 0.036950
+accuracy: 0.984318
+ -- 300 / 364 --
+mean loss: 0.037389
+accuracy: 0.984127
+train time: 10790.926730
+----
+2022-12-21 18:57:17.354274
+---- EPOCH 127 EVALUATION ----
+eval mean loss: 0.167248
+eval accuracy: 0.964651
+eval avg class acc: 0.918849
+eval mIoU of plant1:	 0.861417
+eval mIoU of plant2:	 0.927298
+eval mIoU of plant3:	 0.794195
+eval mean mIoU: 0.860970
+eval mean mIoU (all shapes): 0.883181
+**** EPOCH 128 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036252
+accuracy: 0.984713
+ -- 200 / 364 --
+mean loss: 0.036115
+accuracy: 0.984747
+ -- 300 / 364 --
+mean loss: 0.036766
+accuracy: 0.984470
+train time: 10875.074285
+----
+2022-12-21 19:00:02.583820
+---- EPOCH 128 EVALUATION ----
+eval mean loss: 0.156848
+eval accuracy: 0.964980
+eval avg class acc: 0.917758
+eval mIoU of plant1:	 0.862299
+eval mIoU of plant2:	 0.927651
+eval mIoU of plant3:	 0.793687
+eval mean mIoU: 0.861212
+eval mean mIoU (all shapes): 0.883432
+Model saved in file: log/epoch_128.ckpt
+**** EPOCH 129 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036413
+accuracy: 0.984619
+ -- 200 / 364 --
+mean loss: 0.036673
+accuracy: 0.984507
+ -- 300 / 364 --
+mean loss: 0.037195
+accuracy: 0.984291
+train time: 10959.178976
+----
+2022-12-21 19:02:47.901913
+---- EPOCH 129 EVALUATION ----
+eval mean loss: 0.150336
+eval accuracy: 0.964794
+eval avg class acc: 0.919277
+eval mIoU of plant1:	 0.861660
+eval mIoU of plant2:	 0.927957
+eval mIoU of plant3:	 0.793594
+eval mean mIoU: 0.861070
+eval mean mIoU (all shapes): 0.883462
+**** EPOCH 130 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035840
+accuracy: 0.984968
+ -- 200 / 364 --
+mean loss: 0.036295
+accuracy: 0.984586
+ -- 300 / 364 --
+mean loss: 0.037313
+accuracy: 0.984211
+train time: 11043.263535
+----
+2022-12-21 19:05:33.116649
+---- EPOCH 130 EVALUATION ----
+eval mean loss: 0.153927
+eval accuracy: 0.964889
+eval avg class acc: 0.918166
+eval mIoU of plant1:	 0.861555
+eval mIoU of plant2:	 0.927876
+eval mIoU of plant3:	 0.793778
+eval mean mIoU: 0.861070
+eval mean mIoU (all shapes): 0.883440
+Model saved in file: log/epoch_130.ckpt
+**** EPOCH 131 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036518
+accuracy: 0.984588
+ -- 200 / 364 --
+mean loss: 0.036454
+accuracy: 0.984616
+ -- 300 / 364 --
+mean loss: 0.036894
+accuracy: 0.984281
+train time: 11127.524066
+----
+2022-12-21 19:08:18.404865
+---- EPOCH 131 EVALUATION ----
+eval mean loss: 0.161151
+eval accuracy: 0.964943
+eval avg class acc: 0.917612
+eval mIoU of plant1:	 0.862702
+eval mIoU of plant2:	 0.928186
+eval mIoU of plant3:	 0.792010
+eval mean mIoU: 0.860966
+eval mean mIoU (all shapes): 0.883419
+**** EPOCH 132 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036713
+accuracy: 0.984449
+ -- 200 / 364 --
+mean loss: 0.035507
+accuracy: 0.985008
+ -- 300 / 364 --
+mean loss: 0.036306
+accuracy: 0.984634
+train time: 11211.741958
+----
+2022-12-21 19:11:03.610084
+---- EPOCH 132 EVALUATION ----
+eval mean loss: 0.164227
+eval accuracy: 0.964823
+eval avg class acc: 0.917926
+eval mIoU of plant1:	 0.861622
+eval mIoU of plant2:	 0.927684
+eval mIoU of plant3:	 0.794339
+eval mean mIoU: 0.861215
+eval mean mIoU (all shapes): 0.883475
+Model saved in file: log/epoch_132.ckpt
+**** EPOCH 133 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036077
+accuracy: 0.984866
+ -- 200 / 364 --
+mean loss: 0.036465
+accuracy: 0.984668
+ -- 300 / 364 --
+mean loss: 0.037185
+accuracy: 0.984235
+train time: 11295.979456
+----
+2022-12-21 19:13:48.918530
+---- EPOCH 133 EVALUATION ----
+eval mean loss: 0.155295
+eval accuracy: 0.965185
+eval avg class acc: 0.917453
+eval mIoU of plant1:	 0.862413
+eval mIoU of plant2:	 0.928394
+eval mIoU of plant3:	 0.794340
+eval mean mIoU: 0.861716
+eval mean mIoU (all shapes): 0.884033
+**** EPOCH 134 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036300
+accuracy: 0.984594
+ -- 200 / 364 --
+mean loss: 0.036354
+accuracy: 0.984692
+ -- 300 / 364 --
+mean loss: 0.036898
+accuracy: 0.984452
+train time: 11380.281108
+----
+2022-12-21 19:16:34.132944
+---- EPOCH 134 EVALUATION ----
+eval mean loss: 0.158924
+eval accuracy: 0.965011
+eval avg class acc: 0.915415
+eval mIoU of plant1:	 0.862045
+eval mIoU of plant2:	 0.927604
+eval mIoU of plant3:	 0.791642
+eval mean mIoU: 0.860431
+eval mean mIoU (all shapes): 0.882874
+Model saved in file: log/epoch_134.ckpt
+**** EPOCH 135 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036203
+accuracy: 0.984795
+ -- 200 / 364 --
+mean loss: 0.036909
+accuracy: 0.984311
+ -- 300 / 364 --
+mean loss: 0.036532
+accuracy: 0.984519
+train time: 11464.473471
+----
+2022-12-21 19:19:19.444392
+---- EPOCH 135 EVALUATION ----
+eval mean loss: 0.146252
+eval accuracy: 0.965100
+eval avg class acc: 0.917908
+eval mIoU of plant1:	 0.862332
+eval mIoU of plant2:	 0.927977
+eval mIoU of plant3:	 0.794770
+eval mean mIoU: 0.861693
+eval mean mIoU (all shapes): 0.883881
+**** EPOCH 136 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035263
+accuracy: 0.985154
+ -- 200 / 364 --
+mean loss: 0.037179
+accuracy: 0.984326
+ -- 300 / 364 --
+mean loss: 0.036582
+accuracy: 0.984493
+train time: 11548.774365
+----
+2022-12-21 19:22:04.681368
+---- EPOCH 136 EVALUATION ----
+eval mean loss: 0.161983
+eval accuracy: 0.964800
+eval avg class acc: 0.917451
+eval mIoU of plant1:	 0.861201
+eval mIoU of plant2:	 0.927830
+eval mIoU of plant3:	 0.792907
+eval mean mIoU: 0.860646
+eval mean mIoU (all shapes): 0.883139
+Model saved in file: log/epoch_136.ckpt
+**** EPOCH 137 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037161
+accuracy: 0.984246
+ -- 200 / 364 --
+mean loss: 0.035027
+accuracy: 0.985342
+ -- 300 / 364 --
+mean loss: 0.036547
+accuracy: 0.984536
+train time: 11633.309284
+----
+2022-12-21 19:24:50.009771
+---- EPOCH 137 EVALUATION ----
+eval mean loss: 0.152649
+eval accuracy: 0.964841
+eval avg class acc: 0.918563
+eval mIoU of plant1:	 0.861864
+eval mIoU of plant2:	 0.928239
+eval mIoU of plant3:	 0.793081
+eval mean mIoU: 0.861061
+eval mean mIoU (all shapes): 0.883542
+**** EPOCH 138 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036115
+accuracy: 0.984618
+ -- 200 / 364 --
+mean loss: 0.037204
+accuracy: 0.984290
+ -- 300 / 364 --
+mean loss: 0.036485
+accuracy: 0.984650
+train time: 11717.545094
+----
+2022-12-21 19:27:35.204258
+---- EPOCH 138 EVALUATION ----
+eval mean loss: 0.153826
+eval accuracy: 0.964913
+eval avg class acc: 0.916701
+eval mIoU of plant1:	 0.862484
+eval mIoU of plant2:	 0.927902
+eval mIoU of plant3:	 0.791538
+eval mean mIoU: 0.860641
+eval mean mIoU (all shapes): 0.883104
+Model saved in file: log/epoch_138.ckpt
+**** EPOCH 139 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036612
+accuracy: 0.984498
+ -- 200 / 364 --
+mean loss: 0.035935
+accuracy: 0.984891
+ -- 300 / 364 --
+mean loss: 0.036267
+accuracy: 0.984628
+train time: 11801.701558
+----
+2022-12-21 19:30:20.536765
+---- EPOCH 139 EVALUATION ----
+eval mean loss: 0.151135
+eval accuracy: 0.965073
+eval avg class acc: 0.919199
+eval mIoU of plant1:	 0.862054
+eval mIoU of plant2:	 0.928832
+eval mIoU of plant3:	 0.792872
+eval mean mIoU: 0.861253
+eval mean mIoU (all shapes): 0.883868
+**** EPOCH 140 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036277
+accuracy: 0.984660
+ -- 200 / 364 --
+mean loss: 0.036674
+accuracy: 0.984477
+ -- 300 / 364 --
+mean loss: 0.036054
+accuracy: 0.984861
+train time: 11885.808249
+----
+2022-12-21 19:33:05.720847
+---- EPOCH 140 EVALUATION ----
+eval mean loss: 0.154313
+eval accuracy: 0.965154
+eval avg class acc: 0.917857
+eval mIoU of plant1:	 0.862532
+eval mIoU of plant2:	 0.928610
+eval mIoU of plant3:	 0.792887
+eval mean mIoU: 0.861343
+eval mean mIoU (all shapes): 0.883836
+Model saved in file: log/epoch_140.ckpt
+**** EPOCH 141 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036892
+accuracy: 0.984348
+ -- 200 / 364 --
+mean loss: 0.035796
+accuracy: 0.984930
+ -- 300 / 364 --
+mean loss: 0.042796
+accuracy: 0.982716
+train time: 11970.123126
+----
+2022-12-21 19:35:51.032004
+---- EPOCH 141 EVALUATION ----
+eval mean loss: 0.149218
+eval accuracy: 0.965017
+eval avg class acc: 0.917923
+eval mIoU of plant1:	 0.863085
+eval mIoU of plant2:	 0.928382
+eval mIoU of plant3:	 0.792079
+eval mean mIoU: 0.861182
+eval mean mIoU (all shapes): 0.883621
+**** EPOCH 142 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036499
+accuracy: 0.984570
+ -- 200 / 364 --
+mean loss: 0.035770
+accuracy: 0.984927
+ -- 300 / 364 --
+mean loss: 0.036546
+accuracy: 0.984416
+train time: 12054.301631
+----
+2022-12-21 19:38:36.260438
+---- EPOCH 142 EVALUATION ----
+eval mean loss: 0.152846
+eval accuracy: 0.964940
+eval avg class acc: 0.919285
+eval mIoU of plant1:	 0.862574
+eval mIoU of plant2:	 0.928075
+eval mIoU of plant3:	 0.794686
+eval mean mIoU: 0.861778
+eval mean mIoU (all shapes): 0.883964
+Model saved in file: log/epoch_142.ckpt
+**** EPOCH 143 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035612
+accuracy: 0.984955
+ -- 200 / 364 --
+mean loss: 0.036899
+accuracy: 0.984323
+ -- 300 / 364 --
+mean loss: 0.036934
+accuracy: 0.984385
+train time: 12138.683867
+----
+2022-12-21 19:41:21.570987
+---- EPOCH 143 EVALUATION ----
+eval mean loss: 0.152442
+eval accuracy: 0.964717
+eval avg class acc: 0.918419
+eval mIoU of plant1:	 0.861823
+eval mIoU of plant2:	 0.927638
+eval mIoU of plant3:	 0.793148
+eval mean mIoU: 0.860869
+eval mean mIoU (all shapes): 0.883206
+**** EPOCH 144 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036092
+accuracy: 0.984725
+ -- 200 / 364 --
+mean loss: 0.036068
+accuracy: 0.984766
+ -- 300 / 364 --
+mean loss: 0.036285
+accuracy: 0.984753
+train time: 12222.837577
+----
+2022-12-21 19:44:06.786806
+---- EPOCH 144 EVALUATION ----
+eval mean loss: 0.161476
+eval accuracy: 0.964722
+eval avg class acc: 0.917467
+eval mIoU of plant1:	 0.861795
+eval mIoU of plant2:	 0.928045
+eval mIoU of plant3:	 0.791245
+eval mean mIoU: 0.860361
+eval mean mIoU (all shapes): 0.882984
+Model saved in file: log/epoch_144.ckpt
+**** EPOCH 145 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037146
+accuracy: 0.984310
+ -- 200 / 364 --
+mean loss: 0.035938
+accuracy: 0.984802
+ -- 300 / 364 --
+mean loss: 0.035622
+accuracy: 0.985041
+train time: 12307.082482
+----
+2022-12-21 19:46:52.116279
+---- EPOCH 145 EVALUATION ----
+eval mean loss: 0.170808
+eval accuracy: 0.964669
+eval avg class acc: 0.918269
+eval mIoU of plant1:	 0.861821
+eval mIoU of plant2:	 0.927566
+eval mIoU of plant3:	 0.792289
+eval mean mIoU: 0.860559
+eval mean mIoU (all shapes): 0.882962
+**** EPOCH 146 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036076
+accuracy: 0.984722
+ -- 200 / 364 --
+mean loss: 0.035574
+accuracy: 0.984957
+ -- 300 / 364 --
+mean loss: 0.036764
+accuracy: 0.984457
+train time: 12391.271226
+----
+2022-12-21 19:49:37.334609
+---- EPOCH 146 EVALUATION ----
+eval mean loss: 0.163691
+eval accuracy: 0.965021
+eval avg class acc: 0.918333
+eval mIoU of plant1:	 0.861749
+eval mIoU of plant2:	 0.928469
+eval mIoU of plant3:	 0.794244
+eval mean mIoU: 0.861487
+eval mean mIoU (all shapes): 0.883925
+Model saved in file: log/epoch_146.ckpt
+**** EPOCH 147 ****
+----
+ -- 100 / 364 --
+mean loss: 0.182491
+accuracy: 0.977457
+ -- 200 / 364 --
+mean loss: 0.036279
+accuracy: 0.984720
+ -- 300 / 364 --
+mean loss: 0.036574
+accuracy: 0.984597
+train time: 12475.402237
+----
+2022-12-21 19:52:22.666690
+---- EPOCH 147 EVALUATION ----
+eval mean loss: 0.157618
+eval accuracy: 0.965041
+eval avg class acc: 0.918833
+eval mIoU of plant1:	 0.862486
+eval mIoU of plant2:	 0.928140
+eval mIoU of plant3:	 0.794508
+eval mean mIoU: 0.861711
+eval mean mIoU (all shapes): 0.883942
+**** EPOCH 148 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036728
+accuracy: 0.984453
+ -- 200 / 364 --
+mean loss: 0.038064
+accuracy: 0.984043
+ -- 300 / 364 --
+mean loss: 0.036152
+accuracy: 0.984678
+train time: 12559.630713
+----
+2022-12-21 19:55:07.837478
+---- EPOCH 148 EVALUATION ----
+eval mean loss: 0.162993
+eval accuracy: 0.965056
+eval avg class acc: 0.917749
+eval mIoU of plant1:	 0.862019
+eval mIoU of plant2:	 0.928443
+eval mIoU of plant3:	 0.793782
+eval mean mIoU: 0.861414
+eval mean mIoU (all shapes): 0.883853
+Model saved in file: log/epoch_148.ckpt
+**** EPOCH 149 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035538
+accuracy: 0.985038
+ -- 200 / 364 --
+mean loss: 0.036035
+accuracy: 0.984790
+ -- 300 / 364 --
+mean loss: 0.037723
+accuracy: 0.983993
+train time: 12643.848500
+----
+2022-12-21 19:57:53.164116
+---- EPOCH 149 EVALUATION ----
+eval mean loss: 0.158364
+eval accuracy: 0.965030
+eval avg class acc: 0.917558
+eval mIoU of plant1:	 0.863125
+eval mIoU of plant2:	 0.928322
+eval mIoU of plant3:	 0.791481
+eval mean mIoU: 0.860976
+eval mean mIoU (all shapes): 0.883454
+**** EPOCH 150 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036111
+accuracy: 0.984737
+ -- 200 / 364 --
+mean loss: 0.035735
+accuracy: 0.984925
+ -- 300 / 364 --
+mean loss: 0.036412
+accuracy: 0.984502
+train time: 12728.251929
+----
+2022-12-21 20:00:38.395482
+---- EPOCH 150 EVALUATION ----
+eval mean loss: 0.166713
+eval accuracy: 0.964921
+eval avg class acc: 0.918559
+eval mIoU of plant1:	 0.861797
+eval mIoU of plant2:	 0.928562
+eval mIoU of plant3:	 0.793118
+eval mean mIoU: 0.861159
+eval mean mIoU (all shapes): 0.883722
+Model saved in file: log/epoch_150.ckpt
+**** EPOCH 151 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036365
+accuracy: 0.984577
+ -- 200 / 364 --
+mean loss: 0.035711
+accuracy: 0.984867
+ -- 300 / 364 --
+mean loss: 0.036405
+accuracy: 0.984569
+train time: 12812.354301
+----
+2022-12-21 20:03:23.721704
+---- EPOCH 151 EVALUATION ----
+eval mean loss: 0.154166
+eval accuracy: 0.964977
+eval avg class acc: 0.916899
+eval mIoU of plant1:	 0.861081
+eval mIoU of plant2:	 0.928081
+eval mIoU of plant3:	 0.793803
+eval mean mIoU: 0.860988
+eval mean mIoU (all shapes): 0.883471
+**** EPOCH 152 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035851
+accuracy: 0.984915
+ -- 200 / 364 --
+mean loss: 0.035874
+accuracy: 0.984826
+ -- 300 / 364 --
+mean loss: 0.037060
+accuracy: 0.984296
+train time: 12896.555712
+----
+2022-12-21 20:06:08.947480
+---- EPOCH 152 EVALUATION ----
+eval mean loss: 0.151615
+eval accuracy: 0.964863
+eval avg class acc: 0.920196
+eval mIoU of plant1:	 0.861165
+eval mIoU of plant2:	 0.927987
+eval mIoU of plant3:	 0.796872
+eval mean mIoU: 0.862008
+eval mean mIoU (all shapes): 0.884159
+Model saved in file: log/epoch_152.ckpt
+**** EPOCH 153 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036319
+accuracy: 0.984682
+ -- 200 / 364 --
+mean loss: 0.036320
+accuracy: 0.984727
+ -- 300 / 364 --
+mean loss: 0.035927
+accuracy: 0.984748
+train time: 12980.891289
+----
+2022-12-21 20:08:54.312520
+---- EPOCH 153 EVALUATION ----
+eval mean loss: 0.150309
+eval accuracy: 0.964800
+eval avg class acc: 0.917141
+eval mIoU of plant1:	 0.861953
+eval mIoU of plant2:	 0.927587
+eval mIoU of plant3:	 0.792228
+eval mean mIoU: 0.860589
+eval mean mIoU (all shapes): 0.882984
+**** EPOCH 154 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036046
+accuracy: 0.984827
+ -- 200 / 364 --
+mean loss: 0.037058
+accuracy: 0.984284
+ -- 300 / 364 --
+mean loss: 0.035820
+accuracy: 0.984832
+train time: 13065.087243
+----
+2022-12-21 20:11:39.534956
+---- EPOCH 154 EVALUATION ----
+eval mean loss: 0.156144
+eval accuracy: 0.964983
+eval avg class acc: 0.919224
+eval mIoU of plant1:	 0.861240
+eval mIoU of plant2:	 0.928574
+eval mIoU of plant3:	 0.794903
+eval mean mIoU: 0.861572
+eval mean mIoU (all shapes): 0.884043
+Model saved in file: log/epoch_154.ckpt
+**** EPOCH 155 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036185
+accuracy: 0.984651
+ -- 200 / 364 --
+mean loss: 0.035894
+accuracy: 0.984880
+ -- 300 / 364 --
+mean loss: 0.036170
+accuracy: 0.984743
+train time: 13149.355737
+----
+2022-12-21 20:14:24.863479
+---- EPOCH 155 EVALUATION ----
+eval mean loss: 0.159886
+eval accuracy: 0.964858
+eval avg class acc: 0.917192
+eval mIoU of plant1:	 0.861456
+eval mIoU of plant2:	 0.927362
+eval mIoU of plant3:	 0.794042
+eval mean mIoU: 0.860954
+eval mean mIoU (all shapes): 0.883189
+**** EPOCH 156 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036712
+accuracy: 0.984462
+ -- 200 / 364 --
+mean loss: 0.036325
+accuracy: 0.984588
+ -- 300 / 364 --
+mean loss: 0.035908
+accuracy: 0.984876
+train time: 13233.821036
+----
+2022-12-21 20:17:10.089279
+---- EPOCH 156 EVALUATION ----
+eval mean loss: 0.152137
+eval accuracy: 0.965067
+eval avg class acc: 0.917297
+eval mIoU of plant1:	 0.862396
+eval mIoU of plant2:	 0.927650
+eval mIoU of plant3:	 0.794140
+eval mean mIoU: 0.861395
+eval mean mIoU (all shapes): 0.883558
+Model saved in file: log/epoch_156.ckpt
+**** EPOCH 157 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036513
+accuracy: 0.984640
+ -- 200 / 364 --
+mean loss: 0.035636
+accuracy: 0.984942
+ -- 300 / 364 --
+mean loss: 0.035923
+accuracy: 0.984802
+train time: 13317.967310
+----
+2022-12-21 20:19:55.416209
+---- EPOCH 157 EVALUATION ----
+eval mean loss: 0.155737
+eval accuracy: 0.964847
+eval avg class acc: 0.917611
+eval mIoU of plant1:	 0.861813
+eval mIoU of plant2:	 0.927925
+eval mIoU of plant3:	 0.791978
+eval mean mIoU: 0.860572
+eval mean mIoU (all shapes): 0.883092
+**** EPOCH 158 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036816
+accuracy: 0.984373
+ -- 200 / 364 --
+mean loss: 0.036279
+accuracy: 0.984709
+ -- 300 / 364 --
+mean loss: 0.036331
+accuracy: 0.984684
+train time: 13402.067577
+----
+2022-12-21 20:22:40.665338
+---- EPOCH 158 EVALUATION ----
+eval mean loss: 0.155714
+eval accuracy: 0.964892
+eval avg class acc: 0.918826
+eval mIoU of plant1:	 0.861227
+eval mIoU of plant2:	 0.927857
+eval mIoU of plant3:	 0.794954
+eval mean mIoU: 0.861346
+eval mean mIoU (all shapes): 0.883643
+Model saved in file: log/epoch_158.ckpt
+**** EPOCH 159 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036565
+accuracy: 0.984585
+ -- 200 / 364 --
+mean loss: 0.036939
+accuracy: 0.984482
+ -- 300 / 364 --
+mean loss: 0.036286
+accuracy: 0.984642
+train time: 13486.337139
+----
+2022-12-21 20:25:25.960622
+---- EPOCH 159 EVALUATION ----
+eval mean loss: 0.158420
+eval accuracy: 0.964916
+eval avg class acc: 0.918121
+eval mIoU of plant1:	 0.862209
+eval mIoU of plant2:	 0.928049
+eval mIoU of plant3:	 0.793378
+eval mean mIoU: 0.861212
+eval mean mIoU (all shapes): 0.883570
+**** EPOCH 160 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036508
+accuracy: 0.984547
+ -- 200 / 364 --
+mean loss: 0.036513
+accuracy: 0.984621
+ -- 300 / 364 --
+mean loss: 0.035340
+accuracy: 0.985004
+train time: 13570.518938
+----
+2022-12-21 20:28:11.240934
+---- EPOCH 160 EVALUATION ----
+eval mean loss: 0.156140
+eval accuracy: 0.964868
+eval avg class acc: 0.920032
+eval mIoU of plant1:	 0.861434
+eval mIoU of plant2:	 0.928562
+eval mIoU of plant3:	 0.794594
+eval mean mIoU: 0.861530
+eval mean mIoU (all shapes): 0.884001
+Model saved in file: log/epoch_160.ckpt
+**** EPOCH 161 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035748
+accuracy: 0.984919
+ -- 200 / 364 --
+mean loss: 0.035622
+accuracy: 0.984894
+ -- 300 / 364 --
+mean loss: 0.036712
+accuracy: 0.984564
+train time: 13654.642043
+----
+2022-12-21 20:30:56.611603
+---- EPOCH 161 EVALUATION ----
+eval mean loss: 0.155231
+eval accuracy: 0.964638
+eval avg class acc: 0.919141
+eval mIoU of plant1:	 0.861858
+eval mIoU of plant2:	 0.927535
+eval mIoU of plant3:	 0.792991
+eval mean mIoU: 0.860794
+eval mean mIoU (all shapes): 0.883117
+**** EPOCH 162 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035924
+accuracy: 0.984808
+ -- 200 / 364 --
+mean loss: 0.035991
+accuracy: 0.984813
+ -- 300 / 364 --
+mean loss: 0.036303
+accuracy: 0.984685
+train time: 13738.796626
+----
+2022-12-21 20:33:41.853347
+---- EPOCH 162 EVALUATION ----
+eval mean loss: 0.155221
+eval accuracy: 0.965070
+eval avg class acc: 0.918045
+eval mIoU of plant1:	 0.862017
+eval mIoU of plant2:	 0.927910
+eval mIoU of plant3:	 0.794759
+eval mean mIoU: 0.861562
+eval mean mIoU (all shapes): 0.883779
+Model saved in file: log/epoch_162.ckpt
+**** EPOCH 163 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036271
+accuracy: 0.984655
+ -- 200 / 364 --
+mean loss: 0.035697
+accuracy: 0.984963
+ -- 300 / 364 --
+mean loss: 0.036200
+accuracy: 0.984672
+train time: 13822.974010
+----
+2022-12-21 20:36:27.219467
+---- EPOCH 163 EVALUATION ----
+eval mean loss: 0.153800
+eval accuracy: 0.964778
+eval avg class acc: 0.919869
+eval mIoU of plant1:	 0.862099
+eval mIoU of plant2:	 0.927982
+eval mIoU of plant3:	 0.794077
+eval mean mIoU: 0.861386
+eval mean mIoU (all shapes): 0.883675
+**** EPOCH 164 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037100
+accuracy: 0.984345
+ -- 200 / 364 --
+mean loss: 0.035952
+accuracy: 0.984825
+ -- 300 / 364 --
+mean loss: 0.035094
+accuracy: 0.985191
+train time: 13907.212428
+----
+2022-12-21 20:39:12.405883
+---- EPOCH 164 EVALUATION ----
+eval mean loss: 0.164922
+eval accuracy: 0.964797
+eval avg class acc: 0.919165
+eval mIoU of plant1:	 0.861721
+eval mIoU of plant2:	 0.928126
+eval mIoU of plant3:	 0.793860
+eval mean mIoU: 0.861236
+eval mean mIoU (all shapes): 0.883633
+Model saved in file: log/epoch_164.ckpt
+**** EPOCH 165 ****
+----
+ -- 100 / 364 --
+mean loss: 0.049077
+accuracy: 0.981034
+ -- 200 / 364 --
+mean loss: 0.037511
+accuracy: 0.984220
+ -- 300 / 364 --
+mean loss: 0.035557
+accuracy: 0.985031
+train time: 13991.302480
+----
+2022-12-21 20:41:57.802595
+---- EPOCH 165 EVALUATION ----
+eval mean loss: 0.161762
+eval accuracy: 0.965110
+eval avg class acc: 0.918713
+eval mIoU of plant1:	 0.862830
+eval mIoU of plant2:	 0.928252
+eval mIoU of plant3:	 0.793943
+eval mean mIoU: 0.861675
+eval mean mIoU (all shapes): 0.883938
+**** EPOCH 166 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036360
+accuracy: 0.984663
+ -- 200 / 364 --
+mean loss: 0.036134
+accuracy: 0.984727
+ -- 300 / 364 --
+mean loss: 0.036109
+accuracy: 0.984745
+train time: 14075.465900
+----
+2022-12-21 20:44:43.063847
+---- EPOCH 166 EVALUATION ----
+eval mean loss: 0.153858
+eval accuracy: 0.964918
+eval avg class acc: 0.918904
+eval mIoU of plant1:	 0.862007
+eval mIoU of plant2:	 0.927368
+eval mIoU of plant3:	 0.796242
+eval mean mIoU: 0.861872
+eval mean mIoU (all shapes): 0.883818
+Model saved in file: log/epoch_166.ckpt
+**** EPOCH 167 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035906
+accuracy: 0.984928
+ -- 200 / 364 --
+mean loss: 0.036878
+accuracy: 0.984340
+ -- 300 / 364 --
+mean loss: 0.035940
+accuracy: 0.984820
+train time: 14159.678981
+----
+2022-12-21 20:47:28.408365
+---- EPOCH 167 EVALUATION ----
+eval mean loss: 0.160780
+eval accuracy: 0.965212
+eval avg class acc: 0.918126
+eval mIoU of plant1:	 0.862569
+eval mIoU of plant2:	 0.928377
+eval mIoU of plant3:	 0.794312
+eval mean mIoU: 0.861753
+eval mean mIoU (all shapes): 0.884047
+**** EPOCH 168 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036913
+accuracy: 0.984440
+ -- 200 / 364 --
+mean loss: 0.036040
+accuracy: 0.984729
+ -- 300 / 364 --
+mean loss: 0.036235
+accuracy: 0.984651
+train time: 14243.874639
+----
+2022-12-21 20:50:13.654125
+---- EPOCH 168 EVALUATION ----
+eval mean loss: 0.173596
+eval accuracy: 0.964941
+eval avg class acc: 0.919158
+eval mIoU of plant1:	 0.861641
+eval mIoU of plant2:	 0.928242
+eval mIoU of plant3:	 0.794520
+eval mean mIoU: 0.861468
+eval mean mIoU (all shapes): 0.883841
+Model saved in file: log/epoch_168.ckpt
+**** EPOCH 169 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037025
+accuracy: 0.984267
+ -- 200 / 364 --
+mean loss: 0.036436
+accuracy: 0.984729
+ -- 300 / 364 --
+mean loss: 0.034929
+accuracy: 0.985280
+train time: 14328.150254
+----
+2022-12-21 20:52:59.029930
+---- EPOCH 169 EVALUATION ----
+eval mean loss: 0.162238
+eval accuracy: 0.964778
+eval avg class acc: 0.918311
+eval mIoU of plant1:	 0.861230
+eval mIoU of plant2:	 0.928241
+eval mIoU of plant3:	 0.793287
+eval mean mIoU: 0.860919
+eval mean mIoU (all shapes): 0.883469
+**** EPOCH 170 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035837
+accuracy: 0.984902
+ -- 200 / 364 --
+mean loss: 0.036287
+accuracy: 0.984730
+ -- 300 / 364 --
+mean loss: 0.036441
+accuracy: 0.984608
+train time: 14412.265063
+----
+2022-12-21 20:55:44.267932
+---- EPOCH 170 EVALUATION ----
+eval mean loss: 0.154125
+eval accuracy: 0.965047
+eval avg class acc: 0.916804
+eval mIoU of plant1:	 0.861340
+eval mIoU of plant2:	 0.928075
+eval mIoU of plant3:	 0.793067
+eval mean mIoU: 0.860827
+eval mean mIoU (all shapes): 0.883344
+Model saved in file: log/epoch_170.ckpt
+**** EPOCH 171 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035475
+accuracy: 0.985100
+ -- 200 / 364 --
+mean loss: 0.035821
+accuracy: 0.984887
+ -- 300 / 364 --
+mean loss: 0.036511
+accuracy: 0.984507
+train time: 14496.348738
+----
+2022-12-21 20:58:29.571730
+---- EPOCH 171 EVALUATION ----
+eval mean loss: 0.158642
+eval accuracy: 0.964947
+eval avg class acc: 0.917348
+eval mIoU of plant1:	 0.861797
+eval mIoU of plant2:	 0.927353
+eval mIoU of plant3:	 0.794799
+eval mean mIoU: 0.861316
+eval mean mIoU (all shapes): 0.883428
+**** EPOCH 172 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036755
+accuracy: 0.984405
+ -- 200 / 364 --
+mean loss: 0.035875
+accuracy: 0.984910
+ -- 300 / 364 --
+mean loss: 0.035663
+accuracy: 0.984937
+train time: 14580.576052
+----
+2022-12-21 21:01:14.803514
+---- EPOCH 172 EVALUATION ----
+eval mean loss: 0.151117
+eval accuracy: 0.964964
+eval avg class acc: 0.919290
+eval mIoU of plant1:	 0.862593
+eval mIoU of plant2:	 0.928116
+eval mIoU of plant3:	 0.794904
+eval mean mIoU: 0.861871
+eval mean mIoU (all shapes): 0.884042
+Model saved in file: log/epoch_172.ckpt
+**** EPOCH 173 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036378
+accuracy: 0.984635
+ -- 200 / 364 --
+mean loss: 0.035483
+accuracy: 0.985007
+ -- 300 / 364 --
+mean loss: 0.036439
+accuracy: 0.984578
+train time: 14664.886015
+----
+2022-12-21 21:04:00.170859
+---- EPOCH 173 EVALUATION ----
+eval mean loss: 0.154102
+eval accuracy: 0.964988
+eval avg class acc: 0.919443
+eval mIoU of plant1:	 0.862148
+eval mIoU of plant2:	 0.928184
+eval mIoU of plant3:	 0.794915
+eval mean mIoU: 0.861749
+eval mean mIoU (all shapes): 0.883998
+**** EPOCH 174 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036707
+accuracy: 0.984513
+ -- 200 / 364 --
+mean loss: 0.036802
+accuracy: 0.984415
+ -- 300 / 364 --
+mean loss: 0.036295
+accuracy: 0.984694
+train time: 14749.071519
+----
+2022-12-21 21:06:45.381938
+---- EPOCH 174 EVALUATION ----
+eval mean loss: 0.154275
+eval accuracy: 0.965368
+eval avg class acc: 0.916071
+eval mIoU of plant1:	 0.862434
+eval mIoU of plant2:	 0.928702
+eval mIoU of plant3:	 0.793386
+eval mean mIoU: 0.861507
+eval mean mIoU (all shapes): 0.883988
+Model saved in file: log/epoch_174.ckpt
+**** EPOCH 175 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036581
+accuracy: 0.984580
+ -- 200 / 364 --
+mean loss: 0.035453
+accuracy: 0.985043
+ -- 300 / 364 --
+mean loss: 0.036081
+accuracy: 0.984792
+train time: 14833.458575
+----
+2022-12-21 21:09:30.715298
+---- EPOCH 175 EVALUATION ----
+eval mean loss: 0.158155
+eval accuracy: 0.964875
+eval avg class acc: 0.920308
+eval mIoU of plant1:	 0.861003
+eval mIoU of plant2:	 0.928260
+eval mIoU of plant3:	 0.795619
+eval mean mIoU: 0.861628
+eval mean mIoU (all shapes): 0.883988
+**** EPOCH 176 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035969
+accuracy: 0.984766
+ -- 200 / 364 --
+mean loss: 0.036611
+accuracy: 0.984506
+ -- 300 / 364 --
+mean loss: 0.035605
+accuracy: 0.984926
+train time: 14917.643222
+----
+2022-12-21 21:12:15.968192
+---- EPOCH 176 EVALUATION ----
+eval mean loss: 0.164503
+eval accuracy: 0.964791
+eval avg class acc: 0.919060
+eval mIoU of plant1:	 0.861940
+eval mIoU of plant2:	 0.928112
+eval mIoU of plant3:	 0.792503
+eval mean mIoU: 0.860852
+eval mean mIoU (all shapes): 0.883347
+Model saved in file: log/epoch_176.ckpt
+**** EPOCH 177 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035571
+accuracy: 0.985006
+ -- 200 / 364 --
+mean loss: 0.036458
+accuracy: 0.984495
+ -- 300 / 364 --
+mean loss: 0.035159
+accuracy: 0.985095
+train time: 15001.904528
+----
+2022-12-21 21:15:01.263447
+---- EPOCH 177 EVALUATION ----
+eval mean loss: 0.152189
+eval accuracy: 0.965113
+eval avg class acc: 0.918605
+eval mIoU of plant1:	 0.862823
+eval mIoU of plant2:	 0.928262
+eval mIoU of plant3:	 0.794149
+eval mean mIoU: 0.861745
+eval mean mIoU (all shapes): 0.883991
+**** EPOCH 178 ****
+----
+ -- 100 / 364 --
+mean loss: 0.037433
+accuracy: 0.984344
+ -- 200 / 364 --
+mean loss: 0.036797
+accuracy: 0.984531
+ -- 300 / 364 --
+mean loss: 0.035819
+accuracy: 0.984826
+train time: 15086.175068
+----
+2022-12-21 21:17:46.493933
+---- EPOCH 178 EVALUATION ----
+eval mean loss: 0.150850
+eval accuracy: 0.965221
+eval avg class acc: 0.917118
+eval mIoU of plant1:	 0.862869
+eval mIoU of plant2:	 0.928163
+eval mIoU of plant3:	 0.794957
+eval mean mIoU: 0.861997
+eval mean mIoU (all shapes): 0.884135
+Model saved in file: log/epoch_178.ckpt
+**** EPOCH 179 ****
+----
+ -- 100 / 364 --
+mean loss: 0.040507
+accuracy: 0.983658
+ -- 200 / 364 --
+mean loss: 0.035633
+accuracy: 0.984914
+ -- 300 / 364 --
+mean loss: 0.036483
+accuracy: 0.984676
+train time: 15170.380005
+----
+2022-12-21 21:20:31.808326
+---- EPOCH 179 EVALUATION ----
+eval mean loss: 0.157209
+eval accuracy: 0.964879
+eval avg class acc: 0.919249
+eval mIoU of plant1:	 0.862147
+eval mIoU of plant2:	 0.928076
+eval mIoU of plant3:	 0.793490
+eval mean mIoU: 0.861238
+eval mean mIoU (all shapes): 0.883599
+**** EPOCH 180 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036259
+accuracy: 0.984595
+ -- 200 / 364 --
+mean loss: 0.036282
+accuracy: 0.984673
+ -- 300 / 364 --
+mean loss: 0.036179
+accuracy: 0.984760
+train time: 15254.626483
+----
+2022-12-21 21:23:17.009616
+---- EPOCH 180 EVALUATION ----
+eval mean loss: 0.166073
+eval accuracy: 0.964961
+eval avg class acc: 0.918796
+eval mIoU of plant1:	 0.862471
+eval mIoU of plant2:	 0.928407
+eval mIoU of plant3:	 0.794128
+eval mean mIoU: 0.861669
+eval mean mIoU (all shapes): 0.884002
+Model saved in file: log/epoch_180.ckpt
+**** EPOCH 181 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035794
+accuracy: 0.984928
+ -- 200 / 364 --
+mean loss: 0.035617
+accuracy: 0.985009
+ -- 300 / 364 --
+mean loss: 0.036465
+accuracy: 0.984598
+train time: 15338.972495
+----
+2022-12-21 21:26:02.341552
+---- EPOCH 181 EVALUATION ----
+eval mean loss: 0.155956
+eval accuracy: 0.965074
+eval avg class acc: 0.918932
+eval mIoU of plant1:	 0.863312
+eval mIoU of plant2:	 0.927974
+eval mIoU of plant3:	 0.795309
+eval mean mIoU: 0.862198
+eval mean mIoU (all shapes): 0.884195
+**** EPOCH 182 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035678
+accuracy: 0.984913
+ -- 200 / 364 --
+mean loss: 0.036631
+accuracy: 0.984465
+ -- 300 / 364 --
+mean loss: 0.036663
+accuracy: 0.984538
+train time: 15423.211363
+----
+2022-12-21 21:28:47.552340
+---- EPOCH 182 EVALUATION ----
+eval mean loss: 0.162024
+eval accuracy: 0.965015
+eval avg class acc: 0.918026
+eval mIoU of plant1:	 0.862458
+eval mIoU of plant2:	 0.927851
+eval mIoU of plant3:	 0.794497
+eval mean mIoU: 0.861602
+eval mean mIoU (all shapes): 0.883769
+Model saved in file: log/epoch_182.ckpt
+**** EPOCH 183 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036904
+accuracy: 0.984454
+ -- 200 / 364 --
+mean loss: 0.034842
+accuracy: 0.985294
+ -- 300 / 364 --
+mean loss: 0.036830
+accuracy: 0.984466
+train time: 15507.532597
+----
+2022-12-21 21:31:32.886204
+---- EPOCH 183 EVALUATION ----
+eval mean loss: 0.158426
+eval accuracy: 0.964836
+eval avg class acc: 0.919446
+eval mIoU of plant1:	 0.862097
+eval mIoU of plant2:	 0.928054
+eval mIoU of plant3:	 0.794074
+eval mean mIoU: 0.861408
+eval mean mIoU (all shapes): 0.883716
+**** EPOCH 184 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035832
+accuracy: 0.984928
+ -- 200 / 364 --
+mean loss: 0.036459
+accuracy: 0.984602
+ -- 300 / 364 --
+mean loss: 0.036006
+accuracy: 0.984878
+train time: 15591.799578
+----
+2022-12-21 21:34:18.090668
+---- EPOCH 184 EVALUATION ----
+eval mean loss: 0.160686
+eval accuracy: 0.964831
+eval avg class acc: 0.919781
+eval mIoU of plant1:	 0.861971
+eval mIoU of plant2:	 0.928394
+eval mIoU of plant3:	 0.794348
+eval mean mIoU: 0.861571
+eval mean mIoU (all shapes): 0.883950
+Model saved in file: log/epoch_184.ckpt
+**** EPOCH 185 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035341
+accuracy: 0.985055
+ -- 200 / 364 --
+mean loss: 0.036560
+accuracy: 0.984570
+ -- 300 / 364 --
+mean loss: 0.035927
+accuracy: 0.984765
+train time: 15676.014005
+----
+2022-12-21 21:37:03.403946
+---- EPOCH 185 EVALUATION ----
+eval mean loss: 0.161888
+eval accuracy: 0.965044
+eval avg class acc: 0.917447
+eval mIoU of plant1:	 0.862350
+eval mIoU of plant2:	 0.927801
+eval mIoU of plant3:	 0.794427
+eval mean mIoU: 0.861526
+eval mean mIoU (all shapes): 0.883703
+**** EPOCH 186 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036814
+accuracy: 0.984492
+ -- 200 / 364 --
+mean loss: 0.036164
+accuracy: 0.984716
+ -- 300 / 364 --
+mean loss: 0.035517
+accuracy: 0.984949
+train time: 15760.323376
+----
+2022-12-21 21:39:48.606092
+---- EPOCH 186 EVALUATION ----
+eval mean loss: 0.161542
+eval accuracy: 0.964832
+eval avg class acc: 0.917090
+eval mIoU of plant1:	 0.861486
+eval mIoU of plant2:	 0.927652
+eval mIoU of plant3:	 0.792370
+eval mean mIoU: 0.860503
+eval mean mIoU (all shapes): 0.882965
+Model saved in file: log/epoch_186.ckpt
+**** EPOCH 187 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036486
+accuracy: 0.984596
+ -- 200 / 364 --
+mean loss: 0.036572
+accuracy: 0.984485
+ -- 300 / 364 --
+mean loss: 0.035963
+accuracy: 0.984847
+train time: 15844.658717
+----
+2022-12-21 21:42:33.904392
+---- EPOCH 187 EVALUATION ----
+eval mean loss: 0.148673
+eval accuracy: 0.964999
+eval avg class acc: 0.918620
+eval mIoU of plant1:	 0.862339
+eval mIoU of plant2:	 0.928265
+eval mIoU of plant3:	 0.794472
+eval mean mIoU: 0.861692
+eval mean mIoU (all shapes): 0.883977
+**** EPOCH 188 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036109
+accuracy: 0.984783
+ -- 200 / 364 --
+mean loss: 0.036977
+accuracy: 0.984411
+ -- 300 / 364 --
+mean loss: 0.035141
+accuracy: 0.985250
+train time: 15928.906076
+----
+2022-12-21 21:45:19.113966
+---- EPOCH 188 EVALUATION ----
+eval mean loss: 0.156884
+eval accuracy: 0.965263
+eval avg class acc: 0.915710
+eval mIoU of plant1:	 0.861885
+eval mIoU of plant2:	 0.928142
+eval mIoU of plant3:	 0.793224
+eval mean mIoU: 0.861083
+eval mean mIoU (all shapes): 0.883524
+Model saved in file: log/epoch_188.ckpt
+**** EPOCH 189 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035683
+accuracy: 0.984948
+ -- 200 / 364 --
+mean loss: 0.036181
+accuracy: 0.984723
+ -- 300 / 364 --
+mean loss: 0.036153
+accuracy: 0.984686
+train time: 16013.185572
+----
+2022-12-21 21:48:04.461670
+---- EPOCH 189 EVALUATION ----
+eval mean loss: 0.159031
+eval accuracy: 0.964890
+eval avg class acc: 0.919272
+eval mIoU of plant1:	 0.862476
+eval mIoU of plant2:	 0.928316
+eval mIoU of plant3:	 0.793330
+eval mean mIoU: 0.861374
+eval mean mIoU (all shapes): 0.883762
+**** EPOCH 190 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035512
+accuracy: 0.985001
+ -- 200 / 364 --
+mean loss: 0.035500
+accuracy: 0.985058
+ -- 300 / 364 --
+mean loss: 0.035964
+accuracy: 0.984756
+train time: 16097.445129
+----
+2022-12-21 21:50:49.683341
+---- EPOCH 190 EVALUATION ----
+eval mean loss: 0.156509
+eval accuracy: 0.964716
+eval avg class acc: 0.918417
+eval mIoU of plant1:	 0.861383
+eval mIoU of plant2:	 0.927675
+eval mIoU of plant3:	 0.793752
+eval mean mIoU: 0.860937
+eval mean mIoU (all shapes): 0.883285
+Model saved in file: log/epoch_190.ckpt
+**** EPOCH 191 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036958
+accuracy: 0.984397
+ -- 200 / 364 --
+mean loss: 0.035279
+accuracy: 0.985208
+ -- 300 / 364 --
+mean loss: 0.036961
+accuracy: 0.984342
+train time: 16181.650445
+----
+2022-12-21 21:53:35.025021
+---- EPOCH 191 EVALUATION ----
+eval mean loss: 0.153090
+eval accuracy: 0.965185
+eval avg class acc: 0.917795
+eval mIoU of plant1:	 0.862558
+eval mIoU of plant2:	 0.928546
+eval mIoU of plant3:	 0.794609
+eval mean mIoU: 0.861904
+eval mean mIoU (all shapes): 0.884212
+**** EPOCH 192 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035319
+accuracy: 0.985058
+ -- 200 / 364 --
+mean loss: 0.035228
+accuracy: 0.985173
+ -- 300 / 364 --
+mean loss: 0.042509
+accuracy: 0.983099
+train time: 16265.922766
+----
+2022-12-21 21:56:20.269207
+---- EPOCH 192 EVALUATION ----
+eval mean loss: 0.163367
+eval accuracy: 0.964835
+eval avg class acc: 0.918814
+eval mIoU of plant1:	 0.862365
+eval mIoU of plant2:	 0.927937
+eval mIoU of plant3:	 0.793613
+eval mean mIoU: 0.861305
+eval mean mIoU (all shapes): 0.883591
+Model saved in file: log/epoch_192.ckpt
+**** EPOCH 193 ****
+----
+ -- 100 / 364 --
+mean loss: 0.034719
+accuracy: 0.985499
+ -- 200 / 364 --
+mean loss: 0.036082
+accuracy: 0.984746
+ -- 300 / 364 --
+mean loss: 0.036851
+accuracy: 0.984373
+train time: 16350.099108
+----
+2022-12-21 21:59:05.580559
+---- EPOCH 193 EVALUATION ----
+eval mean loss: 0.160239
+eval accuracy: 0.964906
+eval avg class acc: 0.918752
+eval mIoU of plant1:	 0.861574
+eval mIoU of plant2:	 0.928495
+eval mIoU of plant3:	 0.793534
+eval mean mIoU: 0.861201
+eval mean mIoU (all shapes): 0.883739
+**** EPOCH 194 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036030
+accuracy: 0.984802
+ -- 200 / 364 --
+mean loss: 0.036257
+accuracy: 0.984687
+ -- 300 / 364 --
+mean loss: 0.035849
+accuracy: 0.984852
+train time: 16434.489583
+----
+2022-12-21 22:01:50.824442
+---- EPOCH 194 EVALUATION ----
+eval mean loss: 0.157394
+eval accuracy: 0.964752
+eval avg class acc: 0.919184
+eval mIoU of plant1:	 0.861852
+eval mIoU of plant2:	 0.928120
+eval mIoU of plant3:	 0.793225
+eval mean mIoU: 0.861066
+eval mean mIoU (all shapes): 0.883505
+Model saved in file: log/epoch_194.ckpt
+**** EPOCH 195 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036429
+accuracy: 0.984620
+ -- 200 / 364 --
+mean loss: 0.036084
+accuracy: 0.984727
+ -- 300 / 364 --
+mean loss: 0.036334
+accuracy: 0.984644
+train time: 16518.820367
+----
+2022-12-21 22:04:36.109603
+---- EPOCH 195 EVALUATION ----
+eval mean loss: 0.159189
+eval accuracy: 0.964970
+eval avg class acc: 0.916594
+eval mIoU of plant1:	 0.861974
+eval mIoU of plant2:	 0.927824
+eval mIoU of plant3:	 0.792740
+eval mean mIoU: 0.860846
+eval mean mIoU (all shapes): 0.883245
+**** EPOCH 196 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035607
+accuracy: 0.984859
+ -- 200 / 364 --
+mean loss: 0.035813
+accuracy: 0.984911
+ -- 300 / 364 --
+mean loss: 0.036388
+accuracy: 0.984631
+train time: 16603.165152
+----
+2022-12-21 22:07:21.366160
+---- EPOCH 196 EVALUATION ----
+eval mean loss: 0.156312
+eval accuracy: 0.965088
+eval avg class acc: 0.917642
+eval mIoU of plant1:	 0.862159
+eval mIoU of plant2:	 0.928307
+eval mIoU of plant3:	 0.793294
+eval mean mIoU: 0.861253
+eval mean mIoU (all shapes): 0.883688
+Model saved in file: log/epoch_196.ckpt
+**** EPOCH 197 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035293
+accuracy: 0.985112
+ -- 200 / 364 --
+mean loss: 0.036005
+accuracy: 0.984801
+ -- 300 / 364 --
+mean loss: 0.036398
+accuracy: 0.984575
+train time: 16687.596955
+----
+2022-12-21 22:10:06.683264
+---- EPOCH 197 EVALUATION ----
+eval mean loss: 0.159355
+eval accuracy: 0.965208
+eval avg class acc: 0.918709
+eval mIoU of plant1:	 0.862852
+eval mIoU of plant2:	 0.928707
+eval mIoU of plant3:	 0.795004
+eval mean mIoU: 0.862188
+eval mean mIoU (all shapes): 0.884453
+**** EPOCH 198 ****
+----
+ -- 100 / 364 --
+mean loss: 0.035868
+accuracy: 0.984917
+ -- 200 / 364 --
+mean loss: 0.036269
+accuracy: 0.984712
+ -- 300 / 364 --
+mean loss: 0.036375
+accuracy: 0.984552
+train time: 16771.923528
+----
+2022-12-21 22:12:51.922279
+---- EPOCH 198 EVALUATION ----
+eval mean loss: 0.160083
+eval accuracy: 0.964857
+eval avg class acc: 0.919364
+eval mIoU of plant1:	 0.861704
+eval mIoU of plant2:	 0.927909
+eval mIoU of plant3:	 0.796156
+eval mean mIoU: 0.861923
+eval mean mIoU (all shapes): 0.884049
+Model saved in file: log/epoch_198.ckpt
+**** EPOCH 199 ****
+----
+ -- 100 / 364 --
+mean loss: 0.036098
+accuracy: 0.984774
+ -- 200 / 364 --
+mean loss: 0.035211
+accuracy: 0.985153
+ -- 300 / 364 --
+mean loss: 0.037241
+accuracy: 0.984262
+train time: 16856.137031
+----
+2022-12-21 22:15:37.518808
+---- EPOCH 199 EVALUATION ----
+eval mean loss: 0.157398
+eval accuracy: 0.964690
+eval avg class acc: 0.920006
+eval mIoU of plant1:	 0.860527
+eval mIoU of plant2:	 0.927954
+eval mIoU of plant3:	 0.795841
+eval mean mIoU: 0.861441
+eval mean mIoU (all shapes): 0.883774
+Model saved in file: log/epoch_199.ckpt
