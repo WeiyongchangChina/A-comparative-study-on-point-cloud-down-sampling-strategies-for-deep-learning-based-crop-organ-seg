@@ -1,0 +1,1 @@
+/media/dawei-server/DATA - SSD1TB/wyc/服务器训练/downsampling_ex/3DEPS/3DEPS不同ratio/处理结果/0.25/3DEPS_4096_train0.25.h5
