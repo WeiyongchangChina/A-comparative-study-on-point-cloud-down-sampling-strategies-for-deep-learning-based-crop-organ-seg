@@ -1,0 +1,1 @@
+/media/dawei-server/DATA - SSD1TB/wyc/服务器训练/data_sgl/PointNet2_plant_master/part_seg/Epoch90/test_results/out_pred.txt
