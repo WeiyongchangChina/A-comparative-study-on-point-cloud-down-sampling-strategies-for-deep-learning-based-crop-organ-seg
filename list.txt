@@ -1,0 +1,642 @@
+卷 DATA 的文件夹 PATH 列表
+卷序列号为 A4B4-808F
+D:.
+│  list.txt
+│  README.md
+│  
+├─data-example
+│  ├─3DEPS_ratio=0.20
+│  │      data-example.txt
+│  │      
+│  └─raw-data
+│          raw-data.txt
+│          
+├─deep-learning-network
+│  │  README.md
+│  │  
+│  ├─ASIS
+│  │  │  LICENSE
+│  │  │  README.md
+│  │  │  
+│  │  ├─data
+│  │  │      test_file_list.txt
+│  │  │      train_file_list.txt
+│  │  │      
+│  │  ├─models
+│  │  │  │  estimate_mean_ins_size.py
+│  │  │  │  eval_iou_accuracy.py
+│  │  │  │  model.py
+│  │  │  │  output2pcd.py
+│  │  │  │  part_color_mapping.json
+│  │  │  │  provider.py
+│  │  │  │  results_a5.txt
+│  │  │  │  test.py
+│  │  │  │  train.py
+│  │  │  │  
+│  │  │  ├─log
+│  │  │  │  │  checkpoint
+│  │  │  │  │  epoch_199.ckpt.data-00000-of-00001
+│  │  │  │  │  epoch_199.ckpt.index
+│  │  │  │  │  epoch_199.ckpt.meta
+│  │  │  │  │  log_train.txt
+│  │  │  │  │  model.py
+│  │  │  │  │  train.py
+│  │  │  │  │  
+│  │  │  │  ├─test
+│  │  │  │  │      events.out.tfevents.1670929800.dawei-server
+│  │  │  │  │      
+│  │  │  │  └─train
+│  │  │  │          events.out.tfevents.1670929652.dawei-server
+│  │  │  │          
+│  │  │  └─__pycache__
+│  │  │          model.cpython-36.pyc
+│  │  │          model.cpython-37.pyc
+│  │  │          provider.cpython-36.pyc
+│  │  │          provider.cpython-37.pyc
+│  │  │          
+│  │  ├─tf_ops
+│  │  │  ├─3d_interpolation
+│  │  │  │  │  interpolate.cpp
+│  │  │  │  │  tf_interpolate.cpp
+│  │  │  │  │  tf_interpolate.py
+│  │  │  │  │  tf_interpolate.pyc
+│  │  │  │  │  tf_interpolate_compile.sh
+│  │  │  │  │  tf_interpolate_op_test.py
+│  │  │  │  │  tf_interpolate_so.so
+│  │  │  │  │  visu_interpolation.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_interpolate.cpython-36.pyc
+│  │  │  │          tf_interpolate.cpython-37.pyc
+│  │  │  │          
+│  │  │  ├─grouping
+│  │  │  │  │  tf_grouping.cpp
+│  │  │  │  │  tf_grouping.py
+│  │  │  │  │  tf_grouping.pyc
+│  │  │  │  │  tf_grouping_compile.sh
+│  │  │  │  │  tf_grouping_g.cu
+│  │  │  │  │  tf_grouping_g.cu.o
+│  │  │  │  │  tf_grouping_op_test.py
+│  │  │  │  │  tf_grouping_so.so
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_grouping.cpython-36.pyc
+│  │  │  │          tf_grouping.cpython-37.pyc
+│  │  │  │          
+│  │  │  └─sampling
+│  │  │      │  tf_sampling.cpp
+│  │  │      │  tf_sampling.py
+│  │  │      │  tf_sampling.pyc
+│  │  │      │  tf_sampling_compile.sh
+│  │  │      │  tf_sampling_g.cu
+│  │  │      │  tf_sampling_g.cu.o
+│  │  │      │  tf_sampling_so.so
+│  │  │      │  
+│  │  │      └─__pycache__
+│  │  │              tf_sampling.cpython-36.pyc
+│  │  │              tf_sampling.cpython-37.pyc
+│  │  │              
+│  │  └─utils
+│  │      │  1111.py
+│  │      │  clustering.py
+│  │      │  clustering.pyc
+│  │      │  data_prep_util.py
+│  │      │  data_prep_util.pyc
+│  │      │  eulerangles.py
+│  │      │  loss.py
+│  │      │  loss.pyc
+│  │      │  Multyscale_test.py
+│  │      │  Multyscale_test.pyc
+│  │      │  Multyscale_test2.py
+│  │      │  Multyscale_test2.pyc
+│  │      │  Multyscale_third_test.py
+│  │      │  Multyscale_third_test.pyc
+│  │      │  pc_util.py
+│  │      │  plyfile.py
+│  │      │  plyfile.pyc
+│  │      │  pointnet_util.py
+│  │      │  pointnet_util.pyc
+│  │      │  test_utils.py
+│  │      │  test_utils.pyc
+│  │      │  tf_util.py
+│  │      │  tf_util.pyc
+│  │      │  
+│  │      └─__pycache__
+│  │              clustering.cpython-36.pyc
+│  │              clustering.cpython-37.pyc
+│  │              data_prep_util.cpython-37.pyc
+│  │              loss.cpython-36.pyc
+│  │              loss.cpython-37.pyc
+│  │              plyfile.cpython-37.pyc
+│  │              pointnet_util.cpython-36.pyc
+│  │              pointnet_util.cpython-37.pyc
+│  │              test_utils.cpython-36.pyc
+│  │              test_utils.cpython-37.pyc
+│  │              tf_util.cpython-36.pyc
+│  │              tf_util.cpython-37.pyc
+│  │              
+│  ├─DGCNN
+│  │  │  读我.txt
+│  │  │  
+│  │  ├─data
+│  │  │      test_file_list.txt
+│  │  │      train_file_list.txt
+│  │  │      
+│  │  ├─models
+│  │  │  │  pointnet2_cls_msg.py
+│  │  │  │  pointnet2_cls_ssg.py
+│  │  │  │  pointnet2_part_seg.py
+│  │  │  │  pointnet2_part_seg_msg_one_hot.py
+│  │  │  │  pointnet2_sem_seg.py
+│  │  │  │  pointnet_cls_basic.py
+│  │  │  │  
+│  │  │  └─__pycache__
+│  │  │          pointnet2_part_seg.cpython-36.pyc
+│  │  │          pointnet2_part_seg.cpython-37.pyc
+│  │  │          
+│  │  ├─part_seg
+│  │  │  │  evaluate.py
+│  │  │  │  output_filelist.txt
+│  │  │  │  part_dataset.py
+│  │  │  │  part_dataset_all_normal.py
+│  │  │  │  test.py
+│  │  │  │  train.py
+│  │  │  │  train_one_hot.py
+│  │  │  │  
+│  │  │  ├─log
+│  │  │  │  │  checkpoint
+│  │  │  │  │  epoch_199.ckpt.data-00000-of-00001
+│  │  │  │  │  epoch_199.ckpt.index
+│  │  │  │  │  epoch_199.ckpt.meta
+│  │  │  │  │  log_train.txt
+│  │  │  │  │  train.py
+│  │  │  │  │  
+│  │  │  │  ├─test
+│  │  │  │  │      events.out.tfevents.1671599122.dawei-server
+│  │  │  │  │      
+│  │  │  │  └─train
+│  │  │  │          events.out.tfevents.1671599122.dawei-server
+│  │  │  │          
+│  │  │  └─__pycache__
+│  │  │          part_dataset_all_normal.cpython-36.pyc
+│  │  │          part_dataset_all_normal.cpython-37.pyc
+│  │  │          
+│  │  ├─tf_ops
+│  │  │  ├─3d_interpolation
+│  │  │  │  │  interpolate.cpp
+│  │  │  │  │  tf_interpolate.cpp
+│  │  │  │  │  tf_interpolate.py
+│  │  │  │  │  tf_interpolate.pyc
+│  │  │  │  │  tf_interpolate_compile.sh
+│  │  │  │  │  tf_interpolate_op_test.py
+│  │  │  │  │  tf_interpolate_so.so
+│  │  │  │  │  visu_interpolation.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_interpolate.cpython-36.pyc
+│  │  │  │          tf_interpolate.cpython-37.pyc
+│  │  │  │          
+│  │  │  ├─grouping
+│  │  │  │  │  tf_grouping.cpp
+│  │  │  │  │  tf_grouping.py
+│  │  │  │  │  tf_grouping.pyc
+│  │  │  │  │  tf_grouping_compile.sh
+│  │  │  │  │  tf_grouping_g.cu
+│  │  │  │  │  tf_grouping_g.cu.o
+│  │  │  │  │  tf_grouping_op_test.py
+│  │  │  │  │  tf_grouping_so.so
+│  │  │  │  │  
+│  │  │  │  ├─test
+│  │  │  │  │      compile.sh
+│  │  │  │  │      query_ball_point.cpp
+│  │  │  │  │      query_ball_point.cu
+│  │  │  │  │      query_ball_point_block.cu
+│  │  │  │  │      query_ball_point_grid.cu
+│  │  │  │  │      selection_sort.cpp
+│  │  │  │  │      selection_sort.cu
+│  │  │  │  │      selection_sort_const.cu
+│  │  │  │  │      
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_grouping.cpython-36.pyc
+│  │  │  │          tf_grouping.cpython-37.pyc
+│  │  │  │          
+│  │  │  └─sampling
+│  │  │      │  tf_sampling.cpp
+│  │  │      │  tf_sampling.py
+│  │  │      │  tf_sampling.pyc
+│  │  │      │  tf_sampling_compile.sh
+│  │  │      │  tf_sampling_g.cu
+│  │  │      │  tf_sampling_g.cu.o
+│  │  │      │  tf_sampling_so.so
+│  │  │      │  
+│  │  │      └─__pycache__
+│  │  │              tf_sampling.cpython-36.pyc
+│  │  │              tf_sampling.cpython-37.pyc
+│  │  │              
+│  │  └─utils
+│  │      │  compile_render_balls_so.sh
+│  │      │  pc_util.py
+│  │      │  provider.py
+│  │      │  README.md
+│  │      │  render_balls_so.cpp
+│  │      │  show3d_balls.py
+│  │      │  tf_util.py
+│  │      │  
+│  │      └─__pycache__
+│  │              pointnet_util.cpython-36.pyc
+│  │              pointnet_util.cpython-37.pyc
+│  │              provider.cpython-36.pyc
+│  │              provider.cpython-37.pyc
+│  │              show3d_balls.cpython-36.pyc
+│  │              tf_util.cpython-36.pyc
+│  │              tf_util.cpython-37.pyc
+│  │              
+│  ├─PlantNet
+│  │  ├─data
+│  │  │      test_file_list.txt
+│  │  │      train_file_list.txt
+│  │  │      
+│  │  ├─models
+│  │  │  │  estimate_mean_ins_size.py
+│  │  │  │  eval_iou_accuracy.py
+│  │  │  │  log_6_BS74_0.3.txt
+│  │  │  │  mean_ins_size.txt
+│  │  │  │  model.py
+│  │  │  │  part_color_mapping.json
+│  │  │  │  provider.py
+│  │  │  │  test_argv.py
+│  │  │  │  train.py
+│  │  │  │  
+│  │  │  ├─log_test
+│  │  │  │  │  checkpoint
+│  │  │  │  │  epoch_199.ckpt.data-00000-of-00001
+│  │  │  │  │  epoch_199.ckpt.index
+│  │  │  │  │  epoch_199.ckpt.meta
+│  │  │  │  │  log_train.txt
+│  │  │  │  │  model.py
+│  │  │  │  │  train.py
+│  │  │  │  │  
+│  │  │  │  ├─test
+│  │  │  │  │      events.out.tfevents.1704182852.dawei-server
+│  │  │  │  │      
+│  │  │  │  └─train
+│  │  │  │          events.out.tfevents.1704182570.dawei-server
+│  │  │  │          
+│  │  │  └─__pycache__
+│  │  │          model.cpython-36.pyc
+│  │  │          model.cpython-37.pyc
+│  │  │          provider.cpython-36.pyc
+│  │  │          provider.cpython-37.pyc
+│  │  │          test.cpython-37-pytest-7.1.3.pyc
+│  │  │          test_argv.cpython-37-pytest-7.1.3.pyc
+│  │  │          
+│  │  ├─tf_ops
+│  │  │  ├─3d_interpolation
+│  │  │  │  │  interpolate.cpp
+│  │  │  │  │  tf_interpolate.cpp
+│  │  │  │  │  tf_interpolate.py
+│  │  │  │  │  tf_interpolate.pyc
+│  │  │  │  │  tf_interpolate_compile.sh
+│  │  │  │  │  tf_interpolate_op_test.py
+│  │  │  │  │  tf_interpolate_so.so
+│  │  │  │  │  visu_interpolation.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_interpolate.cpython-36.pyc
+│  │  │  │          tf_interpolate.cpython-37.pyc
+│  │  │  │          
+│  │  │  ├─grouping
+│  │  │  │  │  tf_grouping.cpp
+│  │  │  │  │  tf_grouping.py
+│  │  │  │  │  tf_grouping.pyc
+│  │  │  │  │  tf_grouping_compile.sh
+│  │  │  │  │  tf_grouping_g.cu
+│  │  │  │  │  tf_grouping_g.cu.o
+│  │  │  │  │  tf_grouping_op_test.py
+│  │  │  │  │  tf_grouping_so.so
+│  │  │  │  │  
+│  │  │  │  ├─test
+│  │  │  │  │      compile.sh
+│  │  │  │  │      query_ball_point.cpp
+│  │  │  │  │      query_ball_point.cu
+│  │  │  │  │      query_ball_point_block.cu
+│  │  │  │  │      query_ball_point_grid.cu
+│  │  │  │  │      selection_sort.cpp
+│  │  │  │  │      selection_sort.cu
+│  │  │  │  │      selection_sort_const.cu
+│  │  │  │  │      
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_grouping.cpython-36.pyc
+│  │  │  │          tf_grouping.cpython-37.pyc
+│  │  │  │          
+│  │  │  └─sampling
+│  │  │      │  tf_sampling.cpp
+│  │  │      │  tf_sampling.py
+│  │  │      │  tf_sampling.pyc
+│  │  │      │  tf_sampling_compile.sh
+│  │  │      │  tf_sampling_g.cu
+│  │  │      │  tf_sampling_g.cu.o
+│  │  │      │  tf_sampling_so.so
+│  │  │      │  
+│  │  │      └─__pycache__
+│  │  │              tf_sampling.cpython-36.pyc
+│  │  │              tf_sampling.cpython-37.pyc
+│  │  │              
+│  │  └─utils
+│  │      │  clustering.py
+│  │      │  data_prep_util.py
+│  │      │  eulerangles.py
+│  │      │  loss.py
+│  │      │  Multyscale_test2.py
+│  │      │  pc_util.py
+│  │      │  plyfile.py
+│  │      │  pointnet_util.py
+│  │      │  test_utils.py
+│  │      │  tf_util.py
+│  │      │  
+│  │      └─__pycache__
+│  │              clustering.cpython-36.pyc
+│  │              clustering.cpython-37.pyc
+│  │              loss.cpython-36.pyc
+│  │              loss.cpython-37.pyc
+│  │              pointnet_util.cpython-36.pyc
+│  │              pointnet_util.cpython-37.pyc
+│  │              test_utils.cpython-36.pyc
+│  │              test_utils.cpython-37-pytest-7.1.3.pyc
+│  │              test_utils.cpython-37.pyc
+│  │              tf_util.cpython-36.pyc
+│  │              tf_util.cpython-37.pyc
+│  │              
+│  ├─PointNet++
+│  │  ├─data
+│  │  │      test_file_list.txt
+│  │  │      train_file_list.txt
+│  │  │      
+│  │  ├─models
+│  │  │  │  pointnet2_cls_msg.py
+│  │  │  │  pointnet2_cls_ssg.py
+│  │  │  │  pointnet2_cls_ssg.pyc
+│  │  │  │  pointnet2_part_seg.py
+│  │  │  │  pointnet2_part_seg_msg_one_hot.py
+│  │  │  │  pointnet2_sem_seg.py
+│  │  │  │  pointnet_cls_basic.py
+│  │  │  │  
+│  │  │  └─__pycache__
+│  │  │          pointnet2_cls_ssg.cpython-37.pyc
+│  │  │          pointnet2_part_seg.cpython-36.pyc
+│  │  │          pointnet2_part_seg.cpython-37.pyc
+│  │  │          
+│  │  ├─part_seg
+│  │  │  │  evaluate.py
+│  │  │  │  eval_iou_accuracy.py
+│  │  │  │  output_filelist.txt
+│  │  │  │  part_dataset.py
+│  │  │  │  part_dataset_all_normal.py
+│  │  │  │  test.py
+│  │  │  │  train.py
+│  │  │  │  train_one_hot.py
+│  │  │  │  
+│  │  │  └─__pycache__
+│  │  │          part_dataset.cpython-37.pyc
+│  │  │          part_dataset_all_normal.cpython-36.pyc
+│  │  │          part_dataset_all_normal.cpython-37.pyc
+│  │  │          
+│  │  ├─tf_ops
+│  │  │  ├─3d_interpolation
+│  │  │  │  │  interpolate.cpp
+│  │  │  │  │  tf_interpolate.cpp
+│  │  │  │  │  tf_interpolate.py
+│  │  │  │  │  tf_interpolate.pyc
+│  │  │  │  │  tf_interpolate_compile.sh
+│  │  │  │  │  tf_interpolate_op_test.py
+│  │  │  │  │  tf_interpolate_so.so
+│  │  │  │  │  visu_interpolation.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_interpolate.cpython-36.pyc
+│  │  │  │          tf_interpolate.cpython-37.pyc
+│  │  │  │          
+│  │  │  ├─grouping
+│  │  │  │  │  tf_grouping.cpp
+│  │  │  │  │  tf_grouping.py
+│  │  │  │  │  tf_grouping.pyc
+│  │  │  │  │  tf_grouping_compile.sh
+│  │  │  │  │  tf_grouping_g.cu
+│  │  │  │  │  tf_grouping_g.cu.o
+│  │  │  │  │  tf_grouping_op_test.py
+│  │  │  │  │  tf_grouping_so.so
+│  │  │  │  │  
+│  │  │  │  ├─test
+│  │  │  │  │      compile.sh
+│  │  │  │  │      query_ball_point.cpp
+│  │  │  │  │      query_ball_point.cu
+│  │  │  │  │      query_ball_point_block.cu
+│  │  │  │  │      query_ball_point_grid.cu
+│  │  │  │  │      selection_sort.cpp
+│  │  │  │  │      selection_sort.cu
+│  │  │  │  │      selection_sort_const.cu
+│  │  │  │  │      
+│  │  │  │  └─__pycache__
+│  │  │  │          tf_grouping.cpython-36.pyc
+│  │  │  │          tf_grouping.cpython-37.pyc
+│  │  │  │          
+│  │  │  └─sampling
+│  │  │      │  tf_sampling.cpp
+│  │  │      │  tf_sampling.py
+│  │  │      │  tf_sampling.pyc
+│  │  │      │  tf_sampling_compile.sh
+│  │  │      │  tf_sampling_g.cu
+│  │  │      │  tf_sampling_g.cu.o
+│  │  │      │  tf_sampling_so.so
+│  │  │      │  
+│  │  │      └─__pycache__
+│  │  │              tf_sampling.cpython-36.pyc
+│  │  │              tf_sampling.cpython-37.pyc
+│  │  │              
+│  │  └─utils
+│  │      │  compile_render_balls_so.sh
+│  │      │  eulerangles.py
+│  │      │  eulerangles.pyc
+│  │      │  loss.py
+│  │      │  Multyscale_test2.py
+│  │      │  pc_util.py
+│  │      │  pointnet_util.py
+│  │      │  pointnet_util.pyc
+│  │      │  provider.py
+│  │      │  provider.pyc
+│  │      │  README.md
+│  │      │  render_balls_so.cpp
+│  │      │  render_balls_so.so
+│  │      │  show3d_balls.py
+│  │      │  tf_util.py
+│  │      │  tf_util.pyc
+│  │      │  
+│  │      └─__pycache__
+│  │              loss.cpython-36.pyc
+│  │              loss.cpython-37.pyc
+│  │              Multyscale_test2.cpython-36.pyc
+│  │              Multyscale_test2.cpython-37.pyc
+│  │              pointnet_util.cpython-36.pyc
+│  │              pointnet_util.cpython-37.pyc
+│  │              provider.cpython-36.pyc
+│  │              provider.cpython-37.pyc
+│  │              show3d_balls.cpython-37.pyc
+│  │              tf_util.cpython-36.pyc
+│  │              tf_util.cpython-37.pyc
+│  │              
+│  └─PSegNet
+│      ├─data
+│      │      test_file_list.txt
+│      │      train_file_list.txt
+│      │      
+│      ├─models
+│      │  │  estimate_mean_ins_size.py
+│      │  │  eval_iou_accuracy.py
+│      │  │  mean_ins_size.txt
+│      │  │  model.py
+│      │  │  part_color_mapping.json
+│      │  │  provider.py
+│      │  │  rannet.py
+│      │  │  test.py
+│      │  │  test.sh
+│      │  │  train.py
+│      │  │  
+│      │  ├─log_test
+│      │  │  │  checkpoint
+│      │  │  │  epoch_199.ckpt.data-00000-of-00001
+│      │  │  │  epoch_199.ckpt.index
+│      │  │  │  epoch_199.ckpt.meta
+│      │  │  │  log_train.txt
+│      │  │  │  model.py
+│      │  │  │  train.py
+│      │  │  │  
+│      │  │  ├─test
+│      │  │  │      events.out.tfevents.1712148879.dawei-server
+│      │  │  │      
+│      │  │  └─train
+│      │  │          events.out.tfevents.1712148501.dawei-server
+│      │  │          events.out.tfevents.1712148575.dawei-server
+│      │  │          
+│      │  └─__pycache__
+│      │          model.cpython-36.pyc
+│      │          model.cpython-37.pyc
+│      │          model.cpython-39.pyc
+│      │          provider.cpython-36.pyc
+│      │          provider.cpython-37.pyc
+│      │          provider.cpython-39.pyc
+│      │          rannet.cpython-37.pyc
+│      │          
+│      ├─tf_ops
+│      │  ├─3d_interpolation
+│      │  │  │  interpolate.cpp
+│      │  │  │  tf_interpolate.cpp
+│      │  │  │  tf_interpolate.py
+│      │  │  │  tf_interpolate.pyc
+│      │  │  │  tf_interpolate_compile.sh
+│      │  │  │  tf_interpolate_op_test.py
+│      │  │  │  tf_interpolate_so.so
+│      │  │  │  visu_interpolation.py
+│      │  │  │  
+│      │  │  └─__pycache__
+│      │  │          tf_interpolate.cpython-36.pyc
+│      │  │          tf_interpolate.cpython-37.pyc
+│      │  │          
+│      │  ├─grouping
+│      │  │  │  tf_grouping.cpp
+│      │  │  │  tf_grouping.py
+│      │  │  │  tf_grouping.pyc
+│      │  │  │  tf_grouping_compile.sh
+│      │  │  │  tf_grouping_g.cu
+│      │  │  │  tf_grouping_g.cu.o
+│      │  │  │  tf_grouping_op_test.py
+│      │  │  │  tf_grouping_so.so
+│      │  │  │  
+│      │  │  ├─test
+│      │  │  │      compile.sh
+│      │  │  │      query_ball_point.cpp
+│      │  │  │      query_ball_point.cu
+│      │  │  │      query_ball_point_block.cu
+│      │  │  │      query_ball_point_grid.cu
+│      │  │  │      selection_sort.cpp
+│      │  │  │      selection_sort.cu
+│      │  │  │      selection_sort_const.cu
+│      │  │  │      
+│      │  │  └─__pycache__
+│      │  │          tf_grouping.cpython-36.pyc
+│      │  │          tf_grouping.cpython-37.pyc
+│      │  │          
+│      │  └─sampling
+│      │      │  tf_sampling.cpp
+│      │      │  tf_sampling.py
+│      │      │  tf_sampling.pyc
+│      │      │  tf_sampling_compile.sh
+│      │      │  tf_sampling_g.cu
+│      │      │  tf_sampling_g.cu.o
+│      │      │  tf_sampling_so.so
+│      │      │  
+│      │      └─__pycache__
+│      │              tf_sampling.cpython-36.pyc
+│      │              tf_sampling.cpython-37.pyc
+│      │              
+│      └─utils
+│          │  clustering.py
+│          │  data_prep_util.py
+│          │  eulerangles.py
+│          │  loss.py
+│          │  Multyscale_test2.py
+│          │  pc_util.py
+│          │  plyfile.py
+│          │  pointnet_util.py
+│          │  test_utils.py
+│          │  tf_util.py
+│          │  
+│          └─__pycache__
+│                  clustering.cpython-36.pyc
+│                  clustering.cpython-37.pyc
+│                  loss.cpython-36.pyc
+│                  loss.cpython-37.pyc
+│                  pointnet_util.cpython-36.pyc
+│                  pointnet_util.cpython-37.pyc
+│                  pointnet_util.cpython-39.pyc
+│                  test_utils.cpython-36.pyc
+│                  test_utils.cpython-37.pyc
+│                  tf_util.cpython-36.pyc
+│                  tf_util.cpython-37.pyc
+│                  tf_util.cpython-39.pyc
+│                  
+├─docs
+│      down-sampling&network.png
+│      
+└─down-sampling-strategies
+    ├─3DEPS
+    │      001批量保存植物边缘和中心部位(c++).cpp
+    │      002将边缘部分和非边缘部分合并到4096+4096.py
+    │      003按比例合并成一个新点云同时进行10倍扩充.py
+    │      
+    ├─dataset-creation-process
+    │      000批量修改label格式(python).py
+    │      001PCD2TXT(python).py
+    │      002去除背景点和噪点.py
+    │      003去除在原点的点.py
+    │      004添加object标签类别减2.py
+    │      005各种降采样策略.txt
+    │      006分测试集和训练集.py
+    │      007将txt转换成H5(python).py
+    │      
+    ├─FPS
+    │      FPS_Batch.py
+    │      
+    ├─RS
+    │      CMakeLists.txt
+    │      RandomSample.cpp
+    │      
+    ├─UVS
+    │      CMakeLists.txt
+    │      FPS_Batch.py
+    │      uniformSampling.cpp
+    │      
+    └─VFPS
+            CMakeLists.txt
+            FPS_Batch.py
+            Voxel_filter.cpp
+            
