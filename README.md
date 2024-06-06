@@ -33,7 +33,7 @@ Five down-sampling strategies (including  FPS, RS, UVS, VFPS, and 3DEPS) are cro
 
 ## 1.File Structure
 
-Abstract
+Abstract\n
 ├─data-example
 │  ├─3DEPS_ratio=0.20
 │  └─raw-data
