@@ -33,74 +33,74 @@ Five down-sampling strategies (including  FPS, RS, UVS, VFPS, and 3DEPS) are cro
 
 ## 1.File Structure
 
-Abstract\n
-├─data-example
-│  ├─3DEPS_ratio=0.20
-│  └─raw-data
-├─deep-learning-network
-│  ├─ASIS
-│  │  ├─data
-│  │  ├─models
-│  │  ├─log
-│  │  │  ├─test
-│  │  │  └─train
-│  │  ├─tf_ops
-│  │  │  ├─3d_interpolation
-│  │  │  ├─grouping
-│  │  │  └─sampling
-│  │  └─utils
-│  ├─DGCNN
-│  │  ├─data
-│  │  ├─models
-│  │  ├─part_seg
-│  │  │  ├─log
-│  │  │  │  ├─test
-│  │  │  │  └─train
-│  │  ├─tf_ops
-│  │  │  ├─3d_interpolation
-│  │  │  ├─grouping
-│  │  │  │  ├─test
-│  │  │  └─sampling
-│  │  └─utils
-│  ├─PlantNet
-│  │  ├─data
-│  │  ├─models
-│  │  │  ├─log_test
-│  │  │  │  ├─test
-│  │  │  │  └─train
-│  │  ├─tf_ops
-│  │  │  ├─3d_interpolation
-│  │  │  ├─grouping
-│  │  │  │  ├─test
-│  │  │  └─sampling
-│  │  └─utils
-│  ├─PointNet++
-│  │  ├─data
-│  │  ├─models
-│  │  ├─part_seg
-│  │  ├─tf_ops
-│  │  │  ├─3d_interpolation
-│  │  │  ├─grouping
-│  │  │  │  ├─test
-│  │  │  └─sampling
-│  │  └─utils
-│  └─PSegNet
-│      ├─data
-│      ├─models
-│      │  ├─log_test
-│      │  │  ├─test
-│      │  │  └─train
-│      ├─tf_ops
-│      │  ├─3d_interpolation
-│      │  ├─grouping
-│      │  │  ├─test
-│      │  └─sampling
-│      └─utils
-├─docs
-└─down-sampling-strategies
-    ├─3DEPS
-    ├─dataset-creation-process
-    ├─FPS
-    ├─RS
-    ├─UVS
-    └─VFPS
+Abstract  
+├─data-example  
+│  ├─3DEPS_ratio=0.20  
+│  └─raw-data  
+├─deep-learning-network  
+│  ├─ASIS  
+│  │  ├─data  
+│  │  ├─models  
+│  │  ├─log  
+│  │  │  ├─test  
+│  │  │  └─train  
+│  │  ├─tf_ops  
+│  │  │  ├─3d_interpolation  
+│  │  │  ├─grouping  
+│  │  │  └─sampling  
+│  │  └─utils  
+│  ├─DGCNN  
+│  │  ├─data  
+│  │  ├─models  
+│  │  ├─part_seg  
+│  │  │  ├─log  
+│  │  │  │  ├─test  
+│  │  │  │  └─train  
+│  │  ├─tf_ops  
+│  │  │  ├─3d_interpolation  
+│  │  │  ├─grouping  
+│  │  │  │  ├─test  
+│  │  │  └─sampling  
+│  │  └─utils  
+│  ├─PlantNet  
+│  │  ├─data  
+│  │  ├─models  
+│  │  │  ├─log_test  
+│  │  │  │  ├─test  
+│  │  │  │  └─train  
+│  │  ├─tf_ops  
+│  │  │  ├─3d_interpolation  
+│  │  │  ├─grouping  
+│  │  │  │  ├─test  
+│  │  │  └─sampling  
+│  │  └─utils  
+│  ├─PointNet++  
+│  │  ├─data  
+│  │  ├─models  
+│  │  ├─part_seg  
+│  │  ├─tf_ops  
+│  │  │  ├─3d_interpolation  
+│  │  │  ├─grouping  
+│  │  │  │  ├─test  
+│  │  │  └─sampling  
+│  │  └─utils  
+│  └─PSegNet  
+│      ├─data  
+│      ├─models  
+│      │  ├─log_test  
+│      │  │  ├─test  
+│      │  │  └─train  
+│      ├─tf_ops  
+│      │  ├─3d_interpolation  
+│      │  ├─grouping  
+│      │  │  ├─test  
+│      │  └─sampling  
+│      └─utils  
+├─docs  
+└─down-sampling-strategies  
+    ├─3DEPS  
+    ├─dataset-creation-process  
+    ├─FPS  
+    ├─RS  
+    ├─UVS  
+    └─VFPS  
