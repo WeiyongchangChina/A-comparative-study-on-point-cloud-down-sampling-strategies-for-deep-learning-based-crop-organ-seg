@@ -29,6 +29,6 @@ Five down-sampling strategies (including  FPS, RS, UVS, VFPS, and 3DEPS) are cro
 
  First, 3DEPS and UVS are easy to generate better results on semantic segmentation networks. Second, the voxel-based  down-sampling strategies may be more suitable for complex dual-function networks. Third, at 4096-point resolution,  3DEPS usually has only a small margin compared with the best down-sampling strategy at most cases, which means  3DEPS may be the most stable strategy across all compared. This study not only helps to further improve the accuracy  of point cloud deep learning networks for crop organ segmentation, but also gives clue to the alignment of downsampling strategies and a specifc network
 
-![image-20240606183854415](C:\Users\weiyo\AppData\Roaming\Typora\typora-user-images\image-20240606183854415.png)
+![](docs/down-sampling&network.png)
 
 ## 1.File Structure
