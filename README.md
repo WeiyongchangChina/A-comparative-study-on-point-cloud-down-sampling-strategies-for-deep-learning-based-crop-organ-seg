@@ -1,4 +1,4 @@
-# Point-cloud-down-sampling-strategies-for-deep-learning-based-crop-organ-segmentation
+# A-comparative-study-on-point-cloud-down-sampling-strategies-for-deep-learning-based-crop-organ-segmentation
 This repo contains the official codes for our paper:
 
 ### **A comparative study on point cloud down-sampling strategies for deep learning-based crop organ segmentation**
