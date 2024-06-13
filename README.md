@@ -119,7 +119,7 @@ They are Farthest Point Sampling (FPS), 3D Edge-preserving Sampling (3DEPS), Ran
 
 Farthest Point Sampling (FPS) is a simple and frequently used downsampling strategy.
 
-- The `FPS_Batch.py` is the entry codes for point set down-sampling.
+- The file `FPS_Batch.py` is the entry codes for point set down-sampling.
 
 ### 2. 3DEPS
 
@@ -137,14 +137,14 @@ Farthest Point Sampling (FPS) is a simple and frequently used downsampling strat
 
 Random sampling (RS) is a random sampling strategy that works sequentially using functions from the PCL library.
 
-- The `RandomSample.cpp` is the entry code for RS down-sampling.
+- The file `RandomSample.cpp` is the entry code for RS down-sampling.
 
 ### 4. VFPS
 
 Voxelized Farthest Point Sampling (VFPS) is a downsampling strategy based on voxelization. The VFPS strategy was also used in PSegNet as the main 3D data preprocessing technique, the details can be referred to [[Paper](https://spj.science.org/doi/full/10.34133/2022/9787643?adobe_mc=MCMID%3D14000805405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1700524800)]
 
 - The file `001Voxel_filter.cpp` is used to voxelize and simplify the point cloud.
-- The file `002FPS_Batch.py` is the following FPS step, which strictly fixes the number of points after step001 and automatically conduct data augmentation.
+- The file `002FPS_Batch.py` is the following FPS step, which strictly fixes the number of points after step001 and automatically conducts data augmentation.
 
 **Notice! Programs need to be run one by one in the order of name and number.**
 
@@ -152,42 +152,45 @@ Voxelized Farthest Point Sampling (VFPS) is a downsampling strategy based on vox
 
 ### 5. UVS
 
-UVS(Uniform Voxel  Sampling) is a voxel downsampling strategy.
+Uniformly Voxelized Sampling (UVS) is another downsampling strategy based on voxelization (quite similar to VFPS).
 
-- The `001uniformSampling.cpp` is the entry codes for point set down-sampling.
-- The `002FPS_Batch.py` is fps downsampling, which fixes the number of points in the point cloud after voxelization downsampling and expands it.
-
-**Notice! Programs need to be run one by one in order of name and number.**
-
-**001 needs to be run using PCL (Point Cloud Library).**
-
-### 6. dataset-creation-process
-
-All the above codes are not the complete downsampling process. In the  [down-sampling-strategies/dataset-creation-process] folder is the complete process of downsampling processing.
-
-- The `000批量修改label格式(python).py` is used to modify label formats in batches
-- The `001PCD2TXT(python).py` is used to convert files from PCD to txt format, which can be skipped according to specific needs.
-- The `002去除背景点和噪点.py` is used to remove background points and noise in the original point cloud.
-- The `003去除在原点的点.py` is used to remove points at the origin.
-- The `004添加object标签类别减2.py` is used to remove the labels of background points and noise points.
-- The `005各种降采样策略.txt` is to use the above five downsampling strategies to replace 005.
-- The `006分测试集和训练集.py` is used to divide the expanded point cloud into a training set and a test set.
-- The `007将txt转换成H5(python).py` is used to convert txt point cloud into h5 file.
+- The file `001uniformSampling.cpp` is used to voxelize and simplify the point cloud.
+- The file `002FPS_Batch.py` is the following FPS step, which strictly fixes the number of points after step001 and automatically conducts data augmentation.
 
 **Notice! Programs need to be run one by one in order of name and number.**
 
-## Point Clouds Networks
+**001 runs under PCL (Point Cloud Library).**
 
-The Point Clouds Networks in the open source code is saved in folder [deep-learning-network].
+### 6. dataset-creation-process (how we prepare training and testing point cloud data for deep networks)
 
-They are ASIS, DGCNN, PlantNet, PSegNet, PointNet++ respectively.
+All the above codes (from 1. FPS to 5. UVS ) are not the complete downsampling process, each above sampling strategy should work as the file 005 in the following pipeline. The  [down-sampling-strategies/dataset-creation-process] folder is the complete process of downsampling processing, and the pipeline is specified as follows.
 
-We deliberately save a trained model in the log file in the project file of each network for testing only.
+- The file `000批量修改label格式(python).py` is used to modify label formats from input batches; different data labels usually represents different plant organs.
+- The file `001PCD2TXT(python).py` is used to convert files from PCD format to the txt format, which can also be skipped when the input is already in txt format.
+- The file `002去除背景点和噪点.py` is used to remove background points and noise from the original plant point clouds.
+- The file `003去除在原点的点.py` is used to remove points at the origin.
+- The file `004添加object标签类别减2.py` is used to remove background points and noise points from the dataset.
+- The file `005各种降采样策略.txt` is only a "dummy" file, this step should be substitued with any of FPS, 3DEPS, RS, VFPS, or UVS code. After this step, each point cloud is also augmented (default 10x) to diversify training data.
+- The file `006分测试集和训练集.py` is used to divide the augmented point cloud data into a training set and a test set.
+- The file `007将txt转换成H5(python).py` is used to convert point clouds in txt into data format in h5 files. The h5 files are then used to training the deep networks programed with TensorFlow.
 
-The dataset for each network is saved in the data folder.
+**Notice! Programs need to be run one by one in the order of name and number.**
+
+## Deep Networks for 3D Plant Organ Segmentation
+
+The Deep Networks in the open-source code are saved in folder [deep-learning-network].
+
+The folder contains ASIS, DGCNN, PlantNet, PSegNet, and PointNet++.
+
+We kept a well-trained model (by ourselves) in the log file in the project file of each network for testing only.
+
+We also provided code in TensorFlow for all five deep networks.
+
+The dataset that can run on each network was saved in the data folder.
 
 ## data sample
 
 We saved an example dataset in the [data-example] folder.
 
-It contains a prepared h5 data set using 3DEPS_ratio=0.20, which is divided into a training set and a test set. and an original three-species crop data set.
+It contains a well-prepared h5 data set using 3DEPS_ratio=0.20, divided into a training set and a test set.
+It also contains the original three-species crop data set that is first used in PlantNet [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)].
