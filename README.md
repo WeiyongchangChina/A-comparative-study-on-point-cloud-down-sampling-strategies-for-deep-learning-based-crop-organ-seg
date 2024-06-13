@@ -12,13 +12,14 @@ Published on *Plant Methods* in 2023
 ___
 
 ## Prerequisites
-
+- The project was deployed on a not-so-new computing platform that has a 16-core AMD Ryzen CPU and 3 paralleled Nvidia RTX2080Ti Grapic cards. This also explains why we chose TensorFlow rather than Pytorch.
 - Python == 3.7.13
 - Numpy == 1.21.5
 - tensorflow == 1.13.1
 - CUDA == 11.7
 - cuDNN == 10.1
 - PCL == 1.120
+
 
 ## Abstract
 
@@ -110,19 +111,19 @@ Abstract
 
 ## Down-Sampling Code 
 
-The downsampling strategy in the open source code is saved in folder [down-sampling-strategies].
+The downsampling strategies in the open-source code are presented in the folder [down-sampling-strategies].
 
-They are FPS, 3DEPS, RS, VFPS, UVS respectively.
+They are Farthest Point Sampling (FPS), 3D Edge-preserving Sampling (3DEPS), Random Sampling (RS), Voxelized Farthest Point Sampling (VFPS), and Uniformly Voxelized Sampling (UVS).
 
 ### 1. FPS
 
-FPS(Farthest Point Sampling) is a commonly used downsampling strategy.
+Farthest Point Sampling (FPS) is a simple and frequently used downsampling strategy.
 
 - The `FPS_Batch.py` is the entry codes for point set down-sampling.
 
 ### 2. 3DEPS
 
-3DEPS(3D Edge‑Preserving Sampling) is a downsampling strategy based on human sketching ideas.[[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)]
+3D Edge‑Preserving Sampling (3DEPS) is a downsampling strategy that draw inspiration from how a human do sketching. The principle of the strategy can be referred to: [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)]
 
 - The `001批量保存植物边缘和中心部位(c++).cpp` is used to save plant edges and center points in batches respectively.
 - The `002将边缘部分和非边缘部分合并到4096+4096.py` is to merge the edge part and the non-edge part into 4096+4096.
