@@ -124,10 +124,10 @@ Farthest Point Sampling (FPS) is a simple and frequently used downsampling strat
 ### 2. 3DEPS
 
 3D Edge‑Preserving Sampling (3DEPS) is a downsampling strategy that draw inspiration from how a human do sketching. The principle of the strategy can be referred to: [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)]
-
-- The `001批量保存植物边缘和中心部位(c++).cpp` is used to save plant edges and center points in batches respectively.
-- The `002将边缘部分和非边缘部分合并到4096+4096.py` is to merge the edge part and the non-edge part into 4096+4096.
-- The `003按比例合并成一个新点云同时进行10倍扩充.py` merged into a new point cloud in proportion and expanded 10 times at the same time.
+3DEPS runs with the following steps:
+- The file `001批量保存植物边缘和中心部位(c++).cpp` is used to separate plant point clouds into edge points and non-edge points (in batches), respectively.
+- The file `002将边缘部分和非边缘部分合并到4096+4096.py` is used to merge the edge part and the non-edge part into a "4096+4096" manner.
+- The file `003按比例合并成一个新点云同时进行10倍扩充.py` works on the "4096+4096" result of step002, and merges the two parts with a ratio to form a new point cloud. When merging, the FPS automatically carries out 10 times data augmentation.
 
 **Notice! Programs need to be run one by one in order of name and number.**
 
