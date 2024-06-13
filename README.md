@@ -194,3 +194,10 @@ We saved an example dataset in the [data-example] folder.
 
 It contains a well-prepared h5 data set using 3DEPS_ratio=0.20, divided into a training set and a test set.
 It also contains the raw three-species crop data set that is first used in PlantNet [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)].
+
+## Citation
+Please consider citing our papers if you find the project helps your research :
+```
+[1] D. Li, Y. Wei, and R. Zhu, “A comparative study on point cloud down-sampling strategies for deep learning-based crop organ segmentation,” Plant Methods, vol. 19, Article No. 124, 2023. Published: 11 November 2023. https://doi.org/10.1186/s13007-023-01099-7.
+[2] D. Li†, G. Shi†, J. Li, Y. Chen, S. Zhang, S. Xiang, and S. Jin, “PlantNet: A dual-function point cloud segmentation network for multiple plant species”, ISPRS Journal of Photogrammetry and Remote Sensing, vol. 184, 2022, pp. 243-263. DOI: 10.1016/j.isprsjprs.2022.01.007. (†Contributed equally)
+```
