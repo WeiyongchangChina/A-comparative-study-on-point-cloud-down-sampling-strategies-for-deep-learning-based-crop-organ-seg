@@ -188,9 +188,9 @@ We also provided code in TensorFlow for all five deep networks.
 
 The dataset that can run on each network was saved in the data folder.
 
-## data sample
+## Datasets
 
 We saved an example dataset in the [data-example] folder.
 
 It contains a well-prepared h5 data set using 3DEPS_ratio=0.20, divided into a training set and a test set.
-It also contains the original three-species crop data set that is first used in PlantNet [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)].
+It also contains the raw three-species crop data set that is first used in PlantNet [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)].
