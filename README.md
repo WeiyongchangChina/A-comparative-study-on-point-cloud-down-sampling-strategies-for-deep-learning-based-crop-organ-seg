@@ -127,28 +127,28 @@ Farthest Point Sampling (FPS) is a simple and frequently used downsampling strat
 3DEPS runs with the following steps:
 - The file `001批量保存植物边缘和中心部位(c++).cpp` is used to separate plant point clouds into edge points and non-edge points (in batches), respectively.
 - The file `002将边缘部分和非边缘部分合并到4096+4096.py` is used to merge the edge part and the non-edge part into a "4096+4096" manner.
-- The file `003按比例合并成一个新点云同时进行10倍扩充.py` works on the "4096+4096" result of step002, and merges the two parts with a ratio to form a new point cloud. When merging, the FPS automatically carries out 10 times data augmentation.
+- The file `003按比例合并成一个新点云同时进行10倍扩充.py` works on the "4096+4096" result of file002, and merges the two parts with a ratio to form a new point cloud. When merging, the FPS automatically carries out 10 times data augmentation.
 
-**Notice! Programs need to be run one by one in order of name and number.**
+**Notice! Programs need to be run one by one in the order of name and number.**
 
-**001 needs to be run using PCL (Point Cloud Library).**
+**file001 runs under PCL (Point Cloud Library).**
 
 ### 3. RS
 
-RS(Random sampling) is a sequential random sampling strategy using functions from the PCL library.
+Random sampling (RS) is a random sampling strategy that works sequentially using functions from the PCL library.
 
-- The `RandomSample.cpp` is the entry codes for point set down-sampling.
+- The `RandomSample.cpp` is the entry code for RS down-sampling.
 
 ### 4. VFPS
 
-VFPS(Voxelized Farthest  Point Sampling) is a voxel downsampling strategy. Used in PSegnet.[[Paper](https://spj.science.org/doi/full/10.34133/2022/9787643?adobe_mc=MCMID%3D14000805405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1700524800)]
+Voxelized Farthest Point Sampling (VFPS) is a downsampling strategy based on voxelization. The VFPS strategy was also used in PSegNet as the main 3D data preprocessing technique, the details can be referred to [[Paper](https://spj.science.org/doi/full/10.34133/2022/9787643?adobe_mc=MCMID%3D14000805405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1700524800)]
 
-- The `001Voxel_filter.cpp` is to voxel downsample the point cloud.
-- The `002FPS_Batch.py` is fps downsampling, which fixes the number of points in the point cloud after voxelization downsampling and expands it.
+- The file `001Voxel_filter.cpp` is used to voxelize and simplify the point cloud.
+- The file `002FPS_Batch.py` is the following FPS step, which strictly fixes the number of points after step001 and automatically conduct data augmentation.
 
-**Notice! Programs need to be run one by one in order of name and number.**
+**Notice! Programs need to be run one by one in the order of name and number.**
 
-**001 needs to be run using PCL (Point Cloud Library).**
+**001 runs under PCL (Point Cloud Library).**
 
 ### 5. UVS
 
