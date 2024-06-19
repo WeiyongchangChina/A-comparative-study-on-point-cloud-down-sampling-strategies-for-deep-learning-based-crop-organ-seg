@@ -19,6 +19,7 @@ ___
 - CUDA == 11.7
 - cuDNN == 10.1
 - PCL == 1.120
+- All deep networks run under Ubuntu 20.04
 
 
 ## Abstract
