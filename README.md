@@ -1,4 +1,4 @@
-# Point-cloud-down-sampling-strategies-for-deep-learning-based-crop-organ-segmentation
+# A-comparative-study-on-point-cloud-down-sampling-strategies-for-deep-learning-based-crop-organ-segmentation
 This repo contains the official codes for our paper:
 
 ### **A comparative study on point cloud down-sampling strategies for deep learning-based crop organ segmentation**
@@ -12,13 +12,15 @@ Published on *Plant Methods* in 2023
 ___
 
 ## Prerequisites
-
+- The project was deployed on a not-so-new computing platform that has a 16-core AMD Ryzen CPU and 3 paralleled Nvidia RTX2080Ti Grapic cards. This also explains why we chose TensorFlow rather than Pytorch.
 - Python == 3.7.13
 - Numpy == 1.21.5
 - tensorflow == 1.13.1
 - CUDA == 11.7
 - cuDNN == 10.1
 - PCL == 1.120
+- All deep networks run under Ubuntu 20.04
+
 
 ## Abstract
 
@@ -110,83 +112,93 @@ Abstract
 
 ## Down-Sampling Code 
 
-The downsampling strategy in the open source code is saved in folder [down-sampling-strategies].
+The downsampling strategies in the open-source code are presented in the folder [down-sampling-strategies].
 
-They are FPS, 3DEPS, RS, VFPS, UVS respectively.
+They are Farthest Point Sampling (FPS), 3D Edge-preserving Sampling (3DEPS), Random Sampling (RS), Voxelized Farthest Point Sampling (VFPS), and Uniformly Voxelized Sampling (UVS).
 
 ### 1. FPS
 
-FPS(Farthest Point Sampling) is a commonly used downsampling strategy.
+Farthest Point Sampling (FPS) is a simple and frequently used downsampling strategy.
 
-- The `FPS_Batch.py` is the entry codes for point set down-sampling.
+- The file `FPS_Batch.py` is the entry codes for point set down-sampling.
 
 ### 2. 3DEPS
 
-3DEPS(3D Edge‑Preserving Sampling) is a downsampling strategy based on human sketching ideas.[[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)]
+3D Edge‑Preserving Sampling (3DEPS) is a downsampling strategy that draw inspiration from how a human do sketching. The principle of the strategy can be referred to: [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)]
+3DEPS runs with the following steps:
+- The file `001批量保存植物边缘和中心部位(c++).cpp` is used to separate plant point clouds into edge points and non-edge points (in batches), respectively.
+- The file `002将边缘部分和非边缘部分合并到4096+4096.py` is used to merge the edge part and the non-edge part into a "4096+4096" manner.
+- The file `003按比例合并成一个新点云同时进行10倍扩充.py` works on the "4096+4096" result of file002, and merges the two parts with a ratio to form a new point cloud. When merging, the FPS automatically carries out 10 times data augmentation.
 
-- The `001批量保存植物边缘和中心部位(c++).cpp` is used to save plant edges and center points in batches respectively.
-- The `002将边缘部分和非边缘部分合并到4096+4096.py` is to merge the edge part and the non-edge part into 4096+4096.
-- The `003按比例合并成一个新点云同时进行10倍扩充.py` merged into a new point cloud in proportion and expanded 10 times at the same time.
+**Notice! Programs need to be run one by one in the order of name and number.**
 
-**Notice! Programs need to be run one by one in order of name and number.**
-
-**001 needs to be run using PCL (Point Cloud Library).**
+**file001 runs under PCL (Point Cloud Library).**
 
 ### 3. RS
 
-RS(Random sampling) is a sequential random sampling strategy using functions from the PCL library.
+Random sampling (RS) is a random sampling strategy that works sequentially using functions from the PCL library.
 
-- The `RandomSample.cpp` is the entry codes for point set down-sampling.
+- The file `RandomSample.cpp` is the entry code for RS down-sampling.
 
 ### 4. VFPS
 
-VFPS(Voxelized Farthest  Point Sampling) is a voxel downsampling strategy. Used in PSegnet.[[Paper](https://spj.science.org/doi/full/10.34133/2022/9787643?adobe_mc=MCMID%3D14000805405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1700524800)]
+Voxelized Farthest Point Sampling (VFPS) is a downsampling strategy based on voxelization. The VFPS strategy was also used in PSegNet as the main 3D data preprocessing technique, the details can be referred to [[Paper](https://spj.science.org/doi/full/10.34133/2022/9787643?adobe_mc=MCMID%3D14000805405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1700524800)]
 
-- The `001Voxel_filter.cpp` is to voxel downsample the point cloud.
-- The `002FPS_Batch.py` is fps downsampling, which fixes the number of points in the point cloud after voxelization downsampling and expands it.
+- The file `001Voxel_filter.cpp` is used to voxelize and simplify the point cloud.
+- The file `002FPS_Batch.py` is the following FPS step, which strictly fixes the number of points after step001 and automatically conducts data augmentation.
 
-**Notice! Programs need to be run one by one in order of name and number.**
+**Notice! Programs need to be run one by one in the order of name and number.**
 
-**001 needs to be run using PCL (Point Cloud Library).**
+**001 runs under PCL (Point Cloud Library).**
 
 ### 5. UVS
 
-UVS(Uniform Voxel  Sampling) is a voxel downsampling strategy.
+Uniformly Voxelized Sampling (UVS) is another downsampling strategy based on voxelization (quite similar to VFPS).
 
-- The `001uniformSampling.cpp` is the entry codes for point set down-sampling.
-- The `002FPS_Batch.py` is fps downsampling, which fixes the number of points in the point cloud after voxelization downsampling and expands it.
-
-**Notice! Programs need to be run one by one in order of name and number.**
-
-**001 needs to be run using PCL (Point Cloud Library).**
-
-### 6. dataset-creation-process
-
-All the above codes are not the complete downsampling process. In the  [down-sampling-strategies/dataset-creation-process] folder is the complete process of downsampling processing.
-
-- The `000批量修改label格式(python).py` is used to modify label formats in batches
-- The `001PCD2TXT(python).py` is used to convert files from PCD to txt format, which can be skipped according to specific needs.
-- The `002去除背景点和噪点.py` is used to remove background points and noise in the original point cloud.
-- The `003去除在原点的点.py` is used to remove points at the origin.
-- The `004添加object标签类别减2.py` is used to remove the labels of background points and noise points.
-- The `005各种降采样策略.txt` is to use the above five downsampling strategies to replace 005.
-- The `006分测试集和训练集.py` is used to divide the expanded point cloud into a training set and a test set.
-- The `007将txt转换成H5(python).py` is used to convert txt point cloud into h5 file.
+- The file `001uniformSampling.cpp` is used to voxelize and simplify the point cloud.
+- The file `002FPS_Batch.py` is the following FPS step, which strictly fixes the number of points after step001 and automatically conducts data augmentation.
 
 **Notice! Programs need to be run one by one in order of name and number.**
 
-## Point Clouds Networks
+**001 runs under PCL (Point Cloud Library).**
 
-The Point Clouds Networks in the open source code is saved in folder [deep-learning-network].
+### 6. dataset-creation-process (how we prepare training and testing point cloud data for deep networks)
 
-They are ASIS, DGCNN, PlantNet, PSegNet, PointNet++ respectively.
+All the above codes (from 1. FPS to 5. UVS ) are not the complete downsampling process, each above sampling strategy should work as the file 005 in the following pipeline. The  [down-sampling-strategies/dataset-creation-process] folder is the complete process of downsampling processing, and the pipeline is specified as follows.
 
-We deliberately save a trained model in the log file in the project file of each network for testing only.
+- The file `000批量修改label格式(python).py` is used to modify label formats from input batches; different data labels usually represents different plant organs.
+- The file `001PCD2TXT(python).py` is used to convert files from PCD format to the txt format, which can also be skipped when the input is already in txt format.
+- The file `002去除背景点和噪点.py` is used to remove background points and noise from the original plant point clouds.
+- The file `003去除在原点的点.py` is used to remove points at the origin.
+- The file `004添加object标签类别减2.py` is used to remove background points and noise points from the dataset.
+- The file `005各种降采样策略.txt` is only a "dummy" file, this step should be substitued with any of FPS, 3DEPS, RS, VFPS, or UVS code. After this step, each point cloud is also augmented (default 10x) to diversify training data.
+- The file `006分测试集和训练集.py` is used to divide the augmented point cloud data into a training set and a test set.
+- The file `007将txt转换成H5(python).py` is used to convert point clouds in txt into data format in h5 files. The h5 files are then used to training the deep networks programed with TensorFlow.
 
-The dataset for each network is saved in the data folder.
+**Notice! Programs need to be run one by one in the order of name and number.**
 
-## data sample
+## Deep Networks for 3D Plant Organ Segmentation
+
+The Deep Networks in the open-source code are saved in folder [deep-learning-network].
+
+The folder contains ASIS, DGCNN, PlantNet, PSegNet, and PointNet++.
+
+We kept a well-trained model (by ourselves) in the log file in the project file of each network for testing only.
+
+We also provided code in TensorFlow for all five deep networks.
+
+The dataset that can run on each network was saved in the data folder.
+
+## Datasets
 
 We saved an example dataset in the [data-example] folder.
 
-It contains a prepared h5 data set using 3DEPS_ratio=0.20, which is divided into a training set and a test set. and an original three-species crop data set.
+It contains a well-prepared h5 data set using 3DEPS_ratio=0.20, divided into a training set and a test set.
+It also contains the raw three-species crop data set that is first used in PlantNet [[Paper](https://www.sciencedirect.com/science/article/pii/S0924271622000119)].
+
+## Citation
+Please consider citing our papers if you find the project helps your research :
+```
+[1] D. Li, Y. Wei, and R. Zhu, “A comparative study on point cloud down-sampling strategies for deep learning-based crop organ segmentation,” Plant Methods, vol. 19, Article No. 124, 2023. Published: 11 November 2023. https://doi.org/10.1186/s13007-023-01099-7.
+[2] D. Li†, G. Shi†, J. Li, Y. Chen, S. Zhang, S. Xiang, and S. Jin, “PlantNet: A dual-function point cloud segmentation network for multiple plant species”, ISPRS Journal of Photogrammetry and Remote Sensing, vol. 184, 2022, pp. 243-263. DOI: 10.1016/j.isprsjprs.2022.01.007. (†Contributed equally)
+```
