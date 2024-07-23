@@ -12,7 +12,7 @@ Published on *Plant Methods* in 2023
 ___
 
 ## Prerequisites
-- The project was deployed on a not-so-new computing platform that has a 16-core AMD Ryzen CPU and 3 paralleled Nvidia RTX2080Ti Grapic cards. This also explains why we chose TensorFlow rather than Pytorch. On realizing PlantNet and PSegNet For a more modern version  that used PyTorch please refer to another repo of our lab at https://github.com/Huang2002200/PlantNet-and-PSegNet.
+- The project was deployed on a not-so-new computing platform that has a 16-core AMD Ryzen CPU and 3 paralleled Nvidia RTX2080Ti Grapic cards. This also explains why we chose TensorFlow rather than Pytorch. On realizing PlantNet and PSegNet, for more modern versions on PyTorch please refer to another repo of our lab at https://github.com/Huang2002200/PlantNet-and-PSegNet.
 - Python == 3.7.13
 - Numpy == 1.21.5
 - tensorflow == 1.13.1
